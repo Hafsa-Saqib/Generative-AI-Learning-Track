@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "case_101",
+    "summary": "A previous Germany cold-chain customs hold was explained in plain language. The note told the customer that temperature monitoring was still active and that the next update would follow the contract. An older sentence in the same note said the broker expected Thursday. That sentence was the broker's guess, not a promise we can repeat."
+  },
+  {
+    "case_id": "case_102",
+    "summary": "A Brazil electronics hold had no matching country clause on file. The analyst stopped the draft and asked a human to check the contract before anything was sent to the customer."
+  },
+  {
+    "case_id": "case_103",
+    "summary": "After a weather cancellation, the customer email named the next departure and did not offer a refund. The tone was short and factual."
+  },
+  {
+    "case_id": "case_104",
+    "summary": "When a receiver was closed, the update said delivery would be reattempted on the next business day. It did not promise a same-day second attempt."
+  },
+  {
+    "case_id": "case_105",
+    "summary": "A leaking cold-chain carton was refused. The customer was told a damage review would start within 2 business days. No replacement was offered in that first email."
+  },
+  {
+    "case_id": "case_106",
+    "summary": "A missed pickup caused by a closed dock was rescheduled for the next business day. The email did not blame the customer."
+  },
+  {
+    "case_id": "case_107",
+    "summary": "An incomplete address was held for correction. The email asked for the missing apartment number and gave no delivery time."
+  },
+  {
+    "case_id": "case_108",
+    "summary": "A Netherlands pharma hold was described as waiting on a health certificate. The email named the missing document and did not guess a clearance date. A later broken-seal case said redelivery was paused for quality review."
+  },
+  {
+    "case_id": "case_109",
+    "summary": "A customer asked for a refund after a truck breakdown. The analyst did not send a refund date, because the only clause on file was a weather clause for a different carrier."
+  },
+  {
+    "case_id": "case_110",
+    "summary": "A chilled food shipment under customs exam got a status update and a temperature reading. The email did not predict when the exam would end."
+  }
+]

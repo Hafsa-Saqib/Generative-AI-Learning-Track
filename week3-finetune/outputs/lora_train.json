@@ -1,0 +1,10 @@
+{
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "adapter_dir": "C:\\Users\\HafsaSaquib\\Gen-AI project\\week3-finetune\\outputs\\lora-adapter",
+  "lora_rank": 8,
+  "epochs": 1,
+  "max_steps": 40,
+  "trainable_parameters": 921600,
+  "total_parameters": 135436608,
+  "trainable_fraction": 0.006805
+}

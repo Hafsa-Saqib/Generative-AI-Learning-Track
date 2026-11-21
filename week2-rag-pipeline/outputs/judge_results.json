@@ -1,0 +1,130 @@
+{
+  "questions": {
+    "q01": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q02": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q03": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q04": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q05": {
+      "ragas_faithfulness": 0.5,
+      "deepeval_faithfulness": 1.0
+    },
+    "q06": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q07": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q08": {
+      "ragas_faithfulness": 0.6666666666666666,
+      "deepeval_faithfulness": 1.0
+    },
+    "q09": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q10": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q11": {
+      "ragas_faithfulness": 0.6666666666666666,
+      "deepeval_faithfulness": 1.0
+    },
+    "q12": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q13": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q14": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 0.0
+    },
+    "q15": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q16": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q17": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q18": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q19": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q20": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q21": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q22": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q23": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q24": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q25": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q26": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q27": {
+      "ragas_faithfulness": 0.6666666666666666,
+      "deepeval_faithfulness": 1.0
+    },
+    "q28": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q29": {
+      "ragas_faithfulness": 0.0,
+      "deepeval_faithfulness": 1.0
+    },
+    "q30": {
+      "ragas_faithfulness": 1.0,
+      "deepeval_faithfulness": 1.0
+    }
+  },
+  "metrics": {
+    "questions": 30,
+    "ragas_faithfulness": 0.38333333333333336,
+    "deepeval_faithfulness": 0.9666666666666667,
+    "judge_model": "claude-sonnet-5"
+  }
+}

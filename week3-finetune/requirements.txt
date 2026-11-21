@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+anthropic
+tiktoken
+opentelemetry-api
+opentelemetry-sdk
+torch
+transformers
+peft

@@ -1,0 +1,1017 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct+lora",
+  "rows": [
+    {
+      "id": "n289",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL dispatcher note: broken seal. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "seal_issue",
+        "blocking_reason": "seal_broken",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"broken_seal\",\n  \"blocking_reason\": \"Temp reading nominal\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9169.799000024796
+    },
+    {
+      "id": "n217",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL dispatcher note: crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"blocked_reason\",\n  \"blocking_reason\": \"no_response_to_customer_request\",\n  \"estimated_resolution_date\": \"2023-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"carrier_note\": {\n    \"note_id\": \"1234567890\",\n    \"note_type\": \"carrier_note\",\n    \"note_content\": \"Detailed note on the carton's condition and inspection.\",\n    \"note_date\": \"2023-01-01\",\n    \"note_description\": \"The carton is crushed and damaged.\",\n    \"note_priority\":",
+      "latency_ms": 25652.804400015157
+    },
+    {
+      "id": "n256",
+      "carrier": "FedEx",
+      "commodity": "pharma",
+      "note": "FedEx dispatcher note: truck breakdown. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "breakdown",
+        "blocking_reason": "mechanical_breakdown",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"FedEx\",\n  \"blocking_reason\": \"Temp reading nominal\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9323.922000010498
+    },
+    {
+      "id": "n195",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held \u2014 leaking carton. Damage review in 2 business days. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"dhl\",\n  \"blocking_reason\": \"dhl\",\n  \"estimated_resolution_date\": \"2 business days\",\n  \"requires_cold_chain_monitoring\": \"2 business days\"\n}",
+      "latency_ms": 8462.92140003061
+    },
+    {
+      "id": "n081",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx: held \u2014 storm. Next departure Friday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unable to provide a value\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"carrier_note\": {\n    \"note_id\": \"FEDEX_2022_01_01_2022_000000\",\n    \"note_date\": \"2022-01-01\",\n    \"note_time\": \"01:00:00\",\n    \"note_location\": \"Hamburg\",\n    \"note_description\": \"A storm is expected to develop in the area",
+      "latency_ms": 23201.697100012098
+    },
+    {
+      "id": "n095",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: storm, under time pressure. Next departure Friday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unable to provide a valid reason for the driver's departure\",\n  \"estimated_resolution_date\": \"2023-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_carrier_note\": null\n}",
+      "latency_ms": 11564.99550002627
+    },
+    {
+      "id": "n187",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS dispatcher note: missing street number. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"Not Available\",\n  \"blocking_reason\": \"Not Available\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8622.577800008003
+    },
+    {
+      "id": "n091",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS dispatcher note: storm. Next departure Friday. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception_subtype_1\",\n  \"blocking_reason\": \"block_reason_1\",\n  \"estimated_resolution_date\": \"estimated_resolution_date_1\",\n  \"requires_cold_chain_monitoring\": \"requires_cold_chain_monitoring_1\",\n  \"carrier_note\": {\n    \"note_id\": \"1234567890\",\n    \"note_type\": \"note_type_1\",\n    \"note_content\": \"Carrier note: \" + \"Next departure Friday. Lane Hamburg. \" + \"Estimated resolution date: \" + \"Estimated resolution date_1. \" + \"Required cold chain monitoring: \" + \"Required cold",
+      "latency_ms": 23322.14709999971
+    },
+    {
+      "id": "n164",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception_subtype_1\",\n  \"blocking_reason\": \"blocked_reason_1\",\n  \"estimated_resolution_date\": \"estimated_resolution_date_1\",\n  \"requires_cold_chain_monitoring\": \"requires_cold_chain_monitoring_1\",\n  \"locked_carrier_note\": \"locked_carrier_note_1\",\n  \"locked_carrier_note_2\": \"locked_carrier_note_2\",\n  \"locked_carrier_note_3\": \"locked_carrier_note_3\",\n  \"locked_carrier_note_4\": \"locked_carrier_note_4\",\n  \"locked_carrier_note",
+      "latency_ms": 23031.49259998463
+    },
+    {
+      "id": "n153",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_carrier_note\": \"FedEx\"\n}",
+      "latency_ms": 11254.649700014852
+    },
+    {
+      "id": "n234",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: held \u2014 crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"carrier_note\": {\n    \"note_id\": \"1234567890\",\n    \"note_date\": \"2022-01-01\",\n    \"note_time\": \"01:00:00\",\n    \"note_location\": \"Sao Paulo\",\n    \"note_type\": \"exception\",\n    \"note_type_id\": \"1234567890\",\n    \"note_type_",
+      "latency_ms": 23355.94699997455
+    },
+    {
+      "id": "n129",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx: held \u2014 receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "delivery_exception",
+        "blocking_reason": "receiver_closed",
+        "estimated_resolution_date": "2026-11-03",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_by\": \"FedEx\"\n}",
+      "latency_ms": 10338.86399999028
+    },
+    {
+      "id": "n428",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states: \"UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo.\"\n\nThe exception-subtype is \"UPS\" and the blocking-reason is \"UPS\" (UPS is a carrier). The estimated-resolution-date is \"Saturday, 10:00 AM\" and the requires-cold-chain-monitoring is \"yes\".",
+      "latency_ms": 12792.688999965321
+    },
+    {
+      "id": "n276",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx: held \u2014 lithium battery check. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8453.545900003519
+    },
+    {
+      "id": "n032",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"Missing Health Certificate\",\n  \"blocking_reason\": \"Missing Health Certificate\",\n  \"estimated_resolution_date\": \"Thursday or Friday\",\n  \"requires_cold_chain_monitoring\": \"Yes\",\n  \"transportation_type\": \"Flight\",\n  \"vehicle_type\": \"Flight\",\n  \"vehicle_id\": \"1234567890\",\n  \"vehicle_name\": \"Flight\",\n  \"vehicle_model\": \"Flight\",\n  \"vehicle_color\": \"Red\",\n  \"vehicle_make\": \"Flight\",\n  \"vehicle_model_year\": \"2022\",\n  \"vehicle_model_model\": \"Flight\",\n  \"vehicle_model",
+      "latency_ms": 24098.771499993745
+    },
+    {
+      "id": "n012",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": "2026-11-05",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8697.455000015907
+    },
+    {
+      "id": "n251",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx driver: truck breakdown, under time pressure. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "breakdown",
+        "blocking_reason": "mechanical_breakdown",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"FedEx\",\n  \"blocking_reason\": \"FedEx driver is under time pressure and is unable to complete the task\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 14498.998099996243
+    },
+    {
+      "id": "n317",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: broker says released, but the invoice is still missing. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "JSON:\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9110.055800003465
+    },
+    {
+      "id": "n270",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: held \u2014 lithium battery check. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8447.505599993747
+    },
+    {
+      "id": "n181",
+      "carrier": "FedEx",
+      "commodity": "dry_goods",
+      "note": "FedEx dispatcher note: missing street number. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"FedEx\",\n  \"blocking_reason\": \"FedEx\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8952.38380000228
+    },
+    {
+      "id": "n239",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"3 business days\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_carrier_note\": \"UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Hamburg.\"]\n}",
+      "latency_ms": 13343.92980003031
+    },
+    {
+      "id": "n171",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held \u2014 missing street number. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"missing_street_number\",\n  \"blocking_reason\": \"missing_street_number\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9351.9792999723
+    },
+    {
+      "id": "n031",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unable to provide information\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"transportation_type\": \"transportation\",\n  \"vehicle_type\": \"carrier\",\n  \"vehicle_id\": \"1234567890\",\n  \"vehicle_model\": \"TDW-1000\",\n  \"vehicle_color\": \"red\",\n  \"vehicle_make\": \"TDW-1000\",\n  \"vehicle_model_year\": \"2022\",\n  \"vehicle_model_model\": \"",
+      "latency_ms": 23397.984999988694
+    },
+    {
+      "id": "n402",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: held. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n}",
+      "latency_ms": 8521.944999985863
+    },
+    {
+      "id": "n295",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL dispatcher note: broken seal. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "seal_issue",
+        "blocking_reason": "seal_broken",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"broken_seal\",\n  \"blocking_reason\": \"Temp reading nominal\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9471.061199961696
+    },
+    {
+      "id": "n330",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unreleased\",\n  \"estimated_resolution_date\": \"2023-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_id\": \"1234567890\",\n  \"locked_name\": \"Sao Paulo\",\n  \"locked_address\": \"000000000000000000000000000000000000000000000000000000000000000000000",
+      "latency_ms": 23351.255499990657
+    },
+    {
+      "id": "n162",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2023-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_carrier_note\": \"UPS\"\n}",
+      "latency_ms": 10816.27639994258
+    },
+    {
+      "id": "n327",
+      "carrier": "FedEx",
+      "commodity": "pharma",
+      "note": "FedEx: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "JSON:\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unavailable\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_in_time\": \"2022-01-01\",\n  \"locked_out_time\": \"2022-01-01\",\n  \"locked_out_date\": \"2022-01-01\",\n  \"locked_out_reason\": \"unavailable\",\n  \"locked_out_status\": \"unavailable\",\n  \"locked_out_status_type\": \"unavailable\",\n  \"locked_out",
+      "latency_ms": 22895.088899997063
+    },
+    {
+      "id": "n006",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": "2026-11-05",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8825.090099999215
+    },
+    {
+      "id": "n360",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS: held \u2014 temp high. Temp reading high, product warm. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"temp high\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8514.216100040358
+    },
+    {
+      "id": "n156",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"FedEx\",\n  \"blocking_reason\": \"FedEx is not available for delivery\",\n  \"estimated_resolution_date\": \"2023-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_carrier_note\": null,\n}",
+      "latency_ms": 11326.816299988423
+    },
+    {
+      "id": "n349",
+      "carrier": "FedEx",
+      "commodity": "dry_goods",
+      "note": "FedEx dispatcher note: temp high. Temp reading high. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8683.923800010234
+    },
+    {
+      "id": "n383",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS note: all clear at the dock. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"no\",\n  \"estimated_resolution_date\": \"2023-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8522.803100000601
+    },
+    {
+      "id": "n371",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx note: all clear at the dock. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"FedEx\",\n  \"blocking_reason\": \"FedEx\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8917.92690003058
+    },
+    {
+      "id": "n388",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n}",
+      "latency_ms": 8903.738499968313
+    },
+    {
+      "id": "n432",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states: \"UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo.\"\n\nThe exception-subtype is \"UPS\" and the blocking-reason is \"UPS\" (UPS is a carrier). The estimated-resolution-date is \"Saturday, 10:00 AM\" and the requires-cold-chain-monitoring is \"yes\".",
+      "latency_ms": 12805.913599964697
+    },
+    {
+      "id": "n221",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"dhl_driver\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"3 business days\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8219.749300042167
+    },
+    {
+      "id": "n139",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS dispatcher note: receiver closed. Next attempt Tuesday. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "delivery_exception",
+        "blocking_reason": "receiver_closed",
+        "estimated_resolution_date": "2026-11-03",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception_subtype_1\",\n  \"blocking_reason\": \"block_reason_1\",\n  \"estimated_resolution_date\": \"estimated_resolution_date_1\",\n  \"requires_cold_chain_monitoring\": \"requires_cold_chain_monitoring_1\",\n  \"carrier_note\": \"carrier_note_1\",\n  \"carrier_note_2\": \"carrier_note_2\",\n  \"carrier_note_3\": \"carrier_note_3\",\n  \"carrier_note_4\": \"carrier_note_4\",\n  \"carrier_note_5\": \"carrier_note_5\",\n  \"carrier_note_6",
+      "latency_ms": 23227.36239997903
+    },
+    {
+      "id": "n367",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL dispatch \u2014 freight moved, nothing to report. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"Flight\",\n  \"blocking_reason\": \"No action taken\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8809.407000022475
+    },
+    {
+      "id": "n053",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL driver: customs exam, under time pressure. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_inspection",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"dhl_driver\",\n  \"blocking_reason\": \"dhl_driver_in_dhl_expedited_expedition_planning_plan_for_dhl_expedited_expedition_planning_plan_for_dhl_expedited_expedition_planning_plan_for_dhl_expedited_expedition_planning_plan_for_dhl_expedited_expedition_planning_plan_for_dhl_expedited_expedition_planning_plan_for_dhl_expedited_expedition_planning_plan_for_dhl_expedited",
+      "latency_ms": 23176.30560003454
+    },
+    {
+      "id": "n287",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: lithium battery check, under time pressure. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8811.790000007022
+    },
+    {
+      "id": "n386",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL: held. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n}",
+      "latency_ms": 8636.853200034238
+    },
+    {
+      "id": "n267",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held \u2014 lithium battery check. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unauthorized\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n}",
+      "latency_ms": 8539.236800046638
+    },
+    {
+      "id": "n236",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"3 business days\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8117.708900012076
+    },
+    {
+      "id": "n193",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL dispatcher note: leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"dhl_exception_subtype_1\",\n  \"blocking_reason\": \"dhl_exception_subtype_1_1\",\n  \"estimated_resolution_date\": \"2 business days\",\n  \"requires_cold_chain_monitoring\": \"dhl_exception_subtype_1_2\",\n  \"locked_carrier_note\": null,\n  \"locked_carrier_note_id\": null,\n  \"locked_carrier_note_id_type\": \"dhl_exception_subtype_1_2\",\n  \"locked_carrier_note_id_type\": \"dhl_exception_subtype_1_2\",\n  \"locked_carrier_note_",
+      "latency_ms": 23134.24029998714
+    },
+    {
+      "id": "n370",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"Flight\",\n  \"blocking_reason\": \"No action taken\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9040.805500000715
+    },
+    {
+      "id": "n071",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: customs exam, under time pressure. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_inspection",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unexpected\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"carrier_note\": {\n    \"note_id\": \"1234567890\",\n    \"note_type\": \"carrier_note\",\n    \"note_content\": \"Temp reading nominal. Lane Hamburg. Carrier: UPS\",\n    \"carrier_note_description\": \"UPS driver: customs exam, under time pressure. Temp reading nominal. Lane Hamburg. Carrier: UPS\",\n    \"carrier_note_value\": \"202",
+      "latency_ms": 23319.72179998411
+    },
+    {
+      "id": "n185",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS driver: missing street number, under time pressure. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 8673.56560000917
+    },
+    {
+      "id": "n161",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unable to provide a valid time of day\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true,\n  \"locked_carrier_note\": null,\n  \"locked_carrier_note_type\": \"carrier note\",\n  \"locked_carrier_note_id\": \"1234567890\",\n  \"locked_carrier_note_id_type\": \"carrier note\",\n  \"locked_carrier_note_id_type_id\": \"1234567890\",\n  \"locked_",
+      "latency_ms": 23244.946799997706
+    },
+    {
+      "id": "n174",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: held \u2014 missing street number. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"missing_street_number\",\n  \"blocking_reason\": \"missing_street_number\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": true\n}",
+      "latency_ms": 9457.669199968223
+    }
+  ],
+  "parsed": 0,
+  "accuracy": {
+    "exception_subtype": 0.0,
+    "blocking_reason": 0.0,
+    "estimated_resolution_date": 0.0,
+    "requires_cold_chain_monitoring": 0.22,
+    "overall": 0.055
+  },
+  "latency_ms": {
+    "p50": 9351.9792999723,
+    "p95": 23397.984999988694
+  }
+}

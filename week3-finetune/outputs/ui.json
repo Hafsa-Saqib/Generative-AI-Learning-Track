@@ -1,0 +1,105 @@
+{
+  "raw": 432,
+  "train": 200,
+  "val": 50,
+  "test": 50,
+  "null_fraction": 0.22,
+  "decision": "On the held-out notes the adapter scores 5.5% and the untuned model scores 4.5%. Neither reply is a complete rubric JSON, so a person still reads the note. Contract facts stay in the library.",
+  "comparison": {
+    "test_examples": 50,
+    "baseline": {
+      "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "accuracy": {
+        "exception_subtype": 0.0,
+        "blocking_reason": 0.0,
+        "estimated_resolution_date": 0.0,
+        "requires_cold_chain_monitoring": 0.18,
+        "overall": 0.045
+      },
+      "latency_ms": {
+        "p50": 18645.38880001055,
+        "p95": 20108.17349998979
+      },
+      "usd_per_1000_events": 0.0
+    },
+    "finetuned": {
+      "model": "HuggingFaceTB/SmolLM2-135M-Instruct+lora",
+      "accuracy": {
+        "exception_subtype": 0.0,
+        "blocking_reason": 0.0,
+        "estimated_resolution_date": 0.0,
+        "requires_cold_chain_monitoring": 0.22,
+        "overall": 0.055
+      },
+      "latency_ms": {
+        "p50": 9351.9792999723,
+        "p95": 23397.984999988694
+      },
+      "usd_per_1000_events": 0.0
+    },
+    "decision": "On the held-out notes the adapter scores 5.5% and the untuned model scores 4.5%. Neither reply is a complete rubric JSON, so a person still reads the note. Contract facts stay in the library."
+  },
+  "plan": {
+    "submitted": true,
+    "host": "local",
+    "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "lora_rank": 8,
+    "epochs": 1,
+    "max_steps": 40,
+    "rows": 200,
+    "training_tokens": 17477,
+    "billed_tokens": 17477,
+    "usd": 0.0,
+    "rate_usd_per_million": 0.0,
+    "source": "Local CPU LoRA with Hugging Face PEFT. No paid fine-tune host.",
+    "reason": "The base model is frozen and only the low-rank matrices are trained on this PC. Training cost is $0. A paid host such as Fireworks is not used.",
+    "job_id": "local-lora",
+    "trainable_parameters": 921600,
+    "total_parameters": 135436608,
+    "trainable_fraction": 0.006805,
+    "adapter_dir": "C:\\Users\\HafsaSaquib\\Gen-AI project\\week3-finetune\\outputs\\lora-adapter"
+  },
+  "trace": "A wrong 4-hour clause is found from the trace at retrieval.dense. The live Postgres library was not changed.",
+  "examples": [
+    {
+      "id": "n060",
+      "note": "FedEx: held \u2014 customs exam. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_inspection",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      }
+    },
+    {
+      "id": "n316",
+      "note": "DHL: broker says released, but the invoice is still missing. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      }
+    },
+    {
+      "id": "n118",
+      "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      }
+    },
+    {
+      "id": "n297",
+      "note": "FedEx: held \u2014 broken seal. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "seal_issue",
+        "blocking_reason": "seal_broken",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      }
+    }
+  ]
+}

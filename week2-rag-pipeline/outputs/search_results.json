@@ -1,0 +1,1841 @@
+{
+  "metrics": {
+    "questions": 30,
+    "recall_at_5": 1.0,
+    "context_precision_at_5": 0.24,
+    "average_precision": 0.8677777777777779,
+    "faithfulness": 1.0,
+    "decision_match": 1.0,
+    "embedding_model": "voyage-3",
+    "reranker": "cohere-rerank-v3.5",
+    "dense_index": "hnsw m=16 ef_construction=64 cosine",
+    "sparse_index": "gin tsvector english",
+    "rrf_k": 60
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "question": "A DHL cold-chain shipment to Germany has been in an HE customs hold for 52 hours. What can we promise?",
+      "gold_document": "dhl_germany_cold_chain",
+      "gold_phrase": "within 48 hours of that notification",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q01",
+        "customer_facing_draft": "DHL will send a status update and the next action within 48 hours of that notification.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "DHL will send a status update and the next action within 48 hours of that notification."
+        ],
+        "citations": [
+          {
+            "source_id": "dhl_germany_cold_chain",
+            "clause_or_case": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that "
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that notification."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "4.2.3 This clause does not promise customs release, a delivery date, or a refund."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 7,
+          "relevant": false,
+          "text": "4.3.2 This agreement does not promise a same-day customs release."
+        },
+        {
+          "document_id": "distractor_tape_width_13",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "30.13.3 This archive note does not promise a delivery date, a refund, or a customs release."
+        },
+        {
+          "document_id": "germany_cold_chain_policy",
+          "chunk_index": 5,
+          "relevant": false,
+          "text": "3.2.1 An HE customs hold is answered under the Germany cold-chain service agreement, section 4.2."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q02",
+      "question": "A DHL electronics shipment is held at customs in Brazil and the customer wants a refund. Which agreement applies?",
+      "gold_document": "dhl_brazil_electronics",
+      "gold_phrase": "does not promise customs release, a delivery date, or a refund",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q02",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "dhl_germany_cold_chain",
+            "clause_or_case": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that "
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "dhl_brazil_electronics",
+          "chunk_index": 6,
+          "relevant": true,
+          "text": "5.2.2 This agreement does not promise customs release, a delivery date, or a refund."
+        },
+        {
+          "document_id": "dhl_brazil_electronics",
+          "chunk_index": 5,
+          "relevant": false,
+          "text": "5.2.1 An HE customs hold on Brazil electronics has no 48-hour status-update rule from the Germany cold-chain agreement."
+        },
+        {
+          "document_id": "dhl_brazil_electronics",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "5.1.1 This agreement applies to electronics shipments to Brazil."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that notification."
+        },
+        {
+          "document_id": "dhl_brazil_electronics",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "5.1.2 The Germany cold-chain agreement does not apply to these shipments."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q03",
+      "question": "The customer wants a same-day customs release for a DHL Germany cold-chain shipment that has been held for 10 hours.",
+      "gold_document": "dhl_germany_cold_chain",
+      "gold_phrase": "does not promise a same-day customs release",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 0.3333333333333333,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q03",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "rh_014_germany_cold_chain",
+            "clause_or_case": "## Outcome"
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "rh_014_germany_cold_chain",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## Outcome\n\nThe customer asked for same-day customs release after a 10-hour HE hold. The agent did not promise release. The Germany cold-chain agreement, section 4.2, only requires a status update after the hold exceeds 48 hours. Temperature monitoring from the operations policy was already in place and was not used as a release promise."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that notification."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 7,
+          "relevant": true,
+          "text": "4.3.2 This agreement does not promise a same-day customs release."
+        },
+        {
+          "document_id": "rh_014_germany_cold_chain",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "## Review\n\nHuman review was required because the customer asked for a commitment the contract does not allow."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "4.2.3 This clause does not promise customs release, a delivery date, or a refund."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q04",
+      "question": "What does the Germany cold-chain operations policy say about temperature monitoring and a release time?",
+      "gold_document": "germany_cold_chain_policy",
+      "gold_phrase": "does not promise a customs release time",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q04",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "rh_014_germany_cold_chain",
+            "clause_or_case": "## Outcome"
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "germany_cold_chain_policy",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "3.1.2 Temperature monitoring does not promise a customs release time, a delivery date, or a refund."
+        },
+        {
+          "document_id": "rh_014_germany_cold_chain",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## Outcome\n\nThe customer asked for same-day customs release after a 10-hour HE hold. The agent did not promise release. The Germany cold-chain agreement, section 4.2, only requires a status update after the hold exceeds 48 hours. Temperature monitoring from the operations policy was already in place and was not used as a release promise."
+        },
+        {
+          "document_id": "germany_cold_chain_policy",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "3.1.1 For cold-chain shipments to Germany, DHL monitors temperature while the shipment is in its control."
+        },
+        {
+          "document_id": "germany_cold_chain_policy",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "## 3.2 Holds"
+        },
+        {
+          "document_id": "ups_de_temperature_watch",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "3.4.2 While UPS holds a Germany cold-chain shipment, the temperature watch continues and no release hour is stated."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q05",
+      "question": "A customer asked for same-day release after a 10-hour HE hold. What did resolution note RH-014 decide?",
+      "gold_document": "rh_014_germany_cold_chain",
+      "gold_phrase": "Human review was required because the customer asked for a commitment the contract does not allow.",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 0.5,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q05",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "rh_014_germany_cold_chain",
+            "clause_or_case": "## Outcome"
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "rh_014_germany_cold_chain",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## Outcome\n\nThe customer asked for same-day customs release after a 10-hour HE hold. The agent did not promise release. The Germany cold-chain agreement, section 4.2, only requires a status update after the hold exceeds 48 hours. Temperature monitoring from the operations policy was already in place and was not used as a release promise."
+        },
+        {
+          "document_id": "rh_014_germany_cold_chain",
+          "chunk_index": 2,
+          "relevant": true,
+          "text": "## Review\n\nHuman review was required because the customer asked for a commitment the contract does not allow."
+        },
+        {
+          "document_id": "rh_014_germany_cold_chain",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# Resolution note RH-014\n\nCarrier: DHL\nCountry: Germany\nCommodity class: cold_chain\nException code: HE"
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that notification."
+        },
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "9.1.3 This clause does not promise customs clearance."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q06",
+      "question": "A FedEx departure from France was cancelled for weather. What can we promise the customer?",
+      "gold_document": "fedex_france_weather",
+      "gold_phrase": "next available departure",
+      "hit": true,
+      "context_precision_at_5": 0.4,
+      "average_precision": 0.75,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q06",
+        "customer_facing_draft": "If a departure is cancelled because of weather, FedEx will move the shipment on the next available departure and tell the customer the revised departure.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If a departure is cancelled because of weather, FedEx will move the shipment on the next available departure and tell the customer the revised departure."
+        ],
+        "citations": [
+          {
+            "source_id": "fedex_france_weather",
+            "clause_or_case": "2.1.2 If a departure is cancelled because of weather, FedEx will move the shipment on the next available departure and tell the customer the revised departure."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "2.1.2 If a departure is cancelled because of weather, FedEx will move the shipment on the next available departure and tell the customer the revised departure."
+        },
+        {
+          "document_id": "case_103_weather",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.1.3 The tone stayed short and factual."
+        },
+        {
+          "document_id": "case_103_weather",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "1.1.2 After a weather cancellation, the customer email named the next departure and did not offer a refund."
+        },
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 4,
+          "relevant": true,
+          "text": "2.1.3 A weather delay does not create a refund, and this clause does not cover a mechanical breakdown."
+        },
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "2.1.1 This clause applies only to general shipments to France carried by FedEx."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q07",
+      "question": "UPS could not deliver in the Netherlands because the receiver was closed. When is the next attempt?",
+      "gold_document": "ups_nl_reattempt",
+      "gold_phrase": "reattempt delivery on the next business day",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q07",
+        "customer_facing_draft": "If the receiver is closed, UPS will reattempt delivery on the next business day.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If the receiver is closed, UPS will reattempt delivery on the next business day."
+        ],
+        "citations": [
+          {
+            "source_id": "ups_nl_reattempt",
+            "clause_or_case": "6.1.2 If the receiver is closed, UPS will reattempt delivery on the next business day."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "ups_nl_reattempt",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "6.1.2 If the receiver is closed, UPS will reattempt delivery on the next business day."
+        },
+        {
+          "document_id": "case_104_closed",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "1.2.2 When a receiver was closed, the update said delivery would be reattempted on the next business day and did not promise a same-day second attempt."
+        },
+        {
+          "document_id": "ups_nl_reattempt",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 6.1 Closed receiver"
+        },
+        {
+          "document_id": "ups_nl_reattempt",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "6.1.3 This clause does not promise a same-day second attempt."
+        },
+        {
+          "document_id": "case_104_closed",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.2.3 The case is a tone example. It does not create a new contract term."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q08",
+      "question": "A leaking DHL cold-chain carton was refused in Germany. What can the first email promise?",
+      "gold_document": "dhl_de_damage",
+      "gold_phrase": "damage review within 2 business days",
+      "hit": true,
+      "context_precision_at_5": 0.6,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q08",
+        "customer_facing_draft": "If a cold-chain carton is refused because it is leaking, DHL will open a damage review within 2 business days.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If a cold-chain carton is refused because it is leaking, DHL will open a damage review within 2 business days."
+        ],
+        "citations": [
+          {
+            "source_id": "dhl_de_damage",
+            "clause_or_case": "7.1.2 If a cold-chain carton is refused because it is leaking, DHL will open a damage review within 2 business days."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "dhl_de_damage",
+          "chunk_index": 4,
+          "relevant": true,
+          "text": "7.1.3 The first customer message must not promise a replacement or a refund before that review is finished."
+        },
+        {
+          "document_id": "dhl_de_damage",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "7.1.2 If a cold-chain carton is refused because it is leaking, DHL will open a damage review within 2 business days."
+        },
+        {
+          "document_id": "dhl_de_damage",
+          "chunk_index": 2,
+          "relevant": true,
+          "text": "7.1.1 This clause applies only to cold_chain shipments to Germany carried by DHL."
+        },
+        {
+          "document_id": "distractor_tape_width_13",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "30.13.3 This archive note does not promise a delivery date, a refund, or a customs release."
+        },
+        {
+          "document_id": "dhl_de_damage",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 7.1 Refused carton"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q09",
+      "question": "FedEx missed a Germany pickup because the dock was closed. When is the next pickup?",
+      "gold_document": "fedex_de_pickup",
+      "gold_phrase": "next pickup on the following business day",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q09",
+        "customer_facing_draft": "If a pickup is missed because the shipper dock was closed, FedEx will schedule the next pickup on the following business day.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If a pickup is missed because the shipper dock was closed, FedEx will schedule the next pickup on the following business day."
+        ],
+        "citations": [
+          {
+            "source_id": "fedex_de_pickup",
+            "clause_or_case": "3.1.2 If a pickup is missed because the shipper dock was closed, FedEx will schedule the next pickup on the following business day."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "fedex_de_pickup",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "3.1.2 If a pickup is missed because the shipper dock was closed, FedEx will schedule the next pickup on the following business day."
+        },
+        {
+          "document_id": "fedex_de_pickup",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "3.1.3 The email must not blame the customer for the closed dock."
+        },
+        {
+          "document_id": "fedex_de_pickup",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 3.1 Missed pickup"
+        },
+        {
+          "document_id": "fedex_de_pickup",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "3.1.1 This clause applies only to general shipments to Germany carried by FedEx."
+        },
+        {
+          "document_id": "fedex_de_pickup",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# FedEx Germany pickup agreement\n\nCarrier: FedEx\nCountry: Germany\nCommodity class: general"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q10",
+      "question": "UPS Belgium has an incomplete delivery address. What can we tell the customer?",
+      "gold_document": "ups_be_address",
+      "gold_phrase": "ask for the missing detail",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q10",
+        "customer_facing_draft": "If the delivery address is incomplete, UPS will hold the shipment and ask for the missing detail.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If the delivery address is incomplete, UPS will hold the shipment and ask for the missing detail."
+        ],
+        "citations": [
+          {
+            "source_id": "ups_be_address",
+            "clause_or_case": "8.1.2 If the delivery address is incomplete, UPS will hold the shipment and ask for the missing detail."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "ups_be_address",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "8.1.2 If the delivery address is incomplete, UPS will hold the shipment and ask for the missing detail."
+        },
+        {
+          "document_id": "ups_be_address",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# UPS Belgium address agreement\n\nCarrier: UPS\nCountry: Belgium\nCommodity class: general"
+        },
+        {
+          "document_id": "ups_be_address",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "8.1.3 Delivery is not attempted again until the address is corrected, and no delivery time is promised."
+        },
+        {
+          "document_id": "ups_be_address",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "8.1.1 This clause applies only to general shipments to Belgium carried by UPS."
+        },
+        {
+          "document_id": "case_107_address",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "1.4.2 An incomplete address was held for correction, the email asked for the missing apartment number, and it gave no delivery time."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q11",
+      "question": "UPS Netherlands pharma has been in an HE hold over 48 hours waiting on a health certificate. What notice can we promise?",
+      "gold_document": "ups_nl_pharma",
+      "gold_phrase": "name the missing document",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q11",
+        "customer_facing_draft": "If customs requests a health certificate and the HE hold has exceeded 48 hours, UPS will notify the shipper within 1 business day and name the missing document.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If customs requests a health certificate and the HE hold has exceeded 48 hours, UPS will notify the shipper within 1 business day and name the missing document."
+        ],
+        "citations": [
+          {
+            "source_id": "ups_nl_pharma",
+            "clause_or_case": "9.1.2 If customs requests a health certificate and the HE hold has exceeded 48 hours, UPS will notify the shipper within 1 business day and name the missing doc"
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "9.1.2 If customs requests a health certificate and the HE hold has exceeded 48 hours, UPS will notify the shipper within 1 business day and name the missing document."
+        },
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "9.1.3 This clause does not promise customs clearance."
+        },
+        {
+          "document_id": "dhl_nl_pharma",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "13.1.3 A human has to check the DHL pharma file before any notice timeline is promised."
+        },
+        {
+          "document_id": "dhl_nl_pharma",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "13.1.2 DHL does not borrow the UPS one-business-day health-certificate notice."
+        },
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "9.1.1 This clause applies only to pharma shipments to Netherlands carried by UPS."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q12",
+      "question": "A UPS Netherlands pharma shipment has a broken seal. Can we give a release date?",
+      "gold_document": "ups_nl_seal",
+      "gold_phrase": "must not be redelivered until quality review is complete",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 0.5,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q12",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "ups_nl_seal",
+            "clause_or_case": "9.4.3 The customer message may say redelivery is paused. It may not give a release date."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "ups_nl_seal",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "9.4.3 The customer message may say redelivery is paused. It may not give a release date."
+        },
+        {
+          "document_id": "ups_nl_seal",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "9.4.2 If the seal is broken, the shipment must not be redelivered until quality review is complete."
+        },
+        {
+          "document_id": "ups_nl_seal",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 9.4 Broken seal"
+        },
+        {
+          "document_id": "ups_nl_seal",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "9.4.1 This clause applies only to pharma shipments to Netherlands carried by UPS."
+        },
+        {
+          "document_id": "distractor_label_reprint_29",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "30.29.3 This archive note does not promise a delivery date, a refund, or a customs release."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q13",
+      "question": "A DHL truck broke down in Spain and the customer wants a refund. Which clause applies?",
+      "gold_document": "dhl_es_breakdown",
+      "gold_phrase": "does not apply to this breakdown",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 0.2,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q13",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "case_109_breakdown",
+            "clause_or_case": "1.3.2 A customer asked for a refund after a truck breakdown, and the analyst did not send a refund date."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "case_109_breakdown",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.3.3 The weather clause for a different carrier was left out of the email."
+        },
+        {
+          "document_id": "case_109_breakdown",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "1.3.2 A customer asked for a refund after a truck breakdown, and the analyst did not send a refund date."
+        },
+        {
+          "document_id": "case_109_breakdown",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "1.3.1 This clause applies only to general shipments to Spain carried by DHL."
+        },
+        {
+          "document_id": "dhl_es_breakdown",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "11.1.2 A mechanical breakdown on a Spain lane has no weather-delay remedy and creates no breakdown refund."
+        },
+        {
+          "document_id": "dhl_es_breakdown",
+          "chunk_index": 4,
+          "relevant": true,
+          "text": "11.1.3 The only weather clause on file is for a different carrier and does not apply to this breakdown."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q14",
+      "question": "A DHL chilled food shipment in Germany is in a customs exam. Can we predict when the exam ends?",
+      "gold_document": "dhl_de_food",
+      "gold_phrase": "does not predict when the customs exam will end",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q14",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "dhl_de_food",
+            "clause_or_case": "4.4.2 For a chilled food shipment in a customs exam, DHL will send a status update and the latest temperature reading."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "dhl_de_food",
+          "chunk_index": 4,
+          "relevant": true,
+          "text": "4.4.3 The email does not predict when the customs exam will end."
+        },
+        {
+          "document_id": "dhl_de_food",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "4.4.2 For a chilled food shipment in a customs exam, DHL will send a status update and the latest temperature reading."
+        },
+        {
+          "document_id": "dhl_de_food",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "4.4.1 This clause applies only to food shipments to Germany carried by DHL."
+        },
+        {
+          "document_id": "dhl_de_food",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 4.4 Customs exam"
+        },
+        {
+          "document_id": "dhl_de_food",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# DHL Germany food exam agreement\n\nCarrier: DHL\nCountry: Germany\nCommodity class: food"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q15",
+      "question": "Can a FedEx electronics shipment held in Brazil use the Germany cold-chain status update?",
+      "gold_document": "fedex_br_electronics",
+      "gold_phrase": "does not inherit a Germany cold-chain status update",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q15",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "fedex_br_electronics",
+            "clause_or_case": "12.1.2 An electronics shipment to Brazil does not inherit a Germany cold-chain status update."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "fedex_br_electronics",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "12.1.2 An electronics shipment to Brazil does not inherit a Germany cold-chain status update."
+        },
+        {
+          "document_id": "fedex_br_electronics",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "12.1.3 This agreement does not promise customs release or a refund."
+        },
+        {
+          "document_id": "dhl_brazil_electronics",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "5.1.2 The Germany cold-chain agreement does not apply to these shipments."
+        },
+        {
+          "document_id": "dhl_brazil_electronics",
+          "chunk_index": 5,
+          "relevant": false,
+          "text": "5.2.1 An HE customs hold on Brazil electronics has no 48-hour status-update rule from the Germany cold-chain agreement."
+        },
+        {
+          "document_id": "ups_br_electronics_policy",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "17.1.3 The Germany cold-chain agreement is not used for this policy."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q16",
+      "question": "A UPS shipment in France was delayed by weather. Can we apply the FedEx refund rule?",
+      "gold_document": "ups_fr_weather",
+      "gold_phrase": "does not borrow the FedEx weather-delay refund rule",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 0.5,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q16",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "ups_fr_weather",
+            "clause_or_case": "2.4.2 UPS does not borrow the FedEx weather-delay refund rule for a France lane."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "ups_fr_weather",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "2.4.3 No refund is offered from a clause that names a different carrier."
+        },
+        {
+          "document_id": "ups_fr_weather",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "2.4.2 UPS does not borrow the FedEx weather-delay refund rule for a France lane."
+        },
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "2.1.3 A weather delay does not create a refund, and this clause does not cover a mechanical breakdown."
+        },
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "2.1.1 This clause applies only to general shipments to France carried by FedEx."
+        },
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# FedEx France weather-delay agreement\n\nCarrier: FedEx\nCountry: France\nCommodity class: general"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q17",
+      "question": "Customs wants a health certificate on a DHL Netherlands pharma shipment. Can we promise the UPS one-business-day notice?",
+      "gold_document": "dhl_nl_pharma",
+      "gold_phrase": "does not borrow the UPS one-business-day health-certificate notice",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 0.25,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q17",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "dhl_nl_pharma",
+            "clause_or_case": "13.1.2 DHL does not borrow the UPS one-business-day health-certificate notice."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "dhl_nl_pharma",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "13.1.3 A human has to check the DHL pharma file before any notice timeline is promised."
+        },
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "9.1.3 This clause does not promise customs clearance."
+        },
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "9.1.2 If customs requests a health certificate and the HE hold has exceeded 48 hours, UPS will notify the shipper within 1 business day and name the missing document."
+        },
+        {
+          "document_id": "dhl_nl_pharma",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "13.1.2 DHL does not borrow the UPS one-business-day health-certificate notice."
+        },
+        {
+          "document_id": "ups_nl_pharma",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "9.1.1 This clause applies only to pharma shipments to Netherlands carried by UPS."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q18",
+      "question": "A FedEx cold-chain shipment is held in Germany. Can we copy the DHL 48-hour status-update rule?",
+      "gold_document": "fedex_de_cold",
+      "gold_phrase": "does not borrow the DHL 48-hour status-update rule",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q18",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "fedex_de_cold",
+            "clause_or_case": "4.8.2 FedEx does not borrow the DHL 48-hour status-update rule for Germany cold-chain freight."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "fedex_de_cold",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "4.8.2 FedEx does not borrow the DHL 48-hour status-update rule for Germany cold-chain freight."
+        },
+        {
+          "document_id": "fedex_de_cold",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "4.8.3 No status-update promise is copied from the DHL section 4.2 clause."
+        },
+        {
+          "document_id": "fedex_de_cold",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "4.8.1 This clause applies only to cold_chain shipments to Germany carried by FedEx."
+        },
+        {
+          "document_id": "fedex_de_cold",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 4.8 Status-update boundary"
+        },
+        {
+          "document_id": "fedex_de_cold",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# FedEx Germany cold-chain boundary\n\nCarrier: FedEx\nCountry: Germany\nCommodity class: cold_chain"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q19",
+      "question": "UPS is watching the temperature of a Germany cold-chain hold. Does that state a release hour?",
+      "gold_document": "ups_de_temperature_watch",
+      "gold_phrase": "no release hour is stated",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q19",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "ups_de_temperature_watch",
+            "clause_or_case": "3.4.2 While UPS holds a Germany cold-chain shipment, the temperature watch continues and no release hour is stated."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "ups_de_temperature_watch",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "3.4.2 While UPS holds a Germany cold-chain shipment, the temperature watch continues and no release hour is stated."
+        },
+        {
+          "document_id": "ups_de_temperature_watch",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "3.4.3 Temperature watch is not a customs-release promise."
+        },
+        {
+          "document_id": "ups_de_temperature_watch",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 3.4 Temperature watch"
+        },
+        {
+          "document_id": "germany_cold_chain_policy",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "3.1.2 Temperature monitoring does not promise a customs release time, a delivery date, or a refund."
+        },
+        {
+          "document_id": "ups_de_temperature_watch",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# UPS Germany temperature watch\n\nCarrier: UPS\nCountry: Germany\nCommodity class: cold_chain"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q20",
+      "question": "A DHL shipment in France is missing the street number. What happens to delivery?",
+      "gold_document": "dhl_fr_address",
+      "gold_phrase": "until the street number is corrected",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q20",
+        "customer_facing_draft": "If the street number is missing, DHL will hold the France shipment until the street number is corrected.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If the street number is missing, DHL will hold the France shipment until the street number is corrected."
+        ],
+        "citations": [
+          {
+            "source_id": "dhl_fr_address",
+            "clause_or_case": "14.1.2 If the street number is missing, DHL will hold the France shipment until the street number is corrected."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "dhl_fr_address",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "14.1.2 If the street number is missing, DHL will hold the France shipment until the street number is corrected."
+        },
+        {
+          "document_id": "dhl_fr_address",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "14.1.3 No delivery date is promised while the street number is missing."
+        },
+        {
+          "document_id": "dhl_fr_address",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "14.1.1 This clause applies only to general shipments to France carried by DHL."
+        },
+        {
+          "document_id": "dhl_fr_address",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 14.1 Street number"
+        },
+        {
+          "document_id": "dhl_fr_address",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# DHL France address agreement\n\nCarrier: DHL\nCountry: France\nCommodity class: general"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q21",
+      "question": "DHL missed a collection in Belgium. When is the next collection?",
+      "gold_document": "dhl_be_pickup",
+      "gold_phrase": "next collection is the following business day",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q21",
+        "customer_facing_draft": "If the Belgium collection is missed, the next collection is the following business day.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If the Belgium collection is missed, the next collection is the following business day."
+        ],
+        "citations": [
+          {
+            "source_id": "dhl_be_pickup",
+            "clause_or_case": "15.1.2 If the Belgium collection is missed, the next collection is the following business day."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "dhl_be_pickup",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "15.1.2 If the Belgium collection is missed, the next collection is the following business day."
+        },
+        {
+          "document_id": "dhl_be_pickup",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "15.1.3 A same-day collection is not promised."
+        },
+        {
+          "document_id": "dhl_be_pickup",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 15.1 Missed collection"
+        },
+        {
+          "document_id": "dhl_be_pickup",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "15.1.1 This clause applies only to general shipments to Belgium carried by DHL."
+        },
+        {
+          "document_id": "dhl_be_pickup",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# DHL Belgium collection agreement\n\nCarrier: DHL\nCountry: Belgium\nCommodity class: general"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q22",
+      "question": "A FedEx carton arrived crushed in Spain. How soon does the inspection start?",
+      "gold_document": "fedex_es_damage",
+      "gold_phrase": "inspection within 3 business days",
+      "hit": true,
+      "context_precision_at_5": 0.4,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q22",
+        "customer_facing_draft": "If a Spain carton arrives crushed, FedEx will start an inspection within 3 business days.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "If a Spain carton arrives crushed, FedEx will start an inspection within 3 business days."
+        ],
+        "citations": [
+          {
+            "source_id": "fedex_es_damage",
+            "clause_or_case": "16.1.2 If a Spain carton arrives crushed, FedEx will start an inspection within 3 business days."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "fedex_es_damage",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "16.1.2 If a Spain carton arrives crushed, FedEx will start an inspection within 3 business days."
+        },
+        {
+          "document_id": "fedex_es_damage",
+          "chunk_index": 4,
+          "relevant": true,
+          "text": "16.1.3 A refund is not promised before the inspection is finished."
+        },
+        {
+          "document_id": "fedex_es_damage",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 16.1 Damaged carton"
+        },
+        {
+          "document_id": "fedex_es_damage",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "16.1.1 This clause applies only to general shipments to Spain carried by FedEx."
+        },
+        {
+          "document_id": "fedex_es_damage",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# FedEx Spain inspection agreement\n\nCarrier: FedEx\nCountry: Spain\nCommodity class: general"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q23",
+      "question": "Can UPS operations promise a customs release for Brazil electronics?",
+      "gold_document": "ups_br_electronics_policy",
+      "gold_phrase": "will not state a customs-release promise for Brazil electronics",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q23",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "ups_br_electronics_policy",
+            "clause_or_case": "17.1.2 UPS operations will not state a customs-release promise for Brazil electronics."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "ups_br_electronics_policy",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "17.1.2 UPS operations will not state a customs-release promise for Brazil electronics."
+        },
+        {
+          "document_id": "ups_br_electronics_policy",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "17.1.1 This clause applies only to electronics shipments to Brazil carried by UPS."
+        },
+        {
+          "document_id": "ups_br_electronics_policy",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "17.1.3 The Germany cold-chain agreement is not used for this policy."
+        },
+        {
+          "document_id": "distractor_pallet_height_12",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "30.12.3 This archive note does not promise a delivery date, a refund, or a customs release."
+        },
+        {
+          "document_id": "ups_br_electronics_policy",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 17.1 Release boundary"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q24",
+      "question": "A DHL lithium battery shipment in France is in a dangerous-goods check. Can we promise an air departure?",
+      "gold_document": "lithium_battery_policy",
+      "gold_phrase": "not promised an air departure",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q24",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "lithium_battery_policy",
+            "clause_or_case": "18.1.2 Lithium batteries are not promised an air departure while the dangerous-goods check is open."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "lithium_battery_policy",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "18.1.2 Lithium batteries are not promised an air departure while the dangerous-goods check is open."
+        },
+        {
+          "document_id": "lithium_battery_policy",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "18.1.3 The policy does not give a flight number or a delivery date."
+        },
+        {
+          "document_id": "lithium_battery_policy",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "18.1.1 This clause applies only to electronics shipments to France carried by DHL."
+        },
+        {
+          "document_id": "lithium_battery_policy",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 18.1 Air departure"
+        },
+        {
+          "document_id": "lithium_battery_policy",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# Lithium battery handling policy\n\nCarrier: DHL\nCountry: France\nCommodity class: electronics"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q25",
+      "question": "A DHL shipment arrived in Germany on Saturday. Does the weekend desk start the 48-hour clock?",
+      "gold_document": "weekend_clock_policy",
+      "gold_phrase": "do not start the 48-hour clock",
+      "hit": true,
+      "context_precision_at_5": 0.4,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q25",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "weekend_clock_policy",
+            "clause_or_case": "19.1.2 Weekend customs desks do not start the 48-hour clock."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "weekend_clock_policy",
+          "chunk_index": 4,
+          "relevant": true,
+          "text": "19.1.3 A Saturday arrival is not treated as hour one of a customs-hold timer."
+        },
+        {
+          "document_id": "weekend_clock_policy",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "19.1.2 Weekend customs desks do not start the 48-hour clock."
+        },
+        {
+          "document_id": "weekend_clock_policy",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# Weekend customs-clock policy\n\nCarrier: DHL\nCountry: Germany\nCommodity class: general"
+        },
+        {
+          "document_id": "weekend_clock_policy",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 19.1 Weekend desks"
+        },
+        {
+          "document_id": "weekend_clock_policy",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "19.1.1 This clause applies only to general shipments to Germany carried by DHL."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q26",
+      "question": "The broker guessed Thursday for a DHL Germany cold-chain hold. Can we repeat that weekday?",
+      "gold_document": "broker_guess_policy",
+      "gold_phrase": "weekday guess is not a delivery promise",
+      "hit": true,
+      "context_precision_at_5": 0.4,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q26",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "broker_guess_policy",
+            "clause_or_case": "# Broker guess policy"
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "broker_guess_policy",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "20.1.2 A broker's weekday guess is not a delivery promise and must not be copied into the customer email."
+        },
+        {
+          "document_id": "broker_guess_policy",
+          "chunk_index": 2,
+          "relevant": true,
+          "text": "20.1.1 This clause applies only to cold_chain shipments to Germany carried by DHL."
+        },
+        {
+          "document_id": "broker_guess_policy",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 20.1 Unverified weekday"
+        },
+        {
+          "document_id": "broker_guess_policy",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# Broker guess policy\n\nCarrier: DHL\nCountry: Germany\nCommodity class: cold_chain"
+        },
+        {
+          "document_id": "dhl_germany_cold_chain_expanded",
+          "chunk_index": 23,
+          "relevant": false,
+          "text": "40.6.2 A missing spare probe entry is corrected on the same shift sheet and is not a customer delivery promise."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q27",
+      "question": "What did the last FedEx France weather email promise, and did it offer a refund?",
+      "gold_document": "case_103_weather",
+      "gold_phrase": "named the next departure and did not offer a refund",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q27",
+        "customer_facing_draft": "After a weather cancellation, the customer email named the next departure and did not offer a refund.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "After a weather cancellation, the customer email named the next departure and did not offer a refund."
+        ],
+        "citations": [
+          {
+            "source_id": "case_103_weather",
+            "clause_or_case": "1.1.2 After a weather cancellation, the customer email named the next departure and did not offer a refund."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "case_103_weather",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "1.1.2 After a weather cancellation, the customer email named the next departure and did not offer a refund."
+        },
+        {
+          "document_id": "case_103_weather",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.1.3 The tone stayed short and factual."
+        },
+        {
+          "document_id": "fedex_france_weather",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "2.1.3 A weather delay does not create a refund, and this clause does not cover a mechanical breakdown."
+        },
+        {
+          "document_id": "ups_fr_weather",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "2.4.3 No refund is offered from a clause that names a different carrier."
+        },
+        {
+          "document_id": "distractor_pallet_height_02",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "30.2.3 This archive note does not promise a delivery date, a refund, or a customs release."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q28",
+      "question": "In the last closed-receiver case, did UPS promise a same-day second attempt?",
+      "gold_document": "case_104_closed",
+      "gold_phrase": "did not promise a same-day second attempt",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q28",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "case_104_closed",
+            "clause_or_case": "1.2.2 When a receiver was closed, the update said delivery would be reattempted on the next business day and did not promise a same-day second attempt."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "case_104_closed",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "1.2.2 When a receiver was closed, the update said delivery would be reattempted on the next business day and did not promise a same-day second attempt."
+        },
+        {
+          "document_id": "ups_nl_reattempt",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "6.1.2 If the receiver is closed, UPS will reattempt delivery on the next business day."
+        },
+        {
+          "document_id": "ups_nl_reattempt",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "6.1.3 This clause does not promise a same-day second attempt."
+        },
+        {
+          "document_id": "case_104_closed",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.2.3 The case is a tone example. It does not create a new contract term."
+        },
+        {
+          "document_id": "ups_nl_reattempt",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 6.1 Closed receiver"
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q29",
+      "question": "Last time a customer asked for a refund after a truck breakdown, did we send a refund date?",
+      "gold_document": "case_109_breakdown",
+      "gold_phrase": "did not send a refund date",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q29",
+        "customer_facing_draft": "The timeline is under review.",
+        "internal_summary": "No retrieved sentence supports a customer promise.",
+        "grounded_commitments": [],
+        "citations": [
+          {
+            "source_id": "case_109_breakdown",
+            "clause_or_case": "1.3.2 A customer asked for a refund after a truck breakdown, and the analyst did not send a refund date."
+          }
+        ],
+        "confidence": 0.34,
+        "requires_human_review": true,
+        "review_reason": "No retrieved clause supports a customer promise for this request."
+      },
+      "top": [
+        {
+          "document_id": "case_109_breakdown",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "1.3.2 A customer asked for a refund after a truck breakdown, and the analyst did not send a refund date."
+        },
+        {
+          "document_id": "case_109_breakdown",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.3.3 The weather clause for a different carrier was left out of the email."
+        },
+        {
+          "document_id": "case_109_breakdown",
+          "chunk_index": 1,
+          "relevant": false,
+          "text": "## 1.3 Breakdown refund"
+        },
+        {
+          "document_id": "case_103_weather",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "1.1.2 After a weather cancellation, the customer email named the next departure and did not offer a refund."
+        },
+        {
+          "document_id": "dhl_germany_cold_chain",
+          "chunk_index": 3,
+          "relevant": false,
+          "text": "4.2.2 If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that notification."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    },
+    {
+      "id": "q30",
+      "question": "What did the last incomplete-address email ask for, and did it give a delivery time?",
+      "gold_document": "case_107_address",
+      "gold_phrase": "asked for the missing apartment number",
+      "hit": true,
+      "context_precision_at_5": 0.2,
+      "average_precision": 1.0,
+      "decision_match": true,
+      "faithful": true,
+      "draft": {
+        "exception_id": "q30",
+        "customer_facing_draft": "An incomplete address was held for correction, the email asked for the missing apartment number, and it gave no delivery time.",
+        "internal_summary": "The commitment is a sentence retrieved from the library.",
+        "grounded_commitments": [
+          "An incomplete address was held for correction, the email asked for the missing apartment number, and it gave no delivery time."
+        ],
+        "citations": [
+          {
+            "source_id": "case_107_address",
+            "clause_or_case": "1.4.2 An incomplete address was held for correction, the email asked for the missing apartment number, and it gave no delivery time."
+          }
+        ],
+        "confidence": 0.84,
+        "requires_human_review": false,
+        "review_reason": null
+      },
+      "top": [
+        {
+          "document_id": "case_107_address",
+          "chunk_index": 3,
+          "relevant": true,
+          "text": "1.4.2 An incomplete address was held for correction, the email asked for the missing apartment number, and it gave no delivery time."
+        },
+        {
+          "document_id": "case_107_address",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "1.4.3 The case does not authorize a delivery clock."
+        },
+        {
+          "document_id": "case_107_address",
+          "chunk_index": 0,
+          "relevant": false,
+          "text": "# Resolution note case 107\n\nCarrier: UPS\nCountry: Belgium\nCommodity class: general"
+        },
+        {
+          "document_id": "ups_be_address",
+          "chunk_index": 4,
+          "relevant": false,
+          "text": "8.1.3 Delivery is not attempted again until the address is corrected, and no delivery time is promised."
+        },
+        {
+          "document_id": "ups_be_address",
+          "chunk_index": 2,
+          "relevant": false,
+          "text": "8.1.1 This clause applies only to general shipments to Belgium carried by UPS."
+        }
+      ],
+      "embedding_model": "voyage-3",
+      "reranker": "cohere-rerank-v3.5"
+    }
+  ]
+}

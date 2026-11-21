@@ -1,0 +1,8 @@
+{
+  "document": "dhl_germany_cold_chain_expanded.md",
+  "document_tokens": 1976,
+  "chunks": 101,
+  "cache_write_tokens": 3095,
+  "cache_read_tokens": 3095,
+  "note": "Two chunks of the long document were sent with the same cached prefix."
+}

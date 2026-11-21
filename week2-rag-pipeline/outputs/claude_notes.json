@@ -1,0 +1,1726 @@
+{
+  "dhl_be_pickup.md": {
+    "a808598deed7c987": {
+      "note": "This is the header section of the DHL Belgium collection agreement, identifying the carrier as DHL, the country as Belgium, and the commodity class as general shipments. It establishes the scope for all subsequent clauses, including the missed collection rule in section 15.1, which applies specifically to general freight handled by DHL within Belgium and does not extend to other carriers, countries, or commodity types.",
+      "writer": "claude"
+    },
+    "8d55b211746a87e2": {
+      "note": "This heading introduces section 15.1, titled 'Missed collection,' within the DHL Belgium collection agreement for general shipments. It precedes the specific operative clauses 15.1.1 through 15.1.3, which define the scope of applicability, the remedy for a missed collection (next business day pickup), and the explicit statement that same-day collection is not guaranteed.",
+      "writer": "claude"
+    },
+    "fae31d923be6fff4": {
+      "note": "This clause, 15.1.1, is part of the DHL Belgium collection agreement under section 15.1 (Missed collection), applying to general commodity shipments. It defines the scope of the missed collection provisions, stating they apply only to general shipments to Belgium carried by DHL. This scoping clause precedes 15.1.2, which describes the rescheduled collection timing, and 15.1.3, which clarifies no same-day guarantee exists.",
+      "writer": "claude"
+    },
+    "0aac650e6a94f5fb": {
+      "note": "This clause, 15.1.2, belongs to the DHL Belgium collection agreement, section 15.1 (Missed collection), covering general commodity shipments. It follows the scope definition in 15.1.1 and specifies that if a Belgium collection is missed, the next collection will occur on the following business day. This is immediately followed by 15.1.3, which clarifies that a same-day collection is not promised.",
+      "writer": "claude"
+    },
+    "0fb4fea8b94aa2eb": {
+      "note": "This note situates clause 15.1.3 within the DHL Belgium collection agreement, covering general commodity shipments carried by DHL in Belgium. It falls under section 15.1 'Missed collection,' following 15.1.1 (scope limitation to general shipments to Belgium via DHL) and 15.1.2 (next-day collection after a miss). This clause clarifies that, even with the next-business-day remedy described in 15.1.2, DHL does not commit to providing a same-day collection as an alternative or expedited remedy.",
+      "writer": "claude"
+    }
+  },
+  "dhl_brazil_electronics.md": {
+    "6034f04274156b97": {
+      "note": "This is the title block of the DHL Brazil electronics service agreement, identifying the carrier (DHL), country (Brazil), and commodity class (electronics). It establishes the document's identity and scope before the detailed clauses in sections 5.1 (Scope) and 5.2 (Customs hold) that follow, which govern how this agreement applies to electronics shipments to Brazil and clarify its relationship to the separate Germany cold-chain agreement.",
+      "writer": "claude"
+    },
+    "70e5157db69e3e6c": {
+      "note": "This is the header for section 5.1, titled 'Scope,' within the DHL Brazil electronics service agreement. It introduces the two clauses that follow (5.1.1 and 5.1.2), which define the applicability of this carrier-specific agreement to electronics shipments to Brazil and explicitly exclude the Germany cold-chain agreement from governing these shipments.",
+      "writer": "claude"
+    },
+    "502173d9528214c0": {
+      "note": "This is clause 5.1.1 under the Scope section of the DHL Brazil electronics service agreement. It states that the agreement applies to electronics shipments to Brazil, establishing the commodity and country coverage. It directly precedes clause 5.1.2, which clarifies that the separate Germany cold-chain agreement does not apply, and relates to section 5.2's customs hold provisions for the same Brazil electronics shipments.",
+      "writer": "claude"
+    },
+    "3225f1e7cf888b82": {
+      "note": "This is clause 5.1.2 under the Scope section of the DHL Brazil electronics service agreement for Brazil electronics shipments. It clarifies that the Germany cold-chain agreement does not apply to these shipments, distinguishing this DHL Brazil electronics agreement from that unrelated agreement. This exclusion is echoed in section 5.2.1, which notes the customs hold has no 48-hour status-update rule from the Germany cold-chain agreement.",
+      "writer": "claude"
+    },
+    "23378b8f918c46f5": {
+      "note": "This is the heading for section 5.2 'Customs hold' in the DHL Brazil electronics service agreement, under the DHL carrier, Brazil country, and electronics commodity class. It introduces the subsection following the Scope section (5.1) and precedes clauses 5.2.1 and 5.2.2, which clarify customs hold rules and disclaim certain guarantees for this agreement.",
+      "writer": "claude"
+    },
+    "fb07b34ba88d7eb2": {
+      "note": "This is clause 5.2.1 under section 5.2 'Customs hold' in the DHL Brazil electronics service agreement, covering DHL, Brazil, and electronics shipments. It clarifies that an HE customs hold on Brazil electronics is not subject to the 48-hour status-update rule found in the separate Germany cold-chain agreement, reinforcing the scope statement in 5.1.2 that the Germany cold-chain agreement does not apply here.",
+      "writer": "claude"
+    },
+    "a55c4299b68d05e5": {
+      "note": "This is clause 5.2.2 under section 5.2 'Customs hold' in the DHL Brazil electronics service agreement, covering DHL, Brazil, and electronics shipments. Following 5.2.1's note that the Germany cold-chain agreement's 48-hour status-update rule does not apply, this clause explicitly states that the agreement does not promise customs release, a delivery date, or a refund for Brazil electronics shipments under customs hold.",
+      "writer": "claude"
+    }
+  },
+  "dhl_de_damage.md": {
+    "7141c6420df6c222": {
+      "note": "This is the header section of the DHL Germany damage agreement, establishing the scope of the document: carrier DHL, country Germany, and commodity class cold_chain. All subsequent clauses, including the refused carton rules in section 7.1, apply only within this defined scope.",
+      "writer": "claude"
+    },
+    "a2a84674eb98e580": {
+      "note": "This is the section heading '7.1 Refused carton' within the DHL Germany damage agreement for cold_chain shipments. It introduces the subclauses that follow (7.1.1\u20137.1.3), which define scope, the damage review timeline, and messaging restrictions for leaking cartons refused during delivery.",
+      "writer": "claude"
+    },
+    "f5e67cf4f5eff450": {
+      "note": "This is clause 7.1.2 of the DHL Germany damage agreement, under the 'Refused carton' section for cold_chain shipments. It restates the applicability of the agreement (DHL, Germany, cold_chain) and precedes the specific rule about DHL opening a damage review within 2 business days when a leaking carton is refused.",
+      "writer": "claude"
+    },
+    "8512d99994300343": {
+      "note": "This is clause 7.1.2 of the DHL Germany damage agreement's 'Refused carton' section, specific to cold_chain shipments carried by DHL in Germany. It specifies that DHL will open a damage review within 2 business days if a cold-chain carton is refused due to leaking, setting up the restriction in clause 7.1.3 on premature customer promises before that review concludes.",
+      "writer": "claude"
+    },
+    "62f190f67125f025": {
+      "note": "This chunk is from the DHL Germany damage agreement for cold_chain shipments (Carrier: DHL, Country: Germany, Commodity class: cold_chain), specifically clause 7.1.3 under section 7.1 'Refused carton.' It follows clause 7.1.2, which states that if a cold-chain carton is refused due to leaking, DHL opens a damage review within 2 business days. This clause constrains the content of the first customer communication, prohibiting any promise of a replacement or refund until that damage review process has concluded, per clause 7.1.1's scope limited to cold-chain shipments to Germany carried by DHL.",
+      "writer": "claude"
+    }
+  },
+  "dhl_de_food.md": {
+    "7731c16171713b41": {
+      "note": "This is the header section of the DHL Germany food exam agreement, identifying the carrier as DHL, the country as Germany, and the commodity class as food. It establishes the scope for the customs exam clauses (4.4) that follow, which govern notifications during customs exams for chilled food shipments.",
+      "writer": "claude"
+    },
+    "1788b061b41ad1b4": {
+      "note": "This is the section heading '4.4 Customs exam' within the DHL Germany food exam agreement, covering DHL shipments of food to Germany. It introduces the subsequent clauses (4.4.1\u20134.4.3) that define the applicability of the customs exam rules and the notification practices DHL follows during such exams, including the limits on what the email communication will predict.",
+      "writer": "claude"
+    },
+    "d2e754ede1006fd5": {
+      "note": "This is clause 4.4.1 under the 'Customs exam' section of the DHL Germany food exam agreement, specifying that the customs exam rules apply only to food shipments to Germany carried by DHL. It sets the scope for the following clauses 4.4.2 and 4.4.3, which describe DHL's notification practices during a customs exam, including status updates, temperature readings, and the lack of predicted exam end times.",
+      "writer": "claude"
+    },
+    "e8eab85614892af8": {
+      "note": "This is clause 4.4.2 under the 'Customs exam' section of the DHL Germany food exam agreement, applicable to DHL food shipments to Germany. It specifies that for a chilled food shipment undergoing a customs exam, DHL will send a status update along with the latest temperature reading, following the scope defined in 4.4.1 and preceding the limitation noted in 4.4.3 that the email does not predict when the exam will end.",
+      "writer": "claude"
+    },
+    "e61bf2885729159b": {
+      "note": "This note belongs to the DHL Germany food exam agreement document, under Carrier: DHL, Country: Germany, Commodity class: food. It is part of clause 4.4 (Customs exam), which applies only to food shipments to Germany carried by DHL. Specifically, it is clause 4.4.3, which follows 4.4.2's statement that DHL sends a status update and latest temperature reading for a chilled food shipment in a customs exam, clarifying that this email does not include a prediction of when the customs exam will conclude.",
+      "writer": "claude"
+    }
+  },
+  "dhl_es_breakdown.md": {
+    "3b84e2614ef5aa99": {
+      "note": "This chunk is the header of the DHL Spain breakdown agreement, identifying the carrier as DHL, the country as Spain, and the commodity class as general. It introduces the document that contains clause 11.1 on mechanical breakdown, setting the scope for the eligibility and remedy provisions that follow.",
+      "writer": "claude"
+    },
+    "8884261aeead7a23": {
+      "note": "This chunk is the section heading '11.1 Mechanical breakdown' within the DHL Spain breakdown agreement, covering general commodity shipments. It introduces the subsequent sub-clauses (11.1.1\u201311.1.3) that define the scope of applicability and the absence of weather-delay or breakdown refund remedies for this carrier-country combination.",
+      "writer": "claude"
+    },
+    "d43f0f4d1f94d493": {
+      "note": "This chunk is sub-clause 11.1.1 of the DHL Spain breakdown agreement, general commodity class. It restricts the applicability of the mechanical breakdown clause to general shipments to Spain carried by DHL, setting the scope for the remedy limitations described in the following sub-clause 11.1.2.",
+      "writer": "claude"
+    },
+    "d846e4f7816ad010": {
+      "note": "This chunk is sub-clause 11.1.2 of the DHL Spain breakdown agreement, general commodity class, following the scope restriction in 11.1.1. It states that a mechanical breakdown on a Spain lane carried by DHL provides no weather-delay remedy and no breakdown refund, directly limiting the remedies available under this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "882c9dd18b7981a0": {
+      "note": "This note situates chunk 11.1.3 within the DHL Spain breakdown agreement, covering general commodity shipments. It clarifies that although a weather clause exists elsewhere in the broader documentation, it pertains to a different carrier and therefore cannot be invoked for this DHL Spain mechanical breakdown scenario. This directly supports clause 11.1.2, which states that no weather-delay remedy or breakdown refund applies to mechanical breakdowns on Spain lanes under this agreement, reinforcing the absence of any applicable weather-related relief.",
+      "writer": "claude"
+    }
+  },
+  "dhl_fr_address.md": {
+    "cf4adc18731246d0": {
+      "note": "This is the header of the DHL France address agreement, establishing that the document governs general commodity shipments carried by DHL to France. It sets the scope for all subsequent clauses, including the street number requirements detailed in section 14.1 that follow.",
+      "writer": "claude"
+    },
+    "d7247de6df85a083": {
+      "note": "This is the section heading '14.1 Street number' within the DHL France address agreement for general commodity shipments. It introduces the specific clauses (14.1.1\u201314.1.3) that define how missing street numbers are handled for France shipments carried by DHL.",
+      "writer": "claude"
+    },
+    "1df163f18cc60149": {
+      "note": "This is clause 14.1.1 under the 'Street number' section of the DHL France address agreement, scoping the rule to general commodity shipments to France carried by DHL. It precedes the operational rule in 14.1.2 about holding shipments when the street number is missing.",
+      "writer": "claude"
+    },
+    "f67997ded3aad982": {
+      "note": "This is clause 14.1.2 under 'Street number' in the DHL France address agreement for general commodity shipments. It specifies that DHL will hold the France shipment until the missing street number is corrected, following the scope defined in 14.1.1 and preceding the delivery date disclaimer in 14.1.3.",
+      "writer": "claude"
+    },
+    "0352d93a95528392": {
+      "note": "This note situates clause 14.1.3 within the DHL France address agreement, applicable to general commodity shipments carried by DHL to France. It directly follows clauses 14.1.1 (scope: general shipments to France via DHL) and 14.1.2 (DHL holds shipments missing a street number). This clause clarifies the consequence of a missing street number: no delivery date is promised during the hold period, reinforcing that resolution of the address issue is a precondition for scheduling delivery.",
+      "writer": "claude"
+    }
+  },
+  "dhl_germany_cold_chain.md": {
+    "08c4511aec955262": {
+      "note": "This chunk is from Section 4.2 (\"Customs-hold response\") of the DHL Germany cold-chain service agreement, which applies specifically to cold-chain shipments to Germany. It details DHL's commitment to provide a status update and next steps within 48 hours if an HE customs hold exceeds 48 hours after customer notification. This is clarified by the following clause (4.2.3), which states this does not guarantee customs release, delivery date, or refund\u2014distinguishing it from the broader exclusions listed in Section 4.3 regarding electronics shipments to Brazil and same-day customs release promises.",
+      "writer": "claude"
+    },
+    "e0c58ba0a2e7e1dd": {
+      "note": "This is the header block of the DHL Germany cold-chain service agreement, identifying the carrier (DHL), country (Germany), and commodity class (cold_chain). It precedes the substantive clauses in Section 4.2 (Customs-hold response) and Section 4.3 (exclusions), establishing the scope within which those clauses operate.",
+      "writer": "claude"
+    },
+    "fd1c5714699375fa": {
+      "note": "This is the section heading '4.2 Customs-hold response' within the DHL Germany cold-chain service agreement, applicable to DHL cold-chain shipments to Germany. It introduces the clauses that follow, including 4.2.1 (scope limitation) and 4.2.3 (disclaimer of outcomes), which detail the carrier's notification obligations during customs holds.",
+      "writer": "claude"
+    },
+    "f6e888567b780f5e": {
+      "note": "This clause (4.2.1) is from the DHL Germany cold-chain service agreement, specifying that the customs-hold response provisions in Section 4.2 apply only to cold-chain shipments carried by DHL to Germany. It sets the scope boundary for the subsequent clause 4.2.2 (notification timing) and 4.2.3 (disclaimer), which follow immediately within the same section.",
+      "writer": "claude"
+    },
+    "be8cfc5692aa8323": {
+      "note": "This clause (4.2.3) is from the DHL Germany cold-chain service agreement's Customs-hold response section (4.2), applicable to DHL cold-chain shipments to Germany. It clarifies that the notification commitment described in 4.2.2 does not constitute a promise of customs release, a delivery date, or a refund, limiting the scope of the preceding clauses in this section.",
+      "writer": "claude"
+    },
+    "012fc88ff34b13a2": {
+      "note": "This is the section heading \"4.3 What this agreement does not cover\" from the DHL Germany cold-chain service agreement. It introduces the exclusions clause that follows section 4.2 (Customs-hold response for HE customs holds exceeding 48 hours), clarifying scope limits for this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "7960c6cfe39fcf65": {
+      "note": "This clause, 4.3.1, is part of the DHL Germany cold-chain service agreement, under section 4.3 (What this agreement does not cover). It states that the agreement does not apply to electronics shipments to Brazil, distinguishing this document's scope from unrelated carrier, country, and commodity combinations, separate from the cold-chain customs-hold terms in 4.2.",
+      "writer": "claude"
+    },
+    "1d78ac18b6f762c8": {
+      "note": "This clause, 4.3.2, belongs to the DHL Germany cold-chain service agreement, within section 4.3 (What this agreement does not cover). It clarifies that the agreement does not promise a same-day customs release, reinforcing the limited nature of commitments made elsewhere, including the customs-hold response obligations described in section 4.2.",
+      "writer": "claude"
+    }
+  },
+  "dhl_germany_cold_chain_expanded.md": {
+    "1bbe7b3873fab45e": {
+      "note": "This is the introductory section of the DHL Germany cold-chain warehouse appendix, establishing the document's scope: DHL carrier, Germany, cold_chain commodity class. It clarifies that the appendix covers warehouse handling logs only and explicitly does not alter section 4.2 of the service agreement, setting the framing for all subsequent numbered subsections (40.1\u201340.25).",
+      "writer": "claude"
+    },
+    "afcacd86b570166e": {
+      "note": "This is the header for subsection 40.1 of the DHL Germany cold-chain warehouse appendix, introducing the 'Probe Calibration' warehouse log topic. It follows the general appendix introduction and precedes the three detailed clauses (40.1.1\u201340.1.3) describing logging frequency, correction procedure, and relation to customs-hold response, consistent with the pattern used for all other warehouse items in this document.",
+      "writer": "claude"
+    },
+    "f03a2486d2b25584": {
+      "note": "This clause (40.1.1) belongs to the DHL Germany cold-chain warehouse appendix, under subsection 40.1 Probe Calibration. It specifies that the probe calibration log is completed once per shift for Germany cold-chain freight, matching the recurring once-per-shift logging requirement applied uniformly across all 25 warehouse items in this appendix (pallet wrap, dock curtain, etc.).",
+      "writer": "claude"
+    },
+    "fd216b69b23ff56e": {
+      "note": "This clause (40.1.2) is part of subsection 40.1 Probe Calibration in the DHL Germany cold-chain warehouse appendix. It states that a missing probe calibration entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, mirroring the identical correction-and-disclaimer language used for every other warehouse log item (40.2 through 40.25) in this document.",
+      "writer": "claude"
+    },
+    "162d45efb651c1af": {
+      "note": "This is clause 40.1.3 from the DHL Germany cold-chain warehouse appendix, under section 40.1 Probe Calibration. It clarifies that, for this carrier (DHL), country (Germany), and commodity class (cold_chain), the probe calibration log entry does not alter the customs-hold response defined in the separate service agreement, mirroring the same disclaimer pattern used throughout the appendix's other logged items.",
+      "writer": "claude"
+    },
+    "24620c831008074e": {
+      "note": "This is the section heading for 40.2 Pallet Wrap in the DHL Germany cold-chain warehouse appendix. It introduces the subsection covering pallet wrap logging requirements for DHL's Germany cold-chain freight, following the same structural pattern as 40.1 Probe Calibration and preceding the detailed clauses 40.2.1\u201340.2.3 on completion frequency, correction procedure, and customs-hold non-effect.",
+      "writer": "claude"
+    },
+    "6065328d5f4a310b": {
+      "note": "This is clause 40.2.1 from the DHL Germany cold-chain warehouse appendix, under section 40.2 Pallet Wrap. It states that for DHL's Germany cold-chain freight, the warehouse log for pallet wrap is completed once per shift, consistent with the per-shift logging requirement applied to all tracked items in this appendix (probe calibration, dock curtain, etc.).",
+      "writer": "claude"
+    },
+    "da836cab70ecaab7": {
+      "note": "This is clause 40.2.2 from the DHL Germany cold-chain warehouse appendix, under section 40.2 Pallet Wrap. It specifies that, for DHL's Germany cold-chain freight, a missing pallet wrap entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, following the standard pattern used for each logged item (e.g., probe calibration, dock curtain) throughout this appendix.",
+      "writer": "claude"
+    },
+    "a76463587eb9a6b4": {
+      "note": "This clause (40.2.3) is from the DHL Germany cold-chain warehouse appendix, under section 40.2 Pallet Wrap. It states that the pallet wrap log entry does not alter the customs-hold response defined in the service agreement, mirroring the pattern used for all other warehouse log items (probe calibration, dock curtain, etc.) in this appendix. It follows 40.2.1 and 40.2.2, which describe the once-per-shift logging requirement and same-shift correction rule for pallet wrap entries, and precedes the next item, 40.3 Dock Curtain.",
+      "writer": "claude"
+    },
+    "906e76b0938a506a": {
+      "note": "This is the section heading '40.3 Dock Curtain' within the DHL Germany cold-chain warehouse appendix, introducing the subsection that covers dock curtain logging rules. It follows section 40.2 Pallet Wrap and precedes the three numbered clauses (40.3.1\u201340.3.3) that, like other items in this appendix, describe the once-per-shift log requirement, same-shift correction policy, and the statement that the entry does not affect the customs-hold response in the service agreement.",
+      "writer": "claude"
+    },
+    "7cd2c071902f3bcc": {
+      "note": "This clause (40.3.1) belongs to the DHL Germany cold-chain warehouse appendix, under section 40.3 Dock Curtain. It states that the warehouse log for dock curtain is completed once per shift for Germany cold-chain freight, following the same recurring pattern as other warehouse items (e.g., pallet wrap, probe calibration). It precedes 40.3.2, which addresses missing entries, and 40.3.3, which clarifies the entry's relation to the customs-hold response in the service agreement.",
+      "writer": "claude"
+    },
+    "a9496f6d16840570": {
+      "note": "This clause (40.3.2) is part of the DHL Germany cold-chain warehouse appendix, under section 40.3 Dock Curtain. It specifies that a missing dock curtain log entry is corrected on the same shift sheet and is explicitly not a customer delivery promise, consistent with the standard wording used for all other warehouse log items in this appendix. It follows 40.3.1, which sets the once-per-shift logging requirement, and precedes 40.3.3, which notes the entry does not change the customs-hold response in the service agreement.",
+      "writer": "claude"
+    },
+    "89899586d4e1d647": {
+      "note": "This chunk is clause 40.3.3 from the DHL Germany cold-chain warehouse appendix, under section 40.3 Dock Curtain. It applies to DHL, Germany, cold-chain commodity freight. It follows 40.3.1 (log completed once per shift) and 40.3.2 (missing entry corrected same shift, not a delivery promise), and clarifies that the dock curtain log entry does not alter the customs-hold response defined elsewhere in the service agreement.",
+      "writer": "claude"
+    },
+    "ef13aeaa441cdc06": {
+      "note": "This is the section heading '40.4 Floor Drain' within the DHL Germany cold-chain warehouse appendix. It introduces the three clauses (40.4.1\u201340.4.3) governing floor drain logging for DHL, Germany, cold-chain freight, following the same repeating pattern as prior sections (e.g., 40.3 Dock Curtain) and preceding 40.5 Alarm Lamp.",
+      "writer": "claude"
+    },
+    "bd3170a87ec8c504": {
+      "note": "This chunk is clause 40.4.1 from the DHL Germany cold-chain warehouse appendix, section 40.4 Floor Drain. For DHL, Germany, cold-chain commodity shipments, it states the warehouse log for floor drain is completed once per shift, mirroring the pattern set by prior sections like 40.3 Dock Curtain, and is followed by 40.4.2 on missing entries and 40.4.3 on customs-hold response.",
+      "writer": "claude"
+    },
+    "8f2e88cfdcf75c7f": {
+      "note": "This chunk is clause 40.4.2 from the DHL Germany cold-chain warehouse appendix, section 40.4 Floor Drain. It specifies that for DHL, Germany, cold-chain freight, a missing floor drain log entry is corrected on the same shift sheet and is not a customer delivery promise, following 40.4.1 (logging frequency) and preceding 40.4.3 (customs-hold clarification).",
+      "writer": "claude"
+    },
+    "2fc29f61a46c8dc3": {
+      "note": "This chunk is clause 40.4.3 from the DHL Germany cold-chain warehouse appendix, under section 40.4 Floor Drain. It clarifies that the floor drain log entry, completed once per shift, does not alter the customs-hold response set out in the service agreement, mirroring the pattern used for all other warehouse log items in this appendix.",
+      "writer": "claude"
+    },
+    "948b8e2ffcee1df0": {
+      "note": "This is the section heading '40.5 Alarm Lamp' from the DHL Germany cold-chain warehouse appendix. It introduces the alarm lamp warehouse log subsection, following the same structure as the preceding sections (e.g., 40.4 Floor Drain) and preceding the subsequent clauses 40.5.1\u201340.5.3 that describe logging, correction, and customs-hold non-impact rules for alarm lamp checks.",
+      "writer": "claude"
+    },
+    "fca16cfcedae244a": {
+      "note": "This chunk is clause 40.5.1 from the DHL Germany cold-chain warehouse appendix, under section 40.5 Alarm Lamp. It states that the warehouse log for alarm lamp checks is completed once per shift for Germany cold-chain freight, consistent with the recurring per-shift logging requirement described across all items in this appendix.",
+      "writer": "claude"
+    },
+    "ad8277cd2f8c6b69": {
+      "note": "This chunk is clause 40.5.2 from the DHL Germany cold-chain warehouse appendix, under section 40.5 Alarm Lamp. It specifies that a missing alarm lamp log entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, following the same wording pattern as other warehouse log items (e.g., floor drain, dock curtain) in this appendix, which does not alter section 4.2 of the service agreement.",
+      "writer": "claude"
+    },
+    "01fbd0ef025e7b32": {
+      "note": "This chunk is clause 40.5.3 from the DHL Germany cold-chain warehouse appendix, concluding the Alarm Lamp subsection. Like the other 24 item-specific subsections (40.1\u201340.25) in this appendix, it clarifies that the alarm lamp log entry, though required once per shift, does not alter the customs-hold response defined in the main service agreement. It precedes the Spare Probe subsection (40.6).",
+      "writer": "claude"
+    },
+    "a8cec28bdd86248e": {
+      "note": "This is the heading for subsection 40.6, 'Spare Probe,' within the DHL Germany cold-chain warehouse appendix. It follows the Alarm Lamp subsection (40.5) and precedes the Door Seal subsection (40.7), introducing the same three-clause structure (log frequency, correction rule, no effect on customs-hold response) used for each of the 25 warehouse-check items for Germany cold-chain freight carried by DHL.",
+      "writer": "claude"
+    },
+    "d8197522bb6b5709": {
+      "note": "This is clause 40.6.1 of the DHL Germany cold-chain warehouse appendix, under the Spare Probe subsection. It states the warehouse log for spare probe is completed once per shift for Germany cold-chain freight, mirroring the identical per-item logging requirement found in all other subsections (40.1\u201340.25). It is followed by 40.6.2 on correction procedure and 40.6.3 on the customs-hold disclaimer.",
+      "writer": "claude"
+    },
+    "e0e75a6e9202d3e0": {
+      "note": "This is clause 40.6.2 of the DHL Germany cold-chain warehouse appendix, under the Spare Probe subsection. It specifies that a missing spare probe log entry is corrected on the same shift sheet and does not constitute a customer delivery promise, following 40.6.1 (logging frequency) and preceding 40.6.3 (customs-hold disclaimer), consistent with the pattern repeated across all 25 warehouse-check items for DHL Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "c27c111787ea6145": {
+      "note": "This chunk is clause 40.6.3 from the DHL Germany cold-chain warehouse appendix, concluding section 40.6 'Spare Probe'. It states that the spare probe entry does not alter the customs-hold response defined in the service agreement, consistent with the parallel disclaimer clauses (X.3) found in every subsection of this appendix (e.g., probe calibration, pallet wrap).",
+      "writer": "claude"
+    },
+    "b2df819127bb3b5b": {
+      "note": "This chunk is the heading for section 40.7 'Door Seal' in the DHL Germany cold-chain warehouse appendix. It introduces a subsection structured like the other 24 subsections (40.1\u201340.25), each covering a distinct warehouse checklist item (e.g., probe calibration, pallet wrap, dock curtain) with three standardized clauses on logging frequency, correction procedure, and customs-hold independence.",
+      "writer": "claude"
+    },
+    "29bded09d3234549": {
+      "note": "This chunk is clause 40.7.1, under section 40.7 'Door Seal' in the DHL Germany cold-chain warehouse appendix. It specifies that the door seal log is completed once per shift for Germany cold-chain freight, mirroring the identical per-shift logging requirement stated for all other warehouse checklist items (e.g., probe calibration, pallet wrap) in this appendix.",
+      "writer": "claude"
+    },
+    "b235bd88063d11f6": {
+      "note": "This chunk is clause 40.7.2, under section 40.7 'Door Seal' in the DHL Germany cold-chain warehouse appendix. It states that a missing door seal entry is corrected on the same shift sheet and is not a customer delivery promise, following the same pattern as the correction clauses for all other warehouse checklist items in this appendix (e.g., probe calibration, pallet wrap, dock curtain).",
+      "writer": "claude"
+    },
+    "7f77828821416ac3": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, section 40.7 (Door Seal), clause 40.7.3. It clarifies that the door seal log entry, completed once per shift per clauses 40.7.1\u201340.7.2, does not alter the customs-hold response specified in the service agreement, consistent with the pattern established for all logged items (probe calibration, pallet wrap, etc.) in this appendix covering Germany cold-chain freight handled by DHL.",
+      "writer": "claude"
+    },
+    "a14af8739c668b9e": {
+      "note": "This is the section heading '40.8 Log Sheet' from the DHL Germany cold-chain warehouse appendix. It introduces the log sheet subsection, following section 40.7 (Door Seal) and preceding the clauses detailing shift completion, correction procedure, and customs-hold non-effect, mirroring the structure used for all other warehouse log items in this appendix for Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "34e1dac39e366304": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, section 40.8 (Log Sheet), clause 40.8.1. It states that the warehouse log for log sheet is completed once per shift for Germany cold-chain freight, paralleling the shift-completion requirement set for all other logged items (e.g., door seal in 40.7, glove check in 40.9) within this appendix, which does not alter section 4.2 of the service agreement.",
+      "writer": "claude"
+    },
+    "aee1619e81805599": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, section 40.8 (Log Sheet), clause 40.8.2. It specifies that a missing log sheet entry is corrected on the same shift sheet and is not a customer delivery promise, following the shift-completion rule in 40.8.1 and preceding 40.8.3's customs-hold clarification, consistent with the uniform handling of all logged items in this Germany cold-chain appendix.",
+      "writer": "claude"
+    },
+    "de703f8c05582a7d": {
+      "note": "This chunk is clause 40.8.3 from the DHL Germany cold-chain warehouse appendix, under section 40.8 Log Sheet. It belongs to the DHL carrier, Germany country, and cold-chain commodity class. Like the parallel clauses in sections 40.1 through 40.25, it clarifies that the log sheet entry does not alter the customs-hold response defined in the main service agreement, consistent with the appendix's stated scope of not changing section 4.2 of that agreement.",
+      "writer": "claude"
+    },
+    "ceb01dab675d2b2a": {
+      "note": "This chunk is the section header for 40.9 Glove Check in the DHL Germany cold-chain warehouse appendix, immediately following section 40.8 Log Sheet and preceding its own three numbered sub-clauses (40.9.1\u201340.9.3). It belongs to the DHL carrier, Germany country, and cold-chain commodity class, and introduces the glove check warehouse log topic, structured identically to the other 24 checklist items in this appendix.",
+      "writer": "claude"
+    },
+    "4f667ff6798b398e": {
+      "note": "This chunk is clause 40.9.1 from the DHL Germany cold-chain warehouse appendix, under section 40.9 Glove Check. It belongs to the DHL carrier, Germany country, and cold-chain commodity class. It states that the warehouse log for glove check is completed once per shift, mirroring the identical once-per-shift logging requirement stated for all other items (probe calibration, pallet wrap, dock curtain, etc.) throughout sections 40.1\u201340.25.",
+      "writer": "claude"
+    },
+    "ba73970e52ce63b1": {
+      "note": "This chunk is clause 40.9.2 from the DHL Germany cold-chain warehouse appendix, under section 40.9 Glove Check, following 40.9.1 on logging frequency. It belongs to the DHL carrier, Germany country, and cold-chain commodity class. It clarifies that a missing glove check entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, matching the standard pattern repeated for every warehouse log item in this appendix.",
+      "writer": "claude"
+    },
+    "3e70ae7b0a12e617": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, section 40.9 (Glove Check), clause 40.9.3. It clarifies that the glove check log entry, completed once per shift for Germany cold-chain freight, does not alter the customs-hold response defined in the separate service agreement, consistent with the pattern applied to all logged items in this appendix.",
+      "writer": "claude"
+    },
+    "2c4c75f10856b744": {
+      "note": "This is the section heading '40.10 Crate Label' from the DHL Germany cold-chain warehouse appendix. It introduces the crate label subsection, following the same structural pattern as prior sections (e.g., Glove Check) and preceding the three standard clauses (40.10.1\u201340.10.3) covering log completion, correction of missing entries, and the customs-hold disclaimer.",
+      "writer": "claude"
+    },
+    "6c6d24717bbea536": {
+      "note": "This chunk is clause 40.10.1 from the DHL Germany cold-chain warehouse appendix, under the Crate Label section. It states the warehouse log for crate label is completed once per shift for Germany cold-chain freight, mirroring the same requirement format used for all other logged items (e.g., probe calibration, glove check) in this appendix.",
+      "writer": "claude"
+    },
+    "f986c03577fe135e": {
+      "note": "This chunk is clause 40.10.2 from the DHL Germany cold-chain warehouse appendix, under the Crate Label section. It states that a missing crate label entry is corrected on the same shift sheet and is not a customer delivery promise, following the standard pattern used across all logged items in this appendix, and precedes clause 40.10.3 on the customs-hold disclaimer.",
+      "writer": "claude"
+    },
+    "38dc34a79d81fa22": {
+      "note": "This chunk is clause 40.10.3 from the DHL Germany cold-chain warehouse appendix, under the Crate Label section (40.10). It belongs to carrier DHL, country Germany, commodity class cold_chain. It states that the crate label log entry does not alter the customs-hold response defined in the service agreement, mirroring the same disclaimer pattern used in all other warehouse log sections (e.g., probe calibration, pallet wrap) throughout this appendix.",
+      "writer": "claude"
+    },
+    "ca98c4818e255494": {
+      "note": "This chunk is the section header '40.11 Ice Pack' from the DHL Germany cold-chain warehouse appendix. It belongs to carrier DHL, country Germany, commodity class cold_chain. It introduces a new warehouse log topic, following the same repeating three-clause structure (completion frequency, missing-entry correction, customs-hold non-impact) seen in prior sections like 40.10 Crate Label, and precedes 40.12 Shelf Height.",
+      "writer": "claude"
+    },
+    "8fd6fe1dc52f7bcf": {
+      "note": "This chunk is clause 40.11.1 from the DHL Germany cold-chain warehouse appendix, under the Ice Pack section (40.11). It belongs to carrier DHL, country Germany, commodity class cold_chain. It states that the warehouse log for ice pack is completed once per shift for Germany cold-chain freight, consistent with the identical completion-frequency statements found in all other subsections of this appendix, such as Crate Label and Shelf Height.",
+      "writer": "claude"
+    },
+    "97bd7f1e0311df3b": {
+      "note": "This chunk is clause 40.11.2 from the DHL Germany cold-chain warehouse appendix, under the Ice Pack section (40.11). It belongs to carrier DHL, country Germany, commodity class cold_chain. It states that a missing ice pack log entry is corrected on the same shift sheet and is not a customer delivery promise, matching the standard missing-entry clause repeated across all sections of this appendix, immediately preceding clause 40.11.3 on the customs-hold response.",
+      "writer": "claude"
+    },
+    "531fc6598131ce14": {
+      "note": "This clause is from the DHL Germany cold-chain warehouse appendix, section 40.11 (Ice Pack), for DHL carrier, Germany, cold_chain commodity class. It states that the ice pack log entry does not alter the customs-hold response defined in the main service agreement, mirroring the same disclaimer pattern used for all other warehouse log items in this appendix (e.g., probe calibration, pallet wrap).",
+      "writer": "claude"
+    },
+    "cd30b66df2c5ec25": {
+      "note": "This is the section heading '40.12 Shelf Height' from the DHL Germany cold-chain warehouse appendix, covering DHL, Germany, cold_chain commodity class. It introduces the shelf height warehouse log subsection, following the same structural pattern as prior sections (40.1 through 40.11) and preceding similar sections like 40.13 Aisle Width.",
+      "writer": "claude"
+    },
+    "33688ff1d91b6d05": {
+      "note": "This clause belongs to section 40.12.1 of the DHL Germany cold-chain warehouse appendix, under the Shelf Height heading, for DHL, Germany, cold_chain commodity. It states that the shelf height warehouse log is completed once per shift, consistent with the per-shift logging requirement described identically for all other warehouse items in this appendix.",
+      "writer": "claude"
+    },
+    "7eb4b5662e5a5f8b": {
+      "note": "This clause is section 40.12.2 of the DHL Germany cold-chain warehouse appendix, under Shelf Height, for DHL, Germany, cold_chain commodity. It specifies that a missing shelf height log entry is corrected on the same shift sheet and is not a customer delivery promise, following the identical pattern used in all other subsections of this appendix (e.g., probe calibration, pallet wrap, ice pack).",
+      "writer": "claude"
+    },
+    "955854da6ef2eb2c": {
+      "note": "This is clause 40.12.3 from the DHL Germany cold-chain warehouse appendix, closing out the Shelf Height subsection. Like all parallel subsections in this appendix, it clarifies that the shelf height log entry does not alter the customs-hold response defined in the main service agreement, maintaining the appendix's limited scope for Germany cold-chain freight handled by DHL.",
+      "writer": "claude"
+    },
+    "2328532edda033af": {
+      "note": "This is the heading for section 40.13, Aisle Width, within the DHL Germany cold-chain warehouse appendix. It introduces a subsection structurally identical to the preceding ones (e.g., Shelf Height) and following ones (e.g., Light Check), covering warehouse logging practices for Germany cold-chain freight under DHL.",
+      "writer": "claude"
+    },
+    "f4160f01536a27d5": {
+      "note": "This is clause 40.13.1 from the DHL Germany cold-chain warehouse appendix, under the Aisle Width subsection. It states that the warehouse log for aisle width is completed once per shift for Germany cold-chain freight, paralleling identical per-shift logging requirements in other subsections like Shelf Height and Light Check.",
+      "writer": "claude"
+    },
+    "ef975ec476a2ef91": {
+      "note": "This is clause 40.13.2 from the DHL Germany cold-chain warehouse appendix, under the Aisle Width subsection. It specifies that a missing aisle width entry is corrected on the same shift sheet and is not a customer delivery promise, consistent with the corrective procedure described in other subsections of this appendix for Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "db4e21c5593a8512": {
+      "note": "This chunk is clause 40.13.3 from the DHL Germany cold-chain warehouse appendix, concluding section 40.13 Aisle Width. It states the aisle width entry does not alter the customs-hold response in the service agreement, mirroring the standard disclaimer pattern used throughout this appendix for each warehouse log item (probe calibration, pallet wrap, etc.) for DHL Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "0586644f5695446c": {
+      "note": "This is the section heading '40.14 Light Check' from the DHL Germany cold-chain warehouse appendix, immediately following section 40.13 Aisle Width. It introduces the three-clause subsection (40.14.1\u201340.14.3) covering the light check warehouse log requirement for DHL cold-chain freight operations in Germany, following the same recurring structure as prior sections.",
+      "writer": "claude"
+    },
+    "e1135c11ec662bc0": {
+      "note": "This chunk is clause 40.14.1 from the DHL Germany cold-chain warehouse appendix, within section 40.14 Light Check. It states that the warehouse log for light check is completed once per shift for Germany cold-chain freight, consistent with the identical once-per-shift logging requirement established for all other checklist items in this appendix (e.g., probe calibration, pallet wrap, aisle width).",
+      "writer": "claude"
+    },
+    "accdaba12577d488": {
+      "note": "This chunk is clause 40.14.2 from the DHL Germany cold-chain warehouse appendix, within section 40.14 Light Check, following 40.14.1. It clarifies that a missing light check entry is corrected on the same shift sheet and is not a customer delivery promise, matching the standard remediation language applied to every warehouse log item in this appendix (e.g., probe calibration, pallet wrap, dock curtain).",
+      "writer": "claude"
+    },
+    "8a8f562070975434": {
+      "note": "This is clause 40.14.3, the final sub-clause of the Light Check section in the DHL Germany cold-chain warehouse appendix. Like all similarly structured logging clauses in this appendix, it clarifies that the light check log entry has no bearing on the customs-hold response defined in the separate service agreement, reinforcing the appendix's stated role as warehouse handling documentation only.",
+      "writer": "claude"
+    },
+    "7da75d340fb3e6a3": {
+      "note": "This is the section header for 40.15 Mop Record, part of the DHL Germany cold-chain warehouse appendix. It introduces a set of three clauses (40.15.1-40.15.3) following the same repeated pattern as prior sections (e.g., Light Check, Vent Filter) covering shift-based logging, correction procedure, and non-effect on customs-hold response.",
+      "writer": "claude"
+    },
+    "f0c4d64f2872bf5b": {
+      "note": "This is clause 40.15.1 under the Mop Record section of the DHL Germany cold-chain warehouse appendix. It states that the warehouse log for mop record is completed once per shift for Germany cold-chain freight, following the standard pattern used across all logging items in this appendix (probe calibration, pallet wrap, etc.).",
+      "writer": "claude"
+    },
+    "649fdb125b9774dc": {
+      "note": "This is clause 40.15.2 under the Mop Record section of the DHL Germany cold-chain warehouse appendix. It specifies that a missing mop record entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, consistent with the standard correction language used for all other logged items in this document (e.g., probe calibration, pallet wrap).",
+      "writer": "claude"
+    },
+    "df4420928ca851ff": {
+      "note": "This is clause 40.15.3 from the DHL Germany cold-chain warehouse appendix, concluding the Mop Record subsection. It applies to the Mop Record warehouse log entry and states that, like all other logged items in this appendix, this entry does not alter the customs-hold response defined in the service agreement.",
+      "writer": "claude"
+    },
+    "25da89587d257032": {
+      "note": "This is the heading for section 40.16 (Bin Number) in the DHL Germany cold-chain warehouse appendix, immediately following the Mop Record section (40.15). It introduces the three standard clauses (40.16.1\u201340.16.3) governing the bin number warehouse log entry for DHL Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "f4c5bae8e2a78e51": {
+      "note": "This is clause 40.16.1 from the DHL Germany cold-chain warehouse appendix, under the Bin Number subsection. It follows the section heading and states that the warehouse log for bin number is completed once per shift for Germany cold-chain freight, consistent with the pattern used throughout this appendix.",
+      "writer": "claude"
+    },
+    "fe3a5865e078dfa0": {
+      "note": "This is clause 40.16.2 from the DHL Germany cold-chain warehouse appendix, Bin Number subsection, following 40.16.1. It states that a missing bin number log entry is corrected on the same shift sheet and is not a customer delivery promise, mirroring the standard wording used for all other warehouse log items in this appendix.",
+      "writer": "claude"
+    },
+    "7706acb1ff334c8f": {
+      "note": "This clause is from the DHL Germany cold-chain warehouse appendix, closing section 40.16 (Bin Number). It confirms that, like all other warehouse log items in this appendix, the bin number entry does not alter the customs-hold response defined in the main service agreement, consistent with the parallel clauses for other checklist items.",
+      "writer": "claude"
+    },
+    "b86dd3b3cdae1790": {
+      "note": "This heading marks the start of section 40.17, 'Shift Board,' within the DHL Germany cold-chain warehouse appendix. It follows section 40.16 (Bin Number) and precedes the detailed sub-clauses 40.17.1\u201340.17.3, which describe shift-based logging, correction, and the limited legal effect of the shift board entry, mirroring the structure of prior sections.",
+      "writer": "claude"
+    },
+    "4576411c0dbf7d04": {
+      "note": "This is sub-clause 40.17.1 under section 40.17 (Shift Board) of the DHL Germany cold-chain warehouse appendix. It states that the warehouse log for shift board is completed once per shift for Germany cold-chain freight, following the same per-shift logging pattern established in all preceding sections of this appendix (e.g., probe calibration, pallet wrap).",
+      "writer": "claude"
+    },
+    "41afbc74bd125fdc": {
+      "note": "This is sub-clause 40.17.2 under section 40.17 (Shift Board) of the DHL Germany cold-chain warehouse appendix. It specifies that a missing shift board entry is corrected on the same shift sheet and is not a customer delivery promise, consistent with the identical correction language used throughout the appendix for other warehouse checklist items.",
+      "writer": "claude"
+    },
+    "202399169a498d66": {
+      "note": "This chunk is clause 40.17.3 from the DHL Germany cold-chain warehouse appendix, under the Shift Board section. It carries carrier DHL, country Germany, commodity class cold_chain. Like the other sub-clauses in this section (40.17.1 and 40.17.2), it clarifies that the shift board log entry does not alter the customs-hold response defined elsewhere in the service agreement; it is a warehouse-handling note only.",
+      "writer": "claude"
+    },
+    "d8719e015eba3ae2": {
+      "note": "This chunk is the section header '40.18 Radio Check' from the DHL Germany cold-chain warehouse appendix. It applies to carrier DHL, country Germany, commodity class cold_chain. It introduces the three following sub-clauses (40.18.1\u201340.18.3) describing the radio check log requirement, mirroring the structure of all other warehouse log sections (e.g., 40.17 Shift Board, 40.19 Mat Wash) in this appendix on warehouse handling for Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "e1c8938b2084caf6": {
+      "note": "This chunk is clause 40.18.1 from the DHL Germany cold-chain warehouse appendix, in the Radio Check section. It pertains to carrier DHL, country Germany, commodity class cold_chain. It states that the warehouse log for radio check is completed once per shift, following the same format as other logging requirements (e.g., Shift Board, Mat Wash) listed throughout this appendix, which only describes warehouse handling and does not alter section 4.2 of the service agreement.",
+      "writer": "claude"
+    },
+    "2ba3f1ad519917ac": {
+      "note": "This chunk is clause 40.18.2 from the DHL Germany cold-chain warehouse appendix, in the Radio Check section. It applies to carrier DHL, country Germany, commodity class cold_chain. It specifies that a missing radio check entry is corrected on the same shift sheet and is not a customer delivery promise, consistent with the pattern in all other sub-sections of this appendix (e.g., 40.17 Shift Board, 40.19 Mat Wash), which address warehouse handling only.",
+      "writer": "claude"
+    },
+    "67eeffbcdd6e7f3f": {
+      "note": "This is clause 40.18.3 from the DHL Germany cold-chain warehouse appendix, concluding the Radio Check subsection. It states, like all parallel subsections in this appendix, that the radio check entry does not alter the customs-hold response defined in the main service agreement, reaffirming that this appendix only governs warehouse log-keeping, not customs procedures.",
+      "writer": "claude"
+    },
+    "08c7b494d0168a00": {
+      "note": "This is the heading for section 40.19 'Mat Wash' within the DHL Germany cold-chain warehouse appendix. It follows the Radio Check subsection (40.18) and introduces a new subsection with the same three-part structure (logging frequency, correction procedure, and non-effect on customs-hold response) applied to mat wash records.",
+      "writer": "claude"
+    },
+    "81be65ea286355d8": {
+      "note": "This is clause 40.19.1 from the DHL Germany cold-chain warehouse appendix, under the Mat Wash subsection. It states that the warehouse log for mat wash is completed once per shift, consistent with the identical logging-frequency requirement applied to all other items (e.g., probe calibration, pallet wrap) in this appendix for DHL Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "192fa0d3616f5d96": {
+      "note": "This is clause 40.19.2 from the DHL Germany cold-chain warehouse appendix, under the Mat Wash subsection. It specifies that a missing mat wash log entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, mirroring the correction procedure stated for every other logged item in this appendix.",
+      "writer": "claude"
+    },
+    "e2bb2695d449c88e": {
+      "note": "This chunk is clause 40.19.3 from the DHL Germany cold-chain warehouse appendix, concluding the Mat Wash subsection. It states that the mat wash log entry does not alter the customs-hold response set out in the service agreement. Like all subsections in this appendix, it follows the pattern of defining a per-shift warehouse log item, addressing missing entries, and clarifying no effect on customs-hold handling or delivery promises under section 4.2.",
+      "writer": "claude"
+    },
+    "cb478bf4c3017100": {
+      "note": "This is the heading for section 40.20, 'Vent Filter,' within the DHL Germany cold-chain warehouse appendix. It introduces the next in a series of per-shift warehouse log categories covering carrier DHL, country Germany, and cold-chain commodity freight, following the Mat Wash subsection (40.19) and preceding the three numbered clauses (40.20.1\u201340.20.3) that detail logging, correction, and customs-hold non-effect for vent filter entries.",
+      "writer": "claude"
+    },
+    "51b6d9266fb55102": {
+      "note": "This chunk is clause 40.20.1 from the DHL Germany cold-chain warehouse appendix, under the Vent Filter subsection. It states that the warehouse log for vent filter is completed once per shift for Germany cold-chain freight handled by DHL. It mirrors the structure of prior subsections (e.g., Mat Wash, Tray Count) and precedes 40.20.2 and 40.20.3, which address missing entries and customs-hold implications.",
+      "writer": "claude"
+    },
+    "590e742df11f507c": {
+      "note": "This chunk is clause 40.20.2 from the DHL Germany cold-chain warehouse appendix, within the Vent Filter subsection. It clarifies that a missing vent filter log entry is corrected on the same shift sheet and does not constitute a customer delivery promise, for DHL's Germany cold-chain freight operations. It follows 40.20.1 (logging frequency) and precedes 40.20.3, which states the entry does not change the customs-hold response in the service agreement.",
+      "writer": "claude"
+    },
+    "a2dfeb29b07481b8": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, section 40.20 (Vent Filter). It states that the vent filter log entry does not alter the customs-hold response defined in the service agreement, mirroring the same disclaimer pattern used for all other warehouse log items (e.g., probe calibration, pallet wrap) in this appendix.",
+      "writer": "claude"
+    },
+    "6b97fcec4206f3b7": {
+      "note": "This chunk is the section heading '40.21 Tray Count' from the DHL Germany cold-chain warehouse appendix, introducing the tray count warehouse log subsection, which follows the same structure (40.21.1\u201340.21.3) as the preceding items like vent filter (40.20) and the subsequent lock log (40.22) sections.",
+      "writer": "claude"
+    },
+    "2518c2a329b9eb0e": {
+      "note": "This chunk is clause 40.21.1 under 'Tray Count' in the DHL Germany cold-chain warehouse appendix. It specifies that the warehouse log for tray count is completed once per shift for Germany cold-chain freight, consistent with the once-per-shift logging requirement stated for all other warehouse checks in this appendix (e.g., probe calibration, pallet wrap, vent filter).",
+      "writer": "claude"
+    },
+    "6f69f8f2477f2ddb": {
+      "note": "This chunk is clause 40.21.2 under 'Tray Count' in the DHL Germany cold-chain warehouse appendix. It states that a missing tray count entry is corrected on the same shift sheet and is not a customer delivery promise, matching the identical correction language used for every other warehouse log item (e.g., vent filter, lock log) in this appendix covering DHL's Germany cold-chain freight operations.",
+      "writer": "claude"
+    },
+    "dfd80a017adf423a": {
+      "note": "This is clause 40.21.3 from the DHL Germany cold-chain warehouse appendix, concluding the Tray Count subsection. Like all other subsections in this appendix, it clarifies that the tray count log entry does not alter the customs-hold response defined in the service agreement, reinforcing that this appendix only describes warehouse handling and does not change section 4.2 of the service agreement.",
+      "writer": "claude"
+    },
+    "ef45bef23edf268c": {
+      "note": "This is the heading for section 40.22 'Lock Log' in the DHL Germany cold-chain warehouse appendix, immediately following the Tray Count subsection (40.21) and preceding the Badge Scan subsection (40.23). It introduces a recurring three-part structure (logging frequency, missing-entry handling, and customs-hold clarification) applied uniformly to warehouse checklist items for Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "2b256c4b4f3d46a1": {
+      "note": "This is clause 40.22.1 from the DHL Germany cold-chain warehouse appendix, under the Lock Log subsection. It states that the warehouse log for lock log is completed once per shift for Germany cold-chain freight, following the same per-shift logging pattern used throughout the appendix's checklist items (e.g., probe calibration, pallet wrap, dock curtain).",
+      "writer": "claude"
+    },
+    "3337c278b0ee6397": {
+      "note": "This is clause 40.22.2 from the DHL Germany cold-chain warehouse appendix, under the Lock Log subsection. It specifies that a missing lock log entry is corrected on the same shift sheet and is not a customer delivery promise, mirroring the handling of missing entries described in all other warehouse checklist subsections in this appendix.",
+      "writer": "claude"
+    },
+    "d97661dddd17b800": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, clause 40.22.3, concluding the Lock Log section. It states that the lock log entry does not alter the customs-hold response defined in the service agreement, consistent with the pattern established across all warehouse log sections in this appendix.",
+      "writer": "claude"
+    },
+    "a3da61e19ab0ba5d": {
+      "note": "This chunk is the section header '40.23 Badge Scan' from the DHL Germany cold-chain warehouse appendix, introducing a new subsection following Lock Log (40.22). It precedes the three standard clauses (40.23.1\u201340.23.3) describing badge scan logging requirements for Germany cold-chain freight handled by DHL.",
+      "writer": "claude"
+    },
+    "3638ee4d12c5fc30": {
+      "note": "This chunk is clause 40.23.1 from the DHL Germany cold-chain warehouse appendix, part of the Badge Scan section. It specifies that the warehouse log for badge scan is completed once per shift for Germany cold-chain freight, mirroring the same requirement structure applied to all other warehouse checks in this appendix.",
+      "writer": "claude"
+    },
+    "d4f6913135192c11": {
+      "note": "This chunk is clause 40.23.2 from the DHL Germany cold-chain warehouse appendix, within the Badge Scan section. It clarifies that a missing badge scan entry is corrected on the same shift sheet and does not constitute a customer delivery promise, following the same pattern as other warehouse log clauses in this document.",
+      "writer": "claude"
+    },
+    "b0955c317347c758": {
+      "note": "This clause is from the DHL Germany cold-chain warehouse appendix, section 40.23 (Badge Scan). It clarifies that the badge scan log entry, like other warehouse checklist items in this appendix, does not alter the customs-hold response defined in the main service agreement, consistent with the pattern established across sections 40.1\u201340.25.",
+      "writer": "claude"
+    },
+    "cd36bee017583526": {
+      "note": "This is the section heading for 40.24 Hose Reel within the DHL Germany cold-chain warehouse appendix. It introduces the hose reel subsection, which follows the same three-clause structure (logging frequency, missing-entry correction, and customs-hold non-effect) used throughout sections 40.1\u201340.25 for this carrier, country, and commodity class.",
+      "writer": "claude"
+    },
+    "8711927e379fa7d5": {
+      "note": "This clause belongs to section 40.24 (Hose Reel) of the DHL Germany cold-chain warehouse appendix. It states that the hose reel warehouse log is completed once per shift, mirroring the identical per-shift logging requirement applied to all other warehouse checklist items (probe calibration, pallet wrap, etc.) covered in this appendix for Germany cold-chain freight.",
+      "writer": "claude"
+    },
+    "93fbf48e016e65cd": {
+      "note": "This clause is part of section 40.24 (Hose Reel) in the DHL Germany cold-chain warehouse appendix. It specifies that a missing hose reel log entry is corrected on the same shift sheet and explicitly is not a customer delivery promise, matching the standard disclaimer language repeated for every warehouse log item (40.1\u201340.25) in this appendix.",
+      "writer": "claude"
+    },
+    "7335cc6f6ae7411f": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, section 40.24 (Hose Reel), clause 40.24.3. It clarifies that, like all other warehouse log items in this appendix (DHL, Germany, cold_chain), the hose reel entry does not alter the customs-hold response defined in the separate service agreement, consistent with the pattern established across sections 40.1\u201340.25.",
+      "writer": "claude"
+    },
+    "9bec4ac11cdcee6f": {
+      "note": "This is the heading for section 40.25, 'Spill Kit', within the DHL Germany cold-chain warehouse appendix. It introduces the spill kit warehouse log clauses, following the same three-part structure (frequency, missing entry correction, no change to customs-hold response) used for all 25 log items (probe calibration through spill kit) in this appendix.",
+      "writer": "claude"
+    },
+    "0e7639988e306ad9": {
+      "note": "This chunk is clause 40.25.1 from the DHL Germany cold-chain warehouse appendix, Spill Kit section. It states the warehouse log for spill kit is completed once per shift for Germany cold-chain freight, mirroring the identical per-shift completion requirement stated for all other log items (e.g., probe calibration, pallet wrap) in this appendix.",
+      "writer": "claude"
+    },
+    "41fd425433660bad": {
+      "note": "This chunk is clause 40.25.2 from the DHL Germany cold-chain warehouse appendix, Spill Kit section, the last of 25 log-item subsections. It states that a missing spill kit entry is corrected on the same shift sheet and is not a customer delivery promise, matching the standard language used for every other warehouse log item in sections 40.1 through 40.25.",
+      "writer": "claude"
+    },
+    "2732f0c5a2734d71": {
+      "note": "This chunk is from the DHL Germany cold-chain warehouse appendix, under section 40.25 (Spill Kit), clause 40.25.3. It clarifies that, like all other logged items in this appendix (e.g., probe calibration, pallet wrap, door seal), the spill kit entry does not alter the customs-hold response defined in the separate service agreement. This mirrors the identical disclaimer clause pattern (x.x.3) used across all 25 subsections of this appendix for DHL Germany cold-chain freight.",
+      "writer": "claude"
+    }
+  },
+  "dhl_nl_pharma.md": {
+    "7014d41768118c33": {
+      "note": "This is the header of the 'DHL Netherlands pharma boundary' document, identifying the scope as DHL carrier, Netherlands country destination, and pharma commodity class; it establishes the context for the certificate boundary clause (13.1) that follows, which restricts timeline promises to this narrow carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "efdd1e15a8160526": {
+      "note": "This is the section heading '13.1 Certificate boundary' within the DHL Netherlands pharma document, introducing the three sub-clauses (13.1.1\u201313.1.3) that define the scope limitation and the requirement for human verification before any health-certificate notice timeline is promised for DHL pharma shipments to the Netherlands.",
+      "writer": "claude"
+    },
+    "43e5fe2b1685760e": {
+      "note": "This is clause 13.1.1 of the DHL Netherlands pharma boundary document, stating the scope restriction that this clause applies only to pharma shipments destined for the Netherlands carried by DHL; it sets up the following clauses (13.1.2 and 13.1.3), which clarify that DHL's certificate notice rules differ from UPS's and require manual review.",
+      "writer": "claude"
+    },
+    "8fe1230a3748f788": {
+      "note": "This is clause 13.1.2 of the DHL Netherlands pharma boundary document, specifying that for DHL pharma shipments to the Netherlands, the carrier does not adopt UPS's one-business-day health-certificate notice rule; it follows the scope statement in 13.1.1 and precedes 13.1.3, which requires human verification of the DHL pharma file before any notice timeline is communicated.",
+      "writer": "claude"
+    },
+    "fead6e830a12e06d": {
+      "note": "This chunk is from the DHL Netherlands pharma boundary document, under section 13.1 Certificate boundary, covering carrier DHL, country Netherlands, and commodity class pharma. Clause 13.1.3 establishes a mandatory human review requirement: a human must check the DHL pharma file before any notice timeline can be promised. It follows 13.1.2, which clarifies that DHL does not borrow UPS's one-business-day health-certificate notice, reinforcing that no automatic timeline exists absent manual verification for DHL pharma shipments to Netherlands.",
+      "writer": "claude"
+    }
+  },
+  "distractor_barcode_side_04.md": {
+    "f336f81842ca58c9": {
+      "note": "This is the header of DHL Belgium archive note 4, identifying the document's scope: carrier DHL, country Belgium, commodity class pharma. It precedes section 30.4 (Archive scan), which contains the applicability clause (30.4.1), the barcode scan requirement (30.4.2), and the disclaimer (30.4.3), all specific to this DHL/Belgium/pharma context.",
+      "writer": "claude"
+    },
+    "94c78beb09c9d1f6": {
+      "note": "This is the section title '30.4 Archive scan' within DHL Belgium archive note 4, covering pharma shipments to Belgium via DHL. It introduces the subclauses that follow: 30.4.1 (applicability), 30.4.2 (barcode scan requirement), and 30.4.3 (disclaimer), defining the scope of archive scanning procedures for this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "6fdbe3f1541c4893": {
+      "note": "This is clause 30.4.1 under section 30.4 'Archive scan' in DHL Belgium archive note 4, for carrier DHL, country Belgium, commodity pharma. It establishes that the archive scan clauses apply exclusively to pharma shipments to Belgium carried by DHL, setting the scope for clause 30.4.2 (barcode scan procedure) and 30.4.3 (disclaimer) that follow.",
+      "writer": "claude"
+    },
+    "2c57a3ee33addaf9": {
+      "note": "This is clause 30.4.2 under section 30.4 'Archive scan' in DHL Belgium archive note 4, for carrier DHL, country Belgium, commodity pharma. Following 30.4.1's scope statement, it specifies that the barcode must face the camera during the dock scan and confirms DHL as Reference 4, preceding the disclaimer in 30.4.3 regarding delivery dates, refunds, and customs release.",
+      "writer": "claude"
+    },
+    "56536694b7087919": {
+      "note": "This is clause 30.4.3 from the DHL Belgium archive note 4, which applies to pharma shipments to Belgium carried by DHL. It follows 30.4.1 (scope limitation to this carrier/country/commodity) and 30.4.2 (barcode-facing-camera requirement during dock scan referencing DHL). This clause serves as a disclaimer, clarifying that the archive note itself does not guarantee a delivery date, a refund, or a customs release, limiting the scope of commitments made elsewhere in the note.",
+      "writer": "claude"
+    }
+  },
+  "distractor_barcode_side_14.md": {
+    "1fb2132a595d4b7f": {
+      "note": "This is the header block of FedEx France archive note 14, identifying the carrier as FedEx, the country as France, and the commodity class as pharma. It establishes the scope for the scope clause (30.14.1), the scan requirement (30.14.2), and the disclaimer (30.14.3) that follow in this same archive note.",
+      "writer": "claude"
+    },
+    "211f19d7461d15c7": {
+      "note": "This is the section heading '30.14 Archive scan' within FedEx France archive note 14, covering pharma shipments to France carried by FedEx. It introduces the subsequent clauses 30.14.1 (scope), 30.14.2 (barcode/dock scan requirement), and 30.14.3 (disclaimer on delivery date, refund, and customs release).",
+      "writer": "claude"
+    },
+    "f26bbc2fba49650b": {
+      "note": "This is clause 30.14.1 of FedEx France archive note 14 (pharma commodity class). It defines the scope, limiting the archive scan requirements to pharma shipments to France carried by FedEx, setting up the specific scan procedure detailed in clause 30.14.2 and the disclaimer in clause 30.14.3.",
+      "writer": "claude"
+    },
+    "16cc41c8ff4482ad": {
+      "note": "This is clause 30.14.2 of FedEx France archive note 14, applicable to pharma shipments to France carried by FedEx. It specifies the dock scan procedure\u2014requiring the barcode to face the camera\u2014and confirms the reference to FedEx as carrier, following the scope statement in 30.14.1 and preceding the disclaimer in 30.14.3.",
+      "writer": "claude"
+    },
+    "f0a7f3c17b887281": {
+      "note": "This situating note belongs to FedEx France archive note 14, covering pharma shipments to France carried by FedEx. Clause 30.14.3 is the closing disclaimer of this archive scan section, following 30.14.1 (scope limitation to FedEx pharma shipments to France) and 30.14.2 (barcode-facing requirement during dock scan). It clarifies that the archive note itself carries no assurance of a delivery date, refund, or customs release, limiting the document's scope to a scanning/archival requirement only.",
+      "writer": "claude"
+    }
+  },
+  "distractor_barcode_side_24.md": {
+    "2e6a0e2346d0258a": {
+      "note": "This is the header of UPS Brazil archive note 24, identifying the document's scope: carrier UPS, country Brazil, and commodity class pharma. It establishes the metadata that governs all subsequent clauses (30.24.1\u201330.24.3) in this archive scan note, which address scope, barcode scanning requirements, and explicit non-promises regarding delivery, refunds, or customs release for pharma shipments to Brazil.",
+      "writer": "claude"
+    },
+    "6f7c03627579d1cc": {
+      "note": "This is the section heading '30.24 Archive scan' within UPS Brazil archive note 24, covering pharma shipments to Brazil via UPS. It introduces the numbered clauses that follow (30.24.1 on scope, 30.24.2 on barcode scanning, and 30.24.3 on disclaimers), situating them under the archive scan topic for this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "e6620d89c1e9497b": {
+      "note": "This is clause 30.24.1 of UPS Brazil archive note 24, specifying that the note applies solely to pharma shipments to Brazil carried by UPS. It sets the scope for the subsequent clause 30.24.2, which details the barcode-facing requirement during dock scanning, and clause 30.24.3, which clarifies what the note does not promise.",
+      "writer": "claude"
+    },
+    "613cc96e9dd84a6f": {
+      "note": "This is clause 30.24.2 of UPS Brazil archive note 24, under the Archive scan section for pharma shipments to Brazil via UPS. It specifies that the barcode must face the camera during the dock scan and confirms that reference 24 names UPS as the carrier, following the scope statement in 30.24.1 and preceding the disclaimer in 30.24.3.",
+      "writer": "claude"
+    },
+    "69446c25f1251863": {
+      "note": "This note is from UPS Brazil archive note 24, covering pharma shipments to Brazil carried by UPS. Clause 30.24.3 follows the scope clause (30.24.1, limiting applicability to UPS pharma shipments to Brazil) and the dock scan requirement (30.24.2, barcode facing camera during scan). This clause clarifies that the archive note itself carries no guarantees: it does not promise a delivery date, a refund, or a customs release, limiting the document's purpose strictly to recording the archive scan requirement.",
+      "writer": "claude"
+    }
+  },
+  "distractor_box_count_10.md": {
+    "142eb427ee11617b": {
+      "note": "This is the header of DHL Belgium archive note 10, a document tracking DHL shipments of food commodities into Belgium. It establishes the identifying metadata\u2014carrier (DHL), country (Belgium), and commodity class (food)\u2014that governs the scope of the subsequent clauses in section 30.10, including the eligibility rule, the box count comparison, and the disclaimer about what the archive note does not promise.",
+      "writer": "claude"
+    },
+    "a3a71907b1ee92a0": {
+      "note": "This heading introduces section 30.10, titled 'Archive scan,' within the DHL Belgium food archive note 10. It groups the three numbered clauses that follow (30.10.1 through 30.10.3), which define the scope of applicability, describe the box count verification process against the dock tally, and clarify the limits of what this archive note confirms for DHL food shipments to Belgium.",
+      "writer": "claude"
+    },
+    "e5dc750d4027e52d": {
+      "note": "This is clause 30.10.1 of DHL Belgium archive note 10, within the 'Archive scan' section. It restricts the note's applicability specifically to food shipments destined for Belgium and transported by DHL, setting the scope boundary before the following clause (30.10.2) describes the box count comparison against the dock tally and clause 30.10.3 clarifies what is not promised.",
+      "writer": "claude"
+    },
+    "bcd235c985a4fe92": {
+      "note": "This is clause 30.10.2 of DHL Belgium archive note 10, under the 'Archive scan' section, applying to DHL food shipments to Belgium per clause 30.10.1. It describes the verification process where the declared box count is checked against the dock tally, and notes that Reference 10 identifies DHL as the carrier. The following clause, 30.10.3, clarifies the limits of what this archive note confirms.",
+      "writer": "claude"
+    },
+    "a778a0745ffec7e1": {
+      "note": "This chunk is clause 30.10.3 from DHL Belgium archive note 10, covering food shipments carried by DHL to Belgium. It follows clause 30.10.2, which describes comparing the declared box count against the dock tally and notes Reference 10 names DHL. This clause clarifies the scope of the archive note by explicitly disclaiming that it promises no delivery date, refund, or customs release, limiting the note's purpose to archival record-keeping rather than service guarantees for this carrier-country-commodity combination.",
+      "writer": "claude"
+    }
+  },
+  "distractor_box_count_20.md": {
+    "a5c8c872eadc5560": {
+      "note": "This is the header block of FedEx France archive note 20, identifying the carrier as FedEx, the country as France, and the commodity class as food. It establishes the scope for the archive scan section that follows, specifying that all subsequent clauses (30.20.1\u201330.20.3) pertain to this FedEx France food shipment record.",
+      "writer": "claude"
+    },
+    "f7671fe967b4320f": {
+      "note": "This is the section heading '30.20 Archive scan' from FedEx France archive note 20, covering food commodity shipments. It introduces the archive scan clauses that follow (30.20.1 through 30.20.3), which detail the scope, verification method, and limitations of this FedEx France food shipment record.",
+      "writer": "claude"
+    },
+    "7dfdf476e9ab8f0c": {
+      "note": "This is clause 30.20.1 of FedEx France archive note 20, under the 'Archive scan' section, for food commodity shipments. It defines the scope of the archive note, limiting its applicability to food shipments to France carried by FedEx, setting context for the box count verification described in clause 30.20.2 and the disclaimer in clause 30.20.3.",
+      "writer": "claude"
+    },
+    "7c2e79bdda7d3c26": {
+      "note": "This is clause 30.20.2 of FedEx France archive note 20, within the 'Archive scan' section, pertaining to FedEx food shipments to France. It describes the verification process comparing declared box count to dock tally and confirms FedEx as the named carrier, following the scope statement in 30.20.1 and preceding the disclaimer in 30.20.3.",
+      "writer": "claude"
+    },
+    "88f6ded134b4ca64": {
+      "note": "This is clause 30.20.3 from FedEx France archive note 20, which applies to food shipments carried by FedEx to France (per 30.20.1), following the description of box count versus dock tally comparison in 30.20.2. This final clause explicitly disclaims any assurance of delivery timing, refund, or customs release, clarifying the limited scope of the archive note\u2014it serves only as a reference record (Reference 20 naming FedEx) and not as a guarantee of service outcomes for this food commodity shipment.",
+      "writer": "claude"
+    }
+  },
+  "distractor_box_count_30.md": {
+    "6ed354fb909a59a2": {
+      "note": "This is the header of UPS Brazil archive note 30, identifying the document's scope: carrier UPS, country Brazil, commodity class food. It establishes the context for all subsequent clauses in section 30.30, which address how box counts are verified for food shipments and clarify that the note makes no guarantees about delivery, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "e2dc3e2eb1c85655": {
+      "note": "This is the section heading '30.30 Archive scan' within UPS Brazil archive note 30, covering food shipments. It introduces the archive scan topic, setting up clause 30.30.1 which restricts applicability to UPS-carried food shipments to Brazil, and clause 30.30.2 on box count comparison, followed by 30.30.3's disclaimer of promises.",
+      "writer": "claude"
+    },
+    "a350c806daa220d2": {
+      "note": "This is clause 30.30.1 of UPS Brazil archive note 30, under the Archive scan section, for food commodities. It limits the scope of this archive note strictly to food shipments destined for Brazil and carried by UPS, distinguishing this record from shipments involving other carriers, countries, or commodity classes, and precedes the box count comparison described in 30.30.2.",
+      "writer": "claude"
+    },
+    "cf0d62462eaa0345": {
+      "note": "This is clause 30.30.2 of UPS Brazil archive note 30, part of the Archive scan section for UPS food shipments to Brazil. It describes the verification process comparing the declared box count against the dock tally, and notes that Reference 30 names UPS as the carrier, following the scope restriction in 30.30.1 and preceding the disclaimer in 30.30.3.",
+      "writer": "claude"
+    },
+    "259b97b63c269fc8": {
+      "note": "This note belongs to UPS Brazil archive note 30, section 30.30 (Archive scan), covering food shipments carried by UPS to Brazil. Clause 30.30.3 follows 30.30.1 (scope limitation to UPS food shipments to Brazil) and 30.30.2 (box count vs. dock tally comparison, referencing UPS). It serves as a disclaimer clarifying that this archive scan record does not guarantee a delivery date, a refund, or customs release, limiting the document's scope to a tally reference rather than a service commitment.",
+      "writer": "claude"
+    }
+  },
+  "distractor_label_color_01.md": {
+    "df4617a08a128aeb": {
+      "note": "This chunk is the header of \"DHL Germany archive note 1,\" identifying the document's scope: carrier DHL, country Germany, commodity class general. It establishes the metadata that governs all subsequent clauses in section 30.1, including the applicability clause (30.1.2) and the archive photo recordkeeping clause (30.1.3), without making any commitments regarding delivery timing, refunds, or customs clearance.",
+      "writer": "claude"
+    },
+    "da67ecd7e15226a8": {
+      "note": "This chunk introduces section 30.1, titled \"Archive scan,\" within the DHL Germany archive note 1 document for general commodity shipments. It serves as the heading preceding the applicability clause (30.1.1) and the label photo recordkeeping clause (30.1.2), framing the section's focus on archival photo documentation rather than delivery, refund, or customs matters.",
+      "writer": "claude"
+    },
+    "43e8a65ea972df94": {
+      "note": "This is clause 30.1.1 of DHL Germany archive note 1, under section 30.1 (Archive scan), for general commodity shipments. It restricts the note's applicability to general shipments to Germany carried by DHL, setting the scope for the following clause (30.1.2) about archive photo labeling and the disclaimer in 30.1.3 that no delivery, refund, or customs promises are made.",
+      "writer": "claude"
+    },
+    "f344a4425a665fe0": {
+      "note": "This is clause 30.1.2 of DHL Germany archive note 1, under section 30.1 (Archive scan), covering general commodity shipments to Germany via DHL. It describes the recording of the outer label color for the archive photo and notes that Reference 1 identifies DHL. It follows the applicability statement (30.1.1) and precedes the disclaimer (30.1.3) clarifying no delivery date, refund, or customs release is promised.",
+      "writer": "claude"
+    },
+    "dcca210f611efee8": {
+      "note": "This is clause 30.1.3 from the 'DHL Germany archive note 1' document, concerning DHL carrier shipments of general commodity class to Germany. It follows clauses 30.1.1 (scope limitation to general shipments to Germany via DHL) and 30.1.2 (recording of outer label color for archive photo purposes). This clause serves as a disclaimer, explicitly stating that the archive note itself does not constitute or imply any promise of a delivery date, a refund, or a customs release, clarifying the limited, record-keeping purpose of the preceding clauses.",
+      "writer": "claude"
+    }
+  },
+  "distractor_label_color_11.md": {
+    "26e12fd9d849ef26": {
+      "note": "This is the header section of FedEx Netherlands archive note 11, identifying the carrier as FedEx, the country as Netherlands, and the commodity class as general. It introduces the document and precedes the numbered clauses (30.11.1\u201330.11.3) that define the scope and content of this archive scan record.",
+      "writer": "claude"
+    },
+    "e84ecc07a02e0f15": {
+      "note": "This is the section title '30.11 Archive scan' within the FedEx Netherlands archive note 11, covering general commodity shipments. It introduces the subsequent numbered clauses 30.11.1 through 30.11.3, which detail the scope, archival content, and limitations of this FedEx Netherlands archive scan record.",
+      "writer": "claude"
+    },
+    "736dbf1148f37dc3": {
+      "note": "This is clause 30.11.1 of FedEx Netherlands archive note 11, under the Archive scan section, for general commodity shipments. It defines the scope, limiting applicability to general shipments to Netherlands carried by FedEx, setting context for clause 30.11.2's description of the archive photo and 30.11.3's listed exclusions.",
+      "writer": "claude"
+    },
+    "624fb37b6601e137": {
+      "note": "This is clause 30.11.2 of FedEx Netherlands archive note 11, under the Archive scan section, for general shipments to Netherlands carried by FedEx. It follows clause 30.11.1's scope statement and notes that the outer label color is recorded in the archive photo, with reference 11 naming FedEx as the carrier, preceding the exclusions listed in 30.11.3.",
+      "writer": "claude"
+    },
+    "c62da4cfa8fe3b31": {
+      "note": "This is clause 30.11.3 from FedEx Netherlands archive note 11 (general commodity class), the final clause in the section. It follows 30.11.1, which scopes the note to general shipments to the Netherlands carried by FedEx, and 30.11.2, which describes recording the outer label color for the archive photo and referencing FedEx. This clause clarifies that the archive note itself carries no assurances regarding delivery timing, refunds, or customs clearance, limiting the note's purpose strictly to archival photo documentation.",
+      "writer": "claude"
+    }
+  },
+  "distractor_label_color_21.md": {
+    "9bcef992d89e0650": {
+      "note": "This is the header of UPS Spain archive note 21, identifying the document's scope as carrier UPS, country Spain, and commodity class general. It precedes the archive scan clause (30.21) that details scope, data recorded, and disclaimers, establishing the metadata context for the rest of the note.",
+      "writer": "claude"
+    },
+    "e35ec64f113fe9c3": {
+      "note": "This is the section heading '30.21 Archive scan' within UPS Spain archive note 21, covering general commodity shipments carried by UPS to Spain. It introduces the subclauses 30.21.1\u201330.21.3, which define the clause's applicability, the archived data point, and the explicit non-promises regarding delivery, refund, or customs release.",
+      "writer": "claude"
+    },
+    "417b287efb95f2c6": {
+      "note": "This is clause 30.21.1 of UPS Spain archive note 21, specifying that the archive scan clause applies solely to general-commodity shipments to Spain carried by UPS. It sets the scope boundary for the subsequent clauses 30.21.2, which describes the recorded archive data, and 30.21.3, which lists what the note does not promise.",
+      "writer": "claude"
+    },
+    "cd36659dda8a50c9": {
+      "note": "This is clause 30.21.2 of UPS Spain archive note 21, under the general commodity class for UPS shipments to Spain. It states that the outer label color is recorded for the archive photo and that Reference 21 names UPS, following the scope statement in 30.21.1 and preceding the disclaimer in 30.21.3 about delivery dates, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "1c2f0ef9c5154b36": {
+      "note": "This chunk is clause 30.21.3 from the UPS Spain archive note 21 document, covering general commodity shipments carried by UPS to Spain. It follows clauses 30.21.1, which scopes the note to general shipments to Spain via UPS, and 30.21.2, which describes the archived outer label color photo referencing UPS. This clause clarifies the limited purpose of the archive note, explicitly stating it does not constitute a promise of a delivery date, refund, or customs release, distinguishing it from service guarantees.",
+      "writer": "claude"
+    }
+  },
+  "distractor_pallet_height_02.md": {
+    "64c8d13af5a6f83a": {
+      "note": "This is the header block of the document titled \"FedEx France archive note 2,\" identifying the carrier as FedEx, the destination country as France, and the commodity class as electronics. It establishes the scope for the entire archive note, including the subsequent section 30.2 \"Archive scan,\" which details applicability, measurement practices, and limitations of the record for this FedEx France electronics shipment archive.",
+      "writer": "claude"
+    },
+    "f14fa80fb9e70f1a": {
+      "note": "This is the section heading \"30.2 Archive scan\" within the FedEx France archive note 2 document, covering electronics shipments to France via FedEx. It introduces the three clauses that follow: scope of applicability (30.2.1), pallet height measurement and scan storage details referencing FedEx (30.2.2), and a disclaimer about what the archive note does not promise (30.2.3).",
+      "writer": "claude"
+    },
+    "4d2230c21c67f639": {
+      "note": "This is clause 30.2.1 under section \"30.2 Archive scan\" in the FedEx France archive note 2 document, pertaining to FedEx shipments of electronics to France. It defines the clause's limited applicability\u2014only electronics shipments to France carried by FedEx\u2014setting context for the pallet measurement details in clause 30.2.2 and the disclaimer in clause 30.2.3 that follow within the same archive scan section.",
+      "writer": "claude"
+    },
+    "57a4f0b49dd8713a": {
+      "note": "This is clause 30.2.2 under section \"30.2 Archive scan\" in the FedEx France archive note 2 document, applicable to FedEx electronics shipments to France. It describes how pallet height is measured at the dock and stored with the scan, explicitly noting that Reference 2 names FedEx as the carrier. It follows the scope clause 30.2.1 and precedes the disclaimer clause 30.2.3 in this archive record.",
+      "writer": "claude"
+    },
+    "9ea1f2262136daa9": {
+      "note": "This chunk is clause 30.2.3 from FedEx France archive note 2, covering electronics shipments carried by FedEx to France. It follows clause 30.2.2, which describes pallet height measurement at the dock and its storage with the scan, referencing FedEx by name. This clause clarifies the limits of the archive note itself, stating that it does not constitute a promise of a delivery date, a refund, or a customs release, reinforcing that the document's scope is confined to archival scan information under section 30.2.",
+      "writer": "claude"
+    }
+  },
+  "distractor_pallet_height_12.md": {
+    "13963d75f48c623b": {
+      "note": "This is the header of UPS Brazil archive note 12, identifying the document as applying to UPS, carrier for shipments to Brazil, within the electronics commodity class. It establishes the scope for the archive scan section and clauses 30.12.1 through 30.12.3 that follow, setting context for the pallet height measurement and the disclaimer on promises.",
+      "writer": "claude"
+    },
+    "21a27775142602df": {
+      "note": "This is the section heading '30.12 Archive scan' within UPS Brazil archive note 12, covering electronics shipments carried by UPS to Brazil. It introduces the following clauses 30.12.1\u201330.12.3, which define scope, describe the pallet height measurement recorded with the scan, and clarify that no delivery date, refund, or customs release is promised.",
+      "writer": "claude"
+    },
+    "e75b277cb596f8eb": {
+      "note": "This is clause 30.12.1 of UPS Brazil archive note 12, for UPS-carried electronics shipments to Brazil. It defines the scope of this archive note's applicability, limiting it strictly to this carrier, country, and commodity class. It precedes clause 30.12.2, which describes the pallet height measurement process, and clause 30.12.3, which disclaims certain promises.",
+      "writer": "claude"
+    },
+    "17ee24f08119fc49": {
+      "note": "This is clause 30.12.2 of UPS Brazil archive note 12, concerning UPS electronics shipments to Brazil. It follows clause 30.12.1, which sets the scope, and describes how pallet height is measured at the dock and stored alongside the archive scan, noting that Reference 12 names UPS as the carrier. It precedes clause 30.12.3's disclaimer.",
+      "writer": "claude"
+    },
+    "f074b22268715d50": {
+      "note": "This chunk is clause 30.12.3 from UPS Brazil archive note 12, covering electronics shipments carried by UPS to Brazil. It follows clause 30.12.2, which describes how pallet height is measured at the dock and stored with the scan referencing UPS. This closing clause clarifies the limits of the archive note's scope, explicitly stating it does not guarantee a delivery date, refund, or customs release, distinguishing the record-keeping function of the scan from any service or outcome commitments.",
+      "writer": "claude"
+    }
+  },
+  "distractor_pallet_height_22.md": {
+    "3a3e849bebd791aa": {
+      "note": "This chunk is the header block of DHL Belgium archive note 22, identifying the carrier as DHL, the country as Belgium, and the commodity class as electronics. It establishes the document's scope and precedes the archive scan section that follows, setting context for clauses 30.22.1 through 30.22.3, which define applicability, pallet height measurement, and the limits of what the note promises.",
+      "writer": "claude"
+    },
+    "e3896ffe9aea0a2c": {
+      "note": "This chunk is the section heading '30.22 Archive scan' from DHL Belgium archive note 22, covering electronics shipments carried by DHL to Belgium. It introduces the subsequent numbered clauses (30.22.1, 30.22.2, and 30.22.3) that detail the clause's applicability, the pallet height measurement and scan storage process, and the explicit limitations on what the archive note guarantees.",
+      "writer": "claude"
+    },
+    "092037a5d704ebf7": {
+      "note": "This chunk is clause 30.22.1 of DHL Belgium archive note 22, for electronics shipments. It specifies that the clause applies exclusively to electronics shipments bound for Belgium and carried by DHL, scoping the applicability of the archive scan procedure described in the surrounding clauses 30.22.2 (pallet height measurement) and 30.22.3 (limitations on promises made by the note).",
+      "writer": "claude"
+    },
+    "0db2ab24bf9ef8f3": {
+      "note": "This chunk is clause 30.22.2 of DHL Belgium archive note 22, covering electronics shipments to Belgium via DHL. It describes that pallet height is measured at the dock and stored alongside the scan, with reference 22 identifying DHL as the carrier. It follows clause 30.22.1, which sets the applicability scope, and precedes 30.22.3, which clarifies that no delivery, refund, or customs promises are made.",
+      "writer": "claude"
+    },
+    "9a13742d814e6574": {
+      "note": "This chunk is clause 30.22.3 from DHL Belgium archive note 22, covering electronics shipments carried by DHL to Belgium. It follows clause 30.22.2, which describes how pallet height is measured at the dock and stored with the scan referencing DHL. This clause clarifies the limits of the archive note, stating it does not promise a delivery date, a refund, or a customs release, without making any such commitments itself.",
+      "writer": "claude"
+    }
+  },
+  "distractor_tape_width_03.md": {
+    "7d42c2bbde92808c": {
+      "note": "This is the header block of UPS Spain archive note 3, identifying the carrier as UPS, the country as Spain, and the commodity class as cold_chain. It establishes the scope for the archive scan clauses (30.3.1\u201330.3.3) that follow, which describe applicability, a tape-width check, and disclaimed promises for this cold_chain, UPS, Spain shipment record.",
+      "writer": "claude"
+    },
+    "4ba2ee3d3b3a582e": {
+      "note": "This is the section heading '30.3 Archive scan' within the UPS Spain archive note 3 document, covering cold_chain shipments to Spain via UPS. It introduces the subsequent numbered clauses (30.3.1 scope, 30.3.2 tape check, 30.3.3 disclaimer) that detail the archive scan procedure for this carrier, country, and commodity combination.",
+      "writer": "claude"
+    },
+    "7bfc156b3e32eb1a": {
+      "note": "This is clause 30.3.1 of the UPS Spain archive note 3, under the 'Archive scan' section, for cold_chain shipments to Spain carried by UPS. It defines the scope, stating the clause applies only to this specific carrier-country-commodity combination, setting context for the following clause 30.3.2 about the tape-width check and reference naming UPS.",
+      "writer": "claude"
+    },
+    "494c27aa9063d71e": {
+      "note": "This is clause 30.3.2 of the UPS Spain archive note 3, within the 'Archive scan' section, applicable to cold_chain shipments to Spain via UPS as scoped by clause 30.3.1. It describes an archive procedure step: carton tape width is checked before the photo is filed, and notes that Reference 3 names UPS, preceding the disclaimer in clause 30.3.3.",
+      "writer": "claude"
+    },
+    "32d5a2133fbb4d99": {
+      "note": "This is clause 30.3.3 from UPS Spain archive note 3, covering cold_chain commodity shipments carried by UPS to Spain. It follows 30.3.1, which scopes the clause to cold_chain shipments to Spain via UPS, and 30.3.2, which describes checking carton tape width before filing the photo. This closing clause clarifies limits on the archive note's scope, explicitly disclaiming any assurance regarding delivery timing, refunds, or customs clearance, without introducing additional commitments beyond the archival/photo-filing process described earlier.",
+      "writer": "claude"
+    }
+  },
+  "distractor_tape_width_13.md": {
+    "21240898f06ac210": {
+      "note": "This is the header metadata for DHL Germany archive note 13, identifying the carrier as DHL, the country as Germany, and the commodity class as cold_chain. It establishes the scope for the archive scan clauses that follow, including the applicability statement in 30.13.1 and the tape-check procedure in 30.13.2, as well as the disclaimer in 30.13.3.",
+      "writer": "claude"
+    },
+    "fe73dd5473d1f573": {
+      "note": "This is the section heading '30.13 Archive scan' within the DHL Germany archive note 13 document, covering cold_chain shipments. It introduces the numbered clauses that follow (30.13.1 through 30.13.3), which define the scope, the archival scanning procedure, and the limits of what the note confirms, for DHL-carried cold_chain shipments to Germany.",
+      "writer": "claude"
+    },
+    "89f4ae7d0677afb4": {
+      "note": "This is clause 30.13.1 of DHL Germany archive note 13, for cold_chain shipments. It defines the scope of the archive scan section, stating it applies only to cold_chain shipments to Germany carried by DHL. It precedes 30.13.2, which describes the tape-width check procedure, and 30.13.3, which clarifies this note's non-promissory nature.",
+      "writer": "claude"
+    },
+    "bab79821fe003d49": {
+      "note": "This is clause 30.13.2 of DHL Germany archive note 13, applicable to cold_chain shipments to Germany carried by DHL. It describes the archive scan procedure: carton tape width is checked before the photo is filed, and Reference 13 names DHL as the carrier. It follows the scope statement in 30.13.1 and precedes the disclaimer in 30.13.3.",
+      "writer": "claude"
+    },
+    "9c078c899eeaff3e": {
+      "note": "This is clause 30.13.3 from DHL Germany archive note 13, covering cold_chain shipments to Germany carried by DHL. It follows clauses 30.13.1 (scope restriction to cold_chain/Germany/DHL) and 30.13.2 (carton tape width check referencing DHL). This closing clause clarifies limits on the archive note's scope, explicitly stating it does not promise a delivery date, a refund, or a customs release, setting boundaries on what the preceding archive scan procedure entails.",
+      "writer": "claude"
+    }
+  },
+  "distractor_tape_width_23.md": {
+    "d8586901ff89c6a2": {
+      "note": "This is the header block of FedEx Netherlands archive note 23, identifying the document's scope: carrier FedEx, country Netherlands, and commodity class cold_chain. It establishes the context for all subsequent clauses (30.23.1\u201330.23.3) in this archive note, which define applicability, procedural checks, and limitations of the record without promising delivery dates, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "e7f0e2a8e64662fa": {
+      "note": "This is the section heading '30.23 Archive scan' within FedEx Netherlands archive note 23, covering cold_chain shipments. It introduces the subclauses that follow (30.23.1 on applicability, 30.23.2 on the tape-width check, and 30.23.3 on disclaimers), framing them as part of the archive scan process for this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "00209788f2401818": {
+      "note": "This is clause 30.23.1 of FedEx Netherlands archive note 23, specifying that the archive scan section applies solely to cold_chain shipments to the Netherlands handled by FedEx. It sets the scope boundary for the procedural detail given in the next clause (30.23.2) and the disclaimer in 30.23.3, within this same cold_chain, FedEx, Netherlands record.",
+      "writer": "claude"
+    },
+    "3275235c75d9848f": {
+      "note": "This is clause 30.23.2 of FedEx Netherlands archive note 23, under the cold_chain commodity class. It describes a procedural step\u2014checking carton tape width before filing the photo\u2014tied to reference 23, which names FedEx as the carrier. It follows the scope statement in 30.23.1 and precedes the disclaimer in 30.23.3, which clarifies the note does not guarantee delivery, refund, or customs outcomes.",
+      "writer": "claude"
+    },
+    "39aadaed9dd20740": {
+      "note": "This note is from FedEx Netherlands archive note 23, covering cold_chain shipments. Clause 30.23.3 explicitly disclaims that the archive note does not guarantee a delivery date, refund, or customs release, following clause 30.23.2 which describes the carton tape width check performed before filing the photo, and clause 30.23.1 which scopes the note to FedEx cold_chain shipments to the Netherlands.",
+      "writer": "claude"
+    }
+  },
+  "fedex_br_electronics.md": {
+    "0aeff15a89969dbe": {
+      "note": "This chunk is the title/header block of the FedEx Brazil electronics agreement, identifying the carrier (FedEx), country (Brazil), and commodity class (electronics). It establishes the document's overall identity and scope before the detailed clauses in Section 12.1 define specific applicability and exclusions for electronics shipments to Brazil handled by FedEx.",
+      "writer": "claude"
+    },
+    "a1169266e7160522": {
+      "note": "This is the heading for Section 12.1, 'Scope,' within the FedEx Brazil electronics agreement. It introduces the subsequent clauses (12.1.1\u201312.1.3) that define which shipments the agreement covers, carrier-specific limitations, and what the agreement does not promise, for electronics commodities shipped to Brazil via FedEx.",
+      "writer": "claude"
+    },
+    "e402eca1d0cd269c": {
+      "note": "This is clause 12.1.1 of the FedEx Brazil electronics agreement's Scope section. It specifies that the clause applies exclusively to electronics shipments to Brazil carried by FedEx, setting the boundary for the agreement before the next clauses address status-update inheritance rules and disclaimers regarding customs release and refunds.",
+      "writer": "claude"
+    },
+    "36dda3473f47c5a2": {
+      "note": "This is clause 12.1.2 of the FedEx Brazil electronics agreement's Scope section, immediately following the applicability statement in 12.1.1. It clarifies that electronics shipments to Brazil under this FedEx agreement do not inherit a Germany cold-chain status update, distinguishing this electronics/Brazil context from unrelated cold-chain tracking in other country/commodity scenarios.",
+      "writer": "claude"
+    },
+    "c79bd228c6c5ca1d": {
+      "note": "This chunk is from the FedEx Brazil electronics agreement, under section 12.1 (Scope), clause 12.1.3. It pertains to FedEx as carrier, Brazil as the destination country, and electronics as the commodity class. Following 12.1.1, which limits the clause's applicability to FedEx electronics shipments to Brazil, and 12.1.2, which clarifies that such shipments do not inherit a Germany cold-chain status update, this clause further limits the agreement's scope by explicitly stating it does not guarantee customs release or a refund for these shipments.",
+      "writer": "claude"
+    }
+  },
+  "fedex_de_cold.md": {
+    "20b55e60270ca2e9": {
+      "note": "This is the header section of the 'FedEx Germany cold-chain boundary' document, identifying the carrier as FedEx, the country as Germany, and the commodity class as cold_chain. It establishes the scope for the status-update boundary clause (4.8) that follows, which clarifies that FedEx does not apply DHL's status-update rule to this carrier/country/commodity combination.",
+      "writer": "claude"
+    },
+    "f964303a9eb76321": {
+      "note": "This is the heading for section 4.8, 'Status-update boundary,' within the FedEx Germany cold-chain boundary document. It introduces the clauses that follow (4.8.1\u20134.8.3), which define the scope of applicability and clarify that FedEx does not adopt DHL's status-update rule for German cold-chain shipments.",
+      "writer": "claude"
+    },
+    "79e0e125d876ac79": {
+      "note": "This is clause 4.8.1 of the FedEx Germany cold-chain boundary document, under the 'Status-update boundary' section. It defines the scope of the clause, stating it applies only to cold_chain shipments to Germany carried by FedEx. It sets up context for clause 4.8.2, which clarifies that FedEx does not borrow DHL's status-update rule for this scope.",
+      "writer": "claude"
+    },
+    "ee0710f28f4c364d": {
+      "note": "This is clause 4.8.2 of the FedEx Germany cold-chain boundary document, under the 'Status-update boundary' section. For FedEx cold_chain shipments to Germany (as scoped in 4.8.1), it clarifies that FedEx does not adopt DHL's 48-hour status-update rule. This boundary statement is reinforced by clause 4.8.3, which confirms no status-update promise is copied from the DHL section 4.2 clause.",
+      "writer": "claude"
+    },
+    "ac13e29a67bfa03a": {
+      "note": "This chunk is clause 4.8.3 from the FedEx Germany cold-chain boundary document, under section 4.8 (Status-update boundary), applicable to FedEx shipments of cold_chain commodities to Germany. It follows 4.8.2, reinforcing that no status-update commitment is inherited from DHL's section 4.2 clause, clarifying that FedEx's Germany cold-chain shipments are not bound by the DHL 48-hour status-update rule referenced earlier in this section.",
+      "writer": "claude"
+    }
+  },
+  "fedex_de_pickup.md": {
+    "b510f0d9f0b5e4c2": {
+      "note": "This is the header section of the FedEx Germany pickup agreement, establishing that the document applies to FedEx as carrier, Germany as the country, and general commodity class shipments. It sets the scope for all subsequent clauses, including the missed pickup provisions that follow in section 3.1.",
+      "writer": "claude"
+    },
+    "d37cbd8551a180cc": {
+      "note": "This is the heading for section 3.1, 'Missed pickup,' within the FedEx Germany pickup agreement covering general commodity shipments. It introduces the subsections that define the scope of the missed pickup clause and the procedure FedEx follows when a pickup is missed due to a closed shipper dock.",
+      "writer": "claude"
+    },
+    "a9e11db4c58a497a": {
+      "note": "This clause (3.1.1) is part of the FedEx Germany pickup agreement for general commodity shipments, under section 3.1 'Missed pickup.' It defines the applicability of the missed pickup rules, specifying they apply only to general shipments to Germany carried by FedEx, setting up the procedural rule in 3.1.2 and the communication guidance in 3.1.3.",
+      "writer": "claude"
+    },
+    "3ded1c65e7acb20c": {
+      "note": "This clause (3.1.2) belongs to the FedEx Germany pickup agreement for general commodity shipments, within section 3.1 'Missed pickup.' It specifies the rescheduling procedure\u2014next business day pickup\u2014when a missed pickup results from a closed shipper dock, following the scope clause 3.1.1 and preceding the communication rule in 3.1.3.",
+      "writer": "claude"
+    },
+    "4878ceb476831fad": {
+      "note": "This chunk is from the FedEx Germany pickup agreement (carrier: FedEx, country: Germany, commodity class: general), within section 3.1 'Missed pickup.' It directly follows clause 3.1.2, which states that if a pickup is missed due to the shipper dock being closed, FedEx will reschedule the pickup for the next business day. This clause, 3.1.3, adds a related requirement: any communication (email) about the missed pickup must not assign blame to the customer for the dock closure, reinforcing a customer-neutral tone in FedEx's handling of this scenario, as outlined in clause 3.1.1 limiting applicability to general shipments to Germany via FedEx.",
+      "writer": "claude"
+    }
+  },
+  "fedex_es_damage.md": {
+    "201ef609955ac2c8": {
+      "note": "This is the header of the FedEx Spain inspection agreement, identifying the carrier as FedEx, the country as Spain, and the commodity class as general. It establishes the scope for the entire document, including the subsequent section 16.1 on damaged cartons, which applies specifically to these parameters.",
+      "writer": "claude"
+    },
+    "ce7fef470950a4b3": {
+      "note": "This is the section heading '16.1 Damaged carton' within the FedEx Spain inspection agreement, covering general commodity shipments. It introduces the clauses that follow (16.1.1\u201316.1.3), which define the applicability, inspection timeline, and refund conditions for crushed cartons shipped to Spain via FedEx.",
+      "writer": "claude"
+    },
+    "34633b6657208d67": {
+      "note": "This is clause 16.1.1 under the 'Damaged carton' section of the FedEx Spain inspection agreement, covering general commodity shipments. It restricts the applicability of this clause\u2014and the related inspection and refund provisions that follow\u2014to general shipments to Spain carried specifically by FedEx.",
+      "writer": "claude"
+    },
+    "140bca4b1629d8aa": {
+      "note": "This is clause 16.1.2 under the 'Damaged carton' section of the FedEx Spain inspection agreement, for general commodity shipments. It specifies FedEx's 3-business-day inspection start timeline for crushed Spain-bound cartons, following the scope defined in 16.1.1 and preceding the refund condition in 16.1.3.",
+      "writer": "claude"
+    },
+    "5df6bbaa080e84ab": {
+      "note": "This note situates clause 16.1.3 within the FedEx Spain inspection agreement, under the 'Damaged carton' section (16.1), applicable to general commodity shipments to Spain carried by FedEx. It follows clause 16.1.2, which states that FedEx will begin an inspection within 3 business days of a crushed carton arrival. Clause 16.1.3 clarifies that no refund commitment is made until that inspection process has concluded, setting a limit on what the agreement guarantees regarding timing or outcome of compensation.",
+      "writer": "claude"
+    }
+  },
+  "fedex_france_weather.md": {
+    "a6f06b5f7020a7e4": {
+      "note": "This chunk is the header of the FedEx France weather-delay agreement, establishing the document's scope: FedEx as carrier, France as destination country, and general commodity class. It frames the context for the subsequent clause 2.1 on weather delay, which details applicability, rebooking procedures, and exclusions like refunds and mechanical breakdowns.",
+      "writer": "claude"
+    },
+    "2edff6a76bae35a6": {
+      "note": "This chunk introduces section 2.1, titled 'Weather delay,' within the FedEx France weather-delay agreement for general commodity shipments. It serves as the heading for the following clauses (2.1.1\u20132.1.3), which define the clause's scope, the rebooking procedure after weather-related cancellations, and limitations regarding refunds and mechanical breakdowns.",
+      "writer": "claude"
+    },
+    "4cdcf10a778fb6ef": {
+      "note": "This chunk, clause 2.1.1, is part of the FedEx France weather-delay agreement for general commodity shipments. It specifies that the weather delay clause under section 2.1 applies exclusively to general shipments to France carried by FedEx, setting the scope before the following clauses describe the rebooking process (2.1.2) and the refund/mechanical breakdown exclusions (2.1.3).",
+      "writer": "claude"
+    },
+    "9c02ca783d1b3449": {
+      "note": "This chunk, clause 2.1.2, is part of the FedEx France weather-delay agreement for general commodity shipments, within section 2.1 on weather delay. Following the scope defined in 2.1.1, it describes FedEx's procedure when a departure is cancelled due to weather: rebooking the shipment on the next available departure and notifying the customer of the revised departure time, preceding the exclusions noted in 2.1.3.",
+      "writer": "claude"
+    },
+    "78b7f351310900e4": {
+      "note": "This note situates clause 2.1.3 within the FedEx France weather-delay agreement, covering general commodity shipments. It follows 2.1.1 (scope limited to general shipments to France via FedEx) and 2.1.2 (rebooking on next available departure with customer notification). This clause clarifies limitations: a weather delay does not entitle the customer to a refund, and mechanical breakdowns are explicitly excluded from this weather-delay provision, distinguishing weather-related disruptions from other causes of delay.",
+      "writer": "claude"
+    }
+  },
+  "ups_be_address.md": {
+    "ec8a4f25e63a10c6": {
+      "note": "This is the title/header block of the UPS Belgium address agreement, identifying the carrier as UPS, the country as Belgium, and the commodity class as general. It establishes the scope for the subsequent clause 8.1 on incomplete addresses, which details UPS's handling procedure when a Belgian delivery address is incomplete.",
+      "writer": "claude"
+    },
+    "116f54c01f48b7c4": {
+      "note": "This is the section heading '8.1 Incomplete address' within the UPS Belgium address agreement, covering general commodity shipments. It introduces the three sub-clauses (8.1.1\u20138.1.3) that follow, which define the scope of applicability, UPS's response to incomplete addresses, and the resulting delivery delay without a promised timeframe.",
+      "writer": "claude"
+    },
+    "3929021c7a2459a8": {
+      "note": "This is sub-clause 8.1.1 of the UPS Belgium address agreement under section 8.1 Incomplete address, specifying that the clause applies only to general shipments to Belgium carried by UPS. It sets the scope boundary before the subsequent sub-clauses describe UPS's actions and delivery timing when an address is incomplete.",
+      "writer": "claude"
+    },
+    "424d6938809bea12": {
+      "note": "This is sub-clause 8.1.2 of the UPS Belgium address agreement, under section 8.1 Incomplete address, for general commodity shipments carried by UPS to Belgium. It follows the scope statement in 8.1.1 and explains that UPS will hold the shipment and request the missing address detail, leading into 8.1.3 which addresses the resulting delay in redelivery attempts.",
+      "writer": "claude"
+    },
+    "4fe1ad6a69663713": {
+      "note": "This note situates clause 8.1.3 within the UPS Belgium address agreement, under the 'Incomplete address' section (8.1), applicable to general commodity shipments carried by UPS to Belgium. It follows 8.1.1, which scopes the clause to general shipments to Belgium via UPS, and 8.1.2, which states UPS holds the shipment and requests the missing address detail. This clause specifies the consequence: redelivery is not attempted until the address is corrected, and explicitly notes that no delivery time commitment is given in this scenario.",
+      "writer": "claude"
+    }
+  },
+  "ups_fr_weather.md": {
+    "016e2ee4902ae9a6": {
+      "note": "This header chunk establishes the document's scope: UPS as carrier, France as destination country, and general as the commodity class, for the weather boundary policy detailed in the following clauses (2.4.1\u20132.4.3).",
+      "writer": "claude"
+    },
+    "601a0b08e48b8200": {
+      "note": "This section heading introduces the Weather Boundary clause (2.4) within the UPS France general-commodity weather boundary document, setting up the three numbered sub-clauses that follow regarding applicability and non-borrowing of other carriers' refund rules.",
+      "writer": "claude"
+    },
+    "a3bb9c3f0b781bae": {
+      "note": "This sub-clause (2.4.1) narrows the Weather Boundary section's scope, specifying that it applies solely to general shipments to France carried by UPS, as named in the document header, distinguishing it from rules for other carriers or commodities.",
+      "writer": "claude"
+    },
+    "86289ae3440cbfbb": {
+      "note": "This sub-clause (2.4.2) follows 2.4.1's scope statement by clarifying that for the UPS France general-commodity lane, UPS does not adopt FedEx's weather-delay refund rule, reinforcing the carrier-specific limitation stated in 2.4.3.",
+      "writer": "claude"
+    },
+    "767f73b9ddacb594": {
+      "note": "This note situates clause 2.4.3 within the UPS France weather boundary document, covering general commodity shipments to France carried by UPS. It follows clauses 2.4.1 (scope limited to UPS general shipments to France) and 2.4.2 (UPS does not adopt FedEx's weather-delay refund rule for this lane). Clause 2.4.3 reinforces this exclusion by stating that no refund applies when a clause references a carrier other than UPS, confirming the carrier-specific nature of the weather boundary rule.",
+      "writer": "claude"
+    }
+  },
+  "ups_nl_pharma.md": {
+    "f74fb9268ef7a9c0": {
+      "note": "This is the header section of the UPS Netherlands pharma agreement, identifying the carrier (UPS), country (Netherlands), and commodity class (pharma) that govern all subsequent clauses, including the health certificate provisions in Section 9.1.",
+      "writer": "claude"
+    },
+    "ffc09bece3594e8c": {
+      "note": "This is the section heading '9.1 Health certificate' within the UPS Netherlands pharma agreement, introducing the clauses that follow (9.1.1\u20139.1.3) which define the scope, notification timing, and limitations of UPS's health certificate handling for pharma shipments to the Netherlands.",
+      "writer": "claude"
+    },
+    "43f6b33fb03e6cf0": {
+      "note": "This is clause 9.1.1 of the UPS Netherlands pharma agreement's Health certificate section, specifying that the health certificate provisions apply exclusively to pharma shipments destined for the Netherlands and carried by UPS, setting the scope for the notification requirement described in clause 9.1.2.",
+      "writer": "claude"
+    },
+    "71f055d399a8dc97": {
+      "note": "This is clause 9.1.2 of the UPS Netherlands pharma agreement's Health certificate section, detailing UPS's notification obligation\u2014within 1 business day, naming the missing document\u2014when customs requests a health certificate and the HE hold exceeds 48 hours, applicable only to pharma shipments to the Netherlands as scoped in clause 9.1.1.",
+      "writer": "claude"
+    },
+    "6ae846248d3676f0": {
+      "note": "This chunk is clause 9.1.3 from the UPS Netherlands pharma agreement, under section 9.1 'Health certificate.' It applies specifically to pharma shipments to the Netherlands carried by UPS. It follows clause 9.1.2, which describes UPS's notification duty (within 1 business day) when a health certificate is requested by customs and the HE hold exceeds 48 hours. This clause clarifies that UPS's notification obligation does not constitute or guarantee that customs clearance will occur.",
+      "writer": "claude"
+    }
+  },
+  "ups_nl_reattempt.md": {
+    "e503d3b84df8814b": {
+      "note": "This is the header of the UPS Netherlands reattempt agreement, identifying the carrier as UPS, the country as Netherlands, and the commodity class as general. It establishes the scope for the subsequent clause 6.1 'Closed receiver,' which details the reattempt delivery procedure applicable to this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "f92c1acda610b98d": {
+      "note": "This is the section heading '6.1 Closed receiver' within the UPS Netherlands reattempt agreement (carrier: UPS, country: Netherlands, commodity class: general). It introduces the scenario addressed by clauses 6.1.1\u20136.1.3, which define the applicability and the next-business-day reattempt rule when a receiver is closed at delivery time.",
+      "writer": "claude"
+    },
+    "c69c1e0508696aad": {
+      "note": "This is clause 6.1.1 under section 'Closed receiver' in the UPS Netherlands reattempt agreement (carrier: UPS, country: Netherlands, commodity class: general). It limits the scope of this section to general shipments to the Netherlands carried by UPS, setting the context before clause 6.1.2 describes the reattempt delivery timing when the receiver is closed.",
+      "writer": "claude"
+    },
+    "cb9df9d6c34a9eef": {
+      "note": "This is clause 6.1.2 under section 'Closed receiver' in the UPS Netherlands reattempt agreement (carrier: UPS, country: Netherlands, commodity class: general). Following the scope defined in 6.1.1, it states that if the receiver is closed, UPS will reattempt delivery on the next business day, with clause 6.1.3 clarifying that no same-day second attempt is promised.",
+      "writer": "claude"
+    },
+    "b1e64959f77662bf": {
+      "note": "This note pertains to the UPS Netherlands reattempt agreement, under carrier UPS, country Netherlands, commodity class general. Chunk 6.1.3 is the closing clarifying statement within section 6.1 'Closed receiver,' which follows 6.1.1 (scope limitation to general shipments to Netherlands via UPS) and 6.1.2 (promise of next-business-day reattempt if receiver is closed). This clause explicitly limits the prior commitment by stating no same-day second delivery attempt is promised.",
+      "writer": "claude"
+    }
+  },
+  "ups_nl_seal.md": {
+    "8a71e6428a981d8c": {
+      "note": "This chunk is the header of the UPS Netherlands seal agreement document, specifying that it governs pharma commodity shipments carried by UPS to the Netherlands. It establishes the carrier (UPS), country (Netherlands), and commodity class (pharma) context that applies to the subsequent clause 9.4 on broken seals, including the scope restriction, redelivery hold, and messaging rules that follow in the document.",
+      "writer": "claude"
+    },
+    "84b6d6a1a11c1bf5": {
+      "note": "This chunk introduces section 9.4, titled 'Broken seal,' within the UPS Netherlands seal agreement for pharma shipments. It serves as the heading for the subclauses that follow (9.4.1 through 9.4.3), which define the scope of applicability, the redelivery hold requirement pending quality review, and restrictions on customer messaging regarding release dates for broken-seal incidents.",
+      "writer": "claude"
+    },
+    "a2cee793c9bdde2a": {
+      "note": "This is clause 9.4.1 of the UPS Netherlands seal agreement, under section 9.4 'Broken seal,' applying to pharma commodity shipments to the Netherlands carried by UPS. It defines the scope limitation of the broken seal provisions, clarifying that the rules in this section apply exclusively to this carrier, country, and commodity combination, setting context for clause 9.4.2's redelivery hold requirement.",
+      "writer": "claude"
+    },
+    "a8afb8f61a271bc0": {
+      "note": "This is clause 9.4.2 of the UPS Netherlands seal agreement, under section 9.4 'Broken seal,' for pharma shipments to the Netherlands carried by UPS. Following the scope statement in 9.4.1, this clause specifies that if a seal is broken, redelivery must be withheld until quality review is complete, setting up the related messaging restriction in clause 9.4.3 about not disclosing a release date.",
+      "writer": "claude"
+    },
+    "61ade3b81b09ce66": {
+      "note": "This note belongs to the UPS Netherlands seal agreement document, applying to pharma shipments carried by UPS within the Netherlands. It falls under section 9.4 'Broken seal,' specifically clause 9.4.3, which follows clause 9.4.2's requirement that redelivery be held pending quality review after a broken seal. This clause restricts the content of customer communications: messages may state that redelivery is paused, but must not specify a release date, ensuring no premature timing commitment is made to the customer during the review process.",
+      "writer": "claude"
+    }
+  },
+  "broker_guess_policy.md": {
+    "370b3a47c8e45378": {
+      "note": "This is the header of the Broker guess policy document, specifying it applies to DHL carrier, Germany, and cold_chain commodity class. It sets the scope for the subsequent section 20.1 'Unverified weekday', which details rules about broker weekday guesses not being delivery promises.",
+      "writer": "claude"
+    },
+    "7c39aab1ff02e596": {
+      "note": "This is the section heading '20.1 Unverified weekday' within the Broker guess policy document for DHL shipments to Germany in the cold_chain commodity class. It introduces the clauses that follow (20.1.1\u201320.1.3), which define scope and restrict broker weekday guesses from being treated as delivery promises.",
+      "writer": "claude"
+    },
+    "1bc2f98170405827": {
+      "note": "This is clause 20.1.2 under section 20.1 'Unverified weekday' of the Broker guess policy document, applicable to DHL, Germany, cold_chain shipments. It states that a broker's weekday guess is not a delivery promise and must not be copied into the customer email, following clause 20.1.1's scope statement and preceding 20.1.3's rule on allowed promises.",
+      "writer": "claude"
+    },
+    "877812a8d3804e9d": {
+      "note": "This is clause 20.1.3 under section 20.1 'Unverified weekday' of the Broker guess policy document, covering DHL, Germany, cold_chain shipments. It restricts promises to only sentences found in the contract or operations policy, reinforcing clause 20.1.2's prohibition on treating broker weekday guesses as delivery promises in customer communications.",
+      "writer": "claude"
+    },
+    "c20bf2a4444633c9": {
+      "note": "This note situates clause 20.1.3 within the Broker Guess Policy document, which applies specifically to cold_chain shipments carried by DHL to Germany. Clause 20.1.3 follows 20.1.1 (scope definition) and 20.1.2 (prohibition on copying a broker's weekday guess into customer emails), establishing the rule that only sentences explicitly found in the contract or operations policy may be treated as promises. This clause does not itself create any delivery promise; it restricts what content can be considered a legitimate promise, reinforcing the limits set by the preceding clauses.",
+      "writer": "claude"
+    }
+  },
+  "distractor_ink_stamp_06.md": {
+    "67ef210cc5fd237b": {
+      "note": "This is the header section of UPS Brazil archive note 6, identifying the carrier as UPS, the country as Brazil, and the commodity class as general. It establishes the scope for the archive scan clause (30.6) that follows, which details the gate stamp photo filing procedure and its applicability limits, without promising delivery, refund, or customs outcomes.",
+      "writer": "claude"
+    },
+    "f409278ef8e589f6": {
+      "note": "This is the section heading '30.6 Archive scan' within UPS Brazil archive note 6, covering general commodity shipments to Brazil via UPS. It introduces the subsequent numbered clauses (30.6.1\u201330.6.3) that define the scope of applicability, describe the gate stamp photo-filing process, and clarify that no delivery, refund, or customs release promises are made.",
+      "writer": "claude"
+    },
+    "73e6558a6a0126b2": {
+      "note": "This is clause 30.6.1 of UPS Brazil archive note 6, under the Archive scan section, applicable to general commodity shipments to Brazil carried by UPS. It defines the scope limitation for this archive note, preceding clause 30.6.2 which describes the gate stamp photo-filing procedure and clause 30.6.3 which clarifies no delivery, refund, or customs promises are made.",
+      "writer": "claude"
+    },
+    "3582e13629eff2df": {
+      "note": "This is clause 30.6.2 of UPS Brazil archive note 6, under the Archive scan section, covering general commodity shipments to Brazil by UPS. It describes the gate stamp photo being filed with the invoice copy and notes that Reference 6 names UPS, following the scope statement in 30.6.1 and preceding the disclaimer in 30.6.3 that no delivery date, refund, or customs release is promised.",
+      "writer": "claude"
+    },
+    "d6fabd315f88ab5d": {
+      "note": "This chunk is clause 30.6.3 of UPS Brazil archive note 6, covering general commodity shipments to Brazil handled by carrier UPS. It follows clause 30.6.2, which describes the gate stamp photograph being filed with the invoice copy and referencing UPS as Reference 6. This clause clarifies the scope limitation of the archive note, stating explicitly that it does not promise a delivery date, a refund, or a customs release, reinforcing that the note's purpose is limited to the archival/documentation process described in 30.6.1 and 30.6.2, not to service guarantees.",
+      "writer": "claude"
+    }
+  },
+  "distractor_ink_stamp_16.md": {
+    "1ef005992d891308": {
+      "note": "This is the header of DHL Belgium archive note 16, identifying the carrier as DHL, the country as Belgium, and the commodity class as general shipments. It establishes the metadata scope for the archive scan clauses (30.16.1\u201330.16.3) that follow, which describe gate stamp photography and filing procedures. This chunk sets the context for all subsequent clauses in this note but does not itself describe any procedure or make any promise.",
+      "writer": "claude"
+    },
+    "d745c1fc060d8d48": {
+      "note": "This is the section heading '30.16 Archive scan' within DHL Belgium archive note 16, covering general commodity shipments. It introduces the subsequent numbered clauses (30.16.1 through 30.16.3) that define the scope, the gate stamp photo-filing procedure, and the limitations of this archive note. The heading itself contains no procedural detail, promise, or restriction beyond labeling the topic.",
+      "writer": "claude"
+    },
+    "c481d52f3597bb0e": {
+      "note": "This is clause 30.16.1 of DHL Belgium archive note 16, for general commodity shipments. It defines the scope of the archive note, stating it applies only to general shipments to Belgium carried by DHL. This scoping clause precedes 30.16.2, which describes the gate stamp photo-filing procedure, and 30.16.3, which clarifies that the note makes no promises regarding delivery, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "f0677dcb062fa26b": {
+      "note": "This is clause 30.16.2 of DHL Belgium archive note 16, for general shipments carried by DHL to Belgium. It describes the archive procedure: the gate stamp is photographed and filed together with the invoice copy, and reference 16 names DHL as the carrier. This clause follows the scope statement in 30.16.1 and precedes 30.16.3, which clarifies that this note does not promise a delivery date, refund, or customs release.",
+      "writer": "claude"
+    },
+    "fd9e31329e1c5ca4": {
+      "note": "This is clause 30.16.3 from DHL Belgium archive note 16, covering general commodity shipments. It follows clause 30.16.2, which describes the gate stamp being photographed and filed with the invoice copy under Reference 16 naming DHL, and clause 30.16.1, which scopes the note to general shipments to Belgium carried by DHL. This clause clarifies the limits of the archive note, explicitly stating that it does not promise a delivery date, a refund, or a customs release, ensuring the archival record is not misread as a service guarantee.",
+      "writer": "claude"
+    }
+  },
+  "distractor_ink_stamp_26.md": {
+    "b158bb08b33721d4": {
+      "note": "This is the header for FedEx France archive note 26, covering general commodity shipments. It identifies the carrier (FedEx), country (France), and commodity class (general) that apply to all subsequent clauses in this archive note, including the archive scan title and the specific clauses 30.26.1 through 30.26.3.",
+      "writer": "claude"
+    },
+    "6d010dbe8267da0b": {
+      "note": "This is the section heading '30.26 Archive scan' within FedEx France archive note 26, for general commodity shipments. It introduces the archive scan topic that is detailed in the following clauses, 30.26.1 (scope) and 30.26.2 (gate stamp filing), under the FedEx/France/general heading established above.",
+      "writer": "claude"
+    },
+    "58bfb75a59a843a6": {
+      "note": "This is clause 30.26.1 of FedEx France archive note 26, under the 'Archive scan' section, for general commodity shipments. It limits the scope of this archive note strictly to general shipments to France carried by FedEx, setting the applicability boundary before the archive filing detail in clause 30.26.2 and the disclaimer in clause 30.26.3.",
+      "writer": "claude"
+    },
+    "93b59529dcc19084": {
+      "note": "This is clause 30.26.2 of FedEx France archive note 26, under the 'Archive scan' section, for general FedEx shipments to France. It describes the archival practice of photographing the gate stamp and filing it with the invoice copy, noting that Reference 26 names FedEx, following the scope statement in 30.26.1 and preceding the disclaimer in 30.26.3.",
+      "writer": "claude"
+    },
+    "26781352d99e42a0": {
+      "note": "This chunk is from the FedEx France archive note (clause 30.26.3), covering general commodity shipments carried by FedEx to France. It follows 30.26.1 (scope limitation to FedEx general shipments to France) and 30.26.2 (description of the gate stamp photo and invoice filing under Reference 26). This clause clarifies the limits of the archive note, explicitly stating it does not guarantee a delivery date, refund, or customs release, without introducing any new procedural detail.",
+      "writer": "claude"
+    }
+  },
+  "distractor_photo_archive_05.md": {
+    "681edf59d6ee0778": {
+      "note": "This is the header of FedEx Netherlands archive note 5, identifying the document as covering FedEx shipments of the food commodity class to the Netherlands. It establishes the carrier, country, and commodity scope that the subsequent archive scan clauses (30.5.1\u201330.5.3) apply to.",
+      "writer": "claude"
+    },
+    "9aa02c4a688c5212": {
+      "note": "This is the section heading '30.5 Archive scan' within FedEx Netherlands archive note 5, covering food shipments to the Netherlands carried by FedEx. It introduces the clauses that follow, specifying scope (30.5.1), photo retention details (30.5.2), and limitations on what the note promises (30.5.3).",
+      "writer": "claude"
+    },
+    "4f7af1d9fac70c52": {
+      "note": "This is clause 30.5.1 under the Archive scan section of FedEx Netherlands archive note 5, for food commodity shipments to the Netherlands via FedEx. It defines the clause's applicability, restricting the archive scan rules to this specific carrier, country, and commodity combination, setting context for clause 30.5.2 on dock photo retention.",
+      "writer": "claude"
+    },
+    "8b0d5227e4c5f07a": {
+      "note": "This is clause 30.5.2 under the Archive scan section of FedEx Netherlands archive note 5, applicable to FedEx food shipments to the Netherlands. It specifies that dock photos are retained with the shipment file for ninety days and confirms FedEx as the named carrier, following the scope statement in 30.5.1 and preceding the disclaimer in 30.5.3.",
+      "writer": "claude"
+    },
+    "a9711fd9e846e377": {
+      "note": "This chunk is clause 30.5.3 from FedEx Netherlands archive note 5 (section 30.5, Archive scan), applicable to food shipments carried by FedEx to the Netherlands. It follows clause 30.5.1, which limits the scope to FedEx food shipments to Netherlands, and clause 30.5.2, which states dock photos are retained with the shipment file for ninety days and that Reference 5 names FedEx. This clause clarifies that the archive note itself makes no guarantees regarding delivery timing, refunds, or customs clearance outcomes.",
+      "writer": "claude"
+    }
+  },
+  "distractor_photo_archive_15.md": {
+    "2f6098dea71749eb": {
+      "note": "This is the header of UPS Spain archive note 15, identifying the carrier as UPS, the destination country as Spain, and the commodity class as food. It establishes the scope for all subsequent clauses in this document, including the archive scan heading and the eligibility and retention rules that follow under section 30.15.",
+      "writer": "claude"
+    },
+    "ecdea1125b08a073": {
+      "note": "This is the section heading 30.15 'Archive scan' within UPS Spain archive note 15, covering food shipments to Spain via UPS. It introduces the clauses that follow: 30.15.1, which restricts applicability to this specific carrier, country, and commodity combination, and 30.15.2, which describes dock photo retention practices under this archive reference.",
+      "writer": "claude"
+    },
+    "a26c623501fa53f1": {
+      "note": "This is clause 30.15.1 of UPS Spain archive note 15, under the 'Archive scan' section, for UPS food shipments to Spain. It defines the scope limitation of the document, stating the archive note applies only to this carrier-country-commodity combination, setting context before clause 30.15.2 details dock photo retention and before 30.15.3 disclaims certain promises.",
+      "writer": "claude"
+    },
+    "6daf997b93fde232": {
+      "note": "This is clause 30.15.2 of UPS Spain archive note 15, under 'Archive scan', applicable to UPS food shipments to Spain. It states dock photos are retained with the shipment file for ninety days and that Reference 15 names UPS, following the scope statement in 30.15.1 and preceding the disclaimer in 30.15.3 about delivery dates, refunds, and customs release.",
+      "writer": "claude"
+    },
+    "d8f35af746b50a1b": {
+      "note": "This note is from UPS Spain archive note 15, covering food shipments. Clause 30.15.3 follows 30.15.1 (scope: UPS food shipments to Spain) and 30.15.2 (ninety-day retention of dock photos referencing UPS). It clarifies that the archive note itself carries no assurances\u2014explicitly disclaiming any promise of a delivery date, a refund, or a customs release\u2014framing the preceding retention details as purely administrative, not service guarantees.",
+      "writer": "claude"
+    }
+  },
+  "distractor_photo_archive_25.md": {
+    "dc2584b1dc4773aa": {
+      "note": "This is the header of DHL Germany archive note 25, identifying the carrier as DHL, the country as Germany, and the commodity class as food. It introduces the archive note that follows, setting the scope for the scope clause (30.25.1), the retention clause (30.25.2), and the disclaimer (30.25.3) that appear later in this same document.",
+      "writer": "claude"
+    },
+    "38642b9f42de03f4": {
+      "note": "This is the section heading '30.25 Archive scan' within DHL Germany archive note 25, covering food shipments carried by DHL to Germany. It precedes the scope clause 30.25.1, the retention detail in 30.25.2, and the disclaimer in 30.25.3, all part of this same archive scan section.",
+      "writer": "claude"
+    },
+    "544dd61d401c2bbd": {
+      "note": "This is clause 30.25.1 of DHL Germany archive note 25, under the 'Archive scan' section, for DHL-carried food shipments to Germany. It defines the scope, limiting the note's applicability, and immediately precedes 30.25.2's detail on dock photo retention and 30.25.3's disclaimer about what the note does not promise.",
+      "writer": "claude"
+    },
+    "1f5e89eed691bd1a": {
+      "note": "This is clause 30.25.2 of DHL Germany archive note 25, under the 'Archive scan' section, for DHL-carried food shipments to Germany. It follows the scope statement in 30.25.1 and states that dock photos are retained with the shipment file for ninety days, with Reference 25 naming DHL; it precedes the disclaimer in 30.25.3.",
+      "writer": "claude"
+    },
+    "4c0d0d60797c1718": {
+      "note": "This is clause 30.25.3 from DHL Germany archive note 25, covering food commodity shipments. It follows 30.25.1, which scopes the clause to food shipments to Germany carried by DHL, and 30.25.2, which describes the ninety-day retention of dock photos with the shipment file under Reference 25. This closing clause clarifies limits on the archive note, stating it does not promise a delivery date, a refund, or a customs release, without asserting any guarantees beyond the photo retention described earlier.",
+      "writer": "claude"
+    }
+  },
+  "distractor_strap_count_07.md": {
+    "1bad6e0fd3d77c8a": {
+      "note": "This chunk is the header block of \"DHL Germany archive note 7,\" an archive document for electronics shipments carried by DHL to Germany. It identifies the carrier (DHL), country (Germany), and commodity class (electronics) that govern the scope of the scan section and clauses that follow, including the applicability statement in 30.7.1 and the dock sheet reference in 30.7.2.",
+      "writer": "claude"
+    },
+    "803ea6aec1522df9": {
+      "note": "This is the section heading \"30.7 Archive scan\" within the DHL Germany archive note 7 document, covering electronics shipments to Germany via DHL. It introduces the numbered clauses that follow (30.7.1 through 30.7.3), which define the scope of applicability, describe the dock sheet strap count reference, and note what the archive note does not establish.",
+      "writer": "claude"
+    },
+    "dc3b7b1ff76a8e88": {
+      "note": "This is clause 30.7.1 of DHL Germany archive note 7, covering electronics shipments to Germany carried by DHL. It states the scope limitation: the archive scan section applies only to this specific carrier, country, and commodity combination, setting the boundary for the subsequent clause 30.7.2 about the dock sheet and strap count reference, and the disclaimer in 30.7.3.",
+      "writer": "claude"
+    },
+    "770201dbec56aa99": {
+      "note": "This is clause 30.7.2 of DHL Germany archive note 7, within the electronics-to-Germany-via-DHL scope established in 30.7.1. It notes that the strap count on a pallet is recorded on the dock sheet and that Reference 7 identifies DHL as the carrier, linking this archive record to the carrier identification preceding the disclaimer clause 30.7.3.",
+      "writer": "claude"
+    },
+    "368e0f242f6f7031": {
+      "note": "This is DHL Germany archive note 7, under clause 30.7.3 of the Archive scan section, covering electronics shipments to Germany carried by DHL. It follows 30.7.1 (scope limited to this carrier/country/commodity combination) and 30.7.2 (strap count recorded on the dock sheet per Reference 7, naming DHL). This clause is a disclaimer clarifying that the archive note itself carries no assurance of delivery timing, financial reimbursement, or customs clearance outcomes.",
+      "writer": "claude"
+    }
+  },
+  "distractor_strap_count_17.md": {
+    "e79603dfc1893945": {
+      "note": "This chunk is the header of FedEx Netherlands archive note 17, identifying the document's scope: carrier FedEx, country Netherlands, and commodity class electronics. It establishes the metadata framework that governs all subsequent clauses in section 30.17, including the archive scan heading and clauses 30.17.1 and 30.17.2, which specifically address electronics shipments to the Netherlands handled by FedEx, without making any promises about delivery, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "ecfd35493d0d0a22": {
+      "note": "This is the section heading '30.17 Archive scan' within the FedEx Netherlands archive note 17 document, covering electronics commodity shipments. It introduces the scope of the archived material that follows, specifically clauses 30.17.1 and 30.17.2, which detail the applicability to FedEx electronics shipments to the Netherlands and reference the strap count noted on dock sheets, without providing delivery, refund, or customs guarantees.",
+      "writer": "claude"
+    },
+    "c1c8911224af2113": {
+      "note": "This clause, 30.17.1, is part of the FedEx Netherlands archive note 17, under the 'Archive scan' section, pertaining to electronics commodities. It defines the scope of the document, stating it applies only to electronics shipments to the Netherlands carried by FedEx. It precedes clause 30.17.2, which discusses dock sheet strap counts, and is followed by a disclaimer in 30.17.3 that no delivery date, refund, or customs release is promised.",
+      "writer": "claude"
+    },
+    "d407b83c6efa71f9": {
+      "note": "This clause, 30.17.2, belongs to the FedEx Netherlands archive note 17, within the 'Archive scan' section for electronics shipments. It follows clause 30.17.1, which limits the document's scope to FedEx electronics shipments to the Netherlands, and notes that the strap count on a pallet is recorded on the dock sheet, with Reference 17 naming FedEx. This clause precedes 30.17.3, which clarifies no delivery, refund, or customs promises are made.",
+      "writer": "claude"
+    },
+    "423ccaa1b00fde1b": {
+      "note": "This note is from 'FedEx Netherlands archive note 17' (clause 30.17.3), covering electronics shipments carried by FedEx to the Netherlands. It follows 30.17.1, which scopes the archive note to this carrier/country/commodity combination, and 30.17.2, which describes the dock sheet strap count reference. This clause clarifies the limits of the archive note itself, stating it does not promise a delivery date, refund, or customs release, distinguishing it from operational guarantees.",
+      "writer": "claude"
+    }
+  },
+  "distractor_strap_count_27.md": {
+    "54d5972795e9bddf": {
+      "note": "This is the header block of UPS Spain archive note 27, identifying the carrier as UPS, the country as Spain, and the commodity class as electronics. It establishes the metadata context for the clauses that follow in section 30.27, including the scope restriction in 30.27.1 and the dock sheet reference in 30.27.2, without itself making any procedural statements or promises about delivery, refunds, or customs.",
+      "writer": "claude"
+    },
+    "534c9f153f95a9c7": {
+      "note": "This is the section heading '30.27 Archive scan' within UPS Spain archive note 27, covering electronics shipments. It introduces the numbered clauses 30.27.1 through 30.27.3 that follow, which define scope, dock sheet strap count reporting, and the explicit disclaimer that the archive note does not promise delivery dates, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "deb79a529230da04": {
+      "note": "This is clause 30.27.1 from UPS Spain archive note 27, concerning electronics commodities. It defines the scope of the archive note, stating it applies only to electronics shipments to Spain carried by UPS. This scope statement precedes clause 30.27.2, which describes dock sheet strap count documentation, and clause 30.27.3, which disclaims certain promises.",
+      "writer": "claude"
+    },
+    "8928e0044441eee9": {
+      "note": "This is clause 30.27.2 from UPS Spain archive note 27, applicable to electronics shipments to Spain via UPS. It states that the strap count on a pallet is recorded on the dock sheet and that Reference 27 names UPS. This follows the scope statement in 30.27.1 and precedes the disclaimer in 30.27.3 regarding delivery dates, refunds, and customs release.",
+      "writer": "claude"
+    },
+    "4cf8c7f21657fcbe": {
+      "note": "This is clause 30.27.3 from UPS Spain archive note 27, covering electronics shipments. It follows clause 30.27.2, which notes that pallet strap counts are recorded on the dock sheet and that Reference 27 names UPS, and clause 30.27.1, which scopes the note to electronics shipments to Spain carried by UPS. This clause clarifies the note's limits, stating it does not promise a delivery date, refund, or customs release, reinforcing that the archive scan is informational only.",
+      "writer": "claude"
+    }
+  },
+  "germany_cold_chain_policy.md": {
+    "e38f63cf0ec759f6": {
+      "note": "This is the header block of the Germany cold-chain operations policy document, identifying DHL as carrier, Germany as country, and cold_chain as commodity class; it precedes the Temperature (3.1) and Holds (3.2) sections that follow.",
+      "writer": "claude"
+    },
+    "7bbf1e0df2b3a6a7": {
+      "note": "This is the section heading '3.1 Temperature' within the Germany cold-chain operations policy for DHL shipments to Germany; it introduces the two temperature-related clauses (3.1.1 and 3.1.2) that follow, and precedes the separate Holds section (3.2).",
+      "writer": "claude"
+    },
+    "c9c28bd34e1fc6d8": {
+      "note": "This clause (3.1.1) is part of the Temperature section (3.1) in the Germany cold-chain operations policy for DHL, cold_chain commodity class; it states that DHL monitors temperature for cold-chain shipments to Germany while in its control, and is immediately followed by clause 3.1.2 which limits what this monitoring guarantees.",
+      "writer": "claude"
+    },
+    "5a53d73544746434": {
+      "note": "This clause (3.1.2) is part of the Temperature section (3.1) in the Germany cold-chain operations policy for DHL, cold_chain commodity class; it follows 3.1.1's statement on temperature monitoring and clarifies that such monitoring does not promise a customs release time, delivery date, or refund.",
+      "writer": "claude"
+    },
+    "c1e017b498f55f46": {
+      "note": "This chunk is the section header '3.2 Holds' from the Germany cold-chain operations policy for carrier DHL, commodity class cold_chain. It introduces the subsection that follows section 3.1 on Temperature monitoring, and precedes clauses 3.2.1 and 3.2.2, which detail how customs holds are handled and the policy's scope limits for DHL cold-chain shipments to Germany.",
+      "writer": "claude"
+    },
+    "7790c6e161f98182": {
+      "note": "This chunk, clause 3.2.1, is from the 'Holds' subsection (3.2) of the Germany cold-chain operations policy for carrier DHL, commodity class cold_chain. It states that an HE customs hold is addressed under the Germany cold-chain service agreement, section 4.2, following the Temperature section (3.1) and preceding clause 3.2.2, which limits the policy's applicability to non-Brazil electronics shipments.",
+      "writer": "claude"
+    },
+    "604ba3d6d4f0227b": {
+      "note": "This chunk, clause 3.2.2, is from the 'Holds' subsection (3.2) of the Germany cold-chain operations policy for carrier DHL, commodity class cold_chain. It clarifies a scope limitation, stating the policy does not apply to electronics shipments to Brazil, directly following clause 3.2.1 on HE customs holds for Germany cold-chain shipments under DHL.",
+      "writer": "claude"
+    }
+  },
+  "lithium_battery_policy.md": {
+    "bbaab04c32d679b8": {
+      "note": "This chunk is the header of the Lithium Battery Handling Policy document, specifying carrier DHL, country France, and commodity class electronics. It establishes the scope for all subsequent clauses, including section 18.1 on air departure, which details how lithium battery shipments are handled under dangerous-goods review for this specific carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "21a6d722b8fb10a0": {
+      "note": "This chunk is the section heading '18.1 Air departure' within the Lithium Battery Handling Policy for DHL shipments of electronics to France. It introduces the subsection that follows, which clarifies the scope of applicability (clause 18.1.1) and the lack of guaranteed air departure timing for lithium batteries under dangerous-goods review (clause 18.1.2), without specifying flight numbers or delivery dates.",
+      "writer": "claude"
+    },
+    "26f04ebd5591654e": {
+      "note": "This chunk is clause 18.1.1 from the Lithium Battery Handling Policy document, under section 18.1 Air departure, for DHL shipments of electronics to France. It defines the scope of the policy, limiting its application specifically to electronics shipments bound for France via DHL. This scoping clause precedes 18.1.2, which addresses the uncertain air departure status for lithium batteries during dangerous-goods checks.",
+      "writer": "claude"
+    },
+    "511dd3fdaa0f4c0d": {
+      "note": "This chunk is clause 18.1.2 from the Lithium Battery Handling Policy document, under section 18.1 Air departure, applicable to DHL electronics shipments to France. Following the scope defined in 18.1.1, it states that lithium batteries are not guaranteed an air departure while the dangerous-goods check remains open. It precedes 18.1.3, which clarifies that no flight number or delivery date is provided.",
+      "writer": "claude"
+    },
+    "6ffe266fdb55f389": {
+      "note": "This chunk is clause 18.1.3 from the Lithium Battery Handling Policy for DHL shipments of electronics to France, within section 18.1 'Air departure.' It follows 18.1.1 (scope: electronics to France via DHL) and 18.1.2 (no promised air departure while the dangerous-goods check is open). This clause clarifies that the policy itself does not specify a flight number or a delivery date, reinforcing that no air transport timing commitments are made for lithium battery shipments under this review process.",
+      "writer": "claude"
+    }
+  },
+  "ups_br_electronics_policy.md": {
+    "cb1f60bf5192a317": {
+      "note": "This is the title/header chunk of the \"UPS Brazil electronics policy\" document, identifying the carrier (UPS), country (Brazil), and commodity class (electronics). It sets the scope for all subsequent clauses, including the release boundary section (17.1) that follows, which defines applicability and limits on customs-release statements for this specific carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "3aa774bd9033007c": {
+      "note": "This is the section header \"17.1 Release boundary\" within the UPS Brazil electronics policy document. It introduces the subsection governing the scope and limits of customs-release statements for electronics shipped to Brazil via UPS, preceding the specific clauses 17.1.1 through 17.1.3 that detail applicability, the no-promise stance, and an unrelated carve-out.",
+      "writer": "claude"
+    },
+    "c295bb20d86ff472": {
+      "note": "This is clause 17.1.1 of the UPS Brazil electronics policy, under section 17.1 'Release boundary.' It defines the scope, stating the clause applies only to electronics shipments to Brazil carried by UPS. This scoping clause precedes 17.1.2, which states UPS will not provide a customs-release promise for this specific carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "4e70b564c1fb344d": {
+      "note": "This is clause 17.1.2 of the UPS Brazil electronics policy, under section 17.1 'Release boundary.' Following the scope defined in 17.1.1 (electronics shipments to Brazil via UPS), this clause states that UPS operations will not provide a customs-release promise for such shipments. It precedes 17.1.3, which clarifies that an unrelated Germany cold-chain agreement does not apply here.",
+      "writer": "claude"
+    },
+    "5ad6e8155edf39f3": {
+      "note": "This chunk is clause 17.1.3 from the UPS Brazil electronics policy document, under section 17.1 'Release boundary.' It specifies that the Germany cold-chain agreement does not apply to this policy, distinguishing it from unrelated agreements. It follows clause 17.1.2, which states that UPS will not provide a customs-release promise for Brazil electronics shipments, reinforcing that no external commitments (like the Germany cold-chain agreement) extend or modify this carrier-country-commodity-specific policy scope.",
+      "writer": "claude"
+    }
+  },
+  "ups_de_temperature_watch.md": {
+    "44496aa9c2558c30": {
+      "note": "This is the header section of the UPS Germany temperature watch document, specifying the carrier (UPS), country (Germany), and commodity class (cold_chain). It establishes the scope for all subsequent clauses, including the temperature watch rule in 3.4.2 and the customs-release disclaimer in 3.4.3, none of which apply outside this carrier/country/commodity combination.",
+      "writer": "claude"
+    },
+    "2508503fb6e8fd70": {
+      "note": "This is the section heading '3.4 Temperature watch' within the UPS Germany cold-chain document. It introduces the temperature watch topic that is detailed in the following clauses 3.4.1 (scope), 3.4.2 (duration/no release hour), and 3.4.3 (not a customs-release promise), all specific to UPS cold-chain shipments to Germany.",
+      "writer": "claude"
+    },
+    "4291b7a4c6db2f65": {
+      "note": "This is clause 3.4.1 of the UPS Germany temperature watch document, applicable to cold_chain shipments to Germany carried by UPS. It defines the scope of the temperature watch provision, limiting it strictly to this carrier/country/commodity combination, and precedes clause 3.4.2, which describes the ongoing nature of the watch while UPS holds the shipment.",
+      "writer": "claude"
+    },
+    "3d00315f1b007378": {
+      "note": "This is clause 3.4.2 of the UPS Germany temperature watch document, covering cold_chain shipments to Germany carried by UPS. It states that while UPS holds such a shipment, the temperature watch continues with no release hour specified. It follows the scope clause 3.4.1 and precedes 3.4.3, which clarifies that this watch is not a customs-release promise.",
+      "writer": "claude"
+    },
+    "7ae17e9b10341bf8": {
+      "note": "This note pertains to the UPS Germany temperature watch document, covering carrier UPS, country Germany, and commodity class cold_chain. Chunk 3.4.3 clarifies that the temperature watch described in 3.4.2\u2014which applies only to cold_chain shipments to Germany carried by UPS and continues indefinitely with no stated release hour\u2014does not constitute a promise of customs release. It serves to limit the scope of the preceding clauses, ensuring the ongoing temperature monitoring is not misread as a guarantee regarding customs clearance timing.",
+      "writer": "claude"
+    }
+  },
+  "weekend_clock_policy.md": {
+    "dab041000f3f6720": {
+      "note": "This is the header/metadata block of the Weekend customs-clock policy document, specifying it applies to DHL as carrier, Germany as the destination country, and general commodity class. It establishes the scope for all subsequent clauses under section 19.1 regarding weekend customs desk handling and the 48-hour clock timer.",
+      "writer": "claude"
+    },
+    "f716eee9c8262fea": {
+      "note": "This is the section heading '19.1 Weekend desks' within the Weekend customs-clock policy document for DHL shipments to Germany, general commodity class. It introduces the subsection covering clauses 19.1.1\u201319.1.3, which define the scope and effect of weekend customs desks on the 48-hour clock.",
+      "writer": "claude"
+    },
+    "cd79d249add39a7f": {
+      "note": "This clause (19.1.1) is part of the Weekend customs-clock policy document under section 19.1 Weekend desks, specific to DHL carrier, Germany destination, general commodity class. It defines the scope restriction, stating the clause applies only to general shipments to Germany via DHL, setting context for the following clauses on weekend desk clock behavior.",
+      "writer": "claude"
+    },
+    "50b00f7c102636b7": {
+      "note": "This clause (19.1.2) belongs to the Weekend customs-clock policy document, section 19.1 Weekend desks, for DHL shipments to Germany, general commodity class. Following the scope clause 19.1.1, it states that weekend customs desks do not start the 48-hour clock, directly preceding clause 19.1.3 on Saturday arrivals.",
+      "writer": "claude"
+    },
+    "317e3e8943a58990": {
+      "note": "This chunk is clause 19.1.3 from the Weekend customs-clock policy document, applicable to general commodity shipments to Germany carried by DHL. It falls under section 19.1 (Weekend desks) and directly follows clause 19.1.2, which states that weekend customs desks do not start the 48-hour clock. This clause reinforces that principle by specifying that a Saturday arrival specifically is not counted as the first hour of a customs-hold timer, clarifying the scope established in 19.1.1 that limits this rule to German DHL general shipments.",
+      "writer": "claude"
+    }
+  },
+  "case_103_weather.md": {
+    "31de1d2d1e16f8b2": {
+      "note": "This chunk is the header of Resolution note case 103, specifying the document's scope: FedEx as the carrier, France as the destination country, and general commodity class. It establishes the metadata context for all subsequent clauses in this case, including the weather email section that follows, which details a specific customer communication scenario under these carrier, country, and commodity parameters.",
+      "writer": "claude"
+    },
+    "d3dd42686f070852": {
+      "note": "This chunk is the section heading '1.1 Weather email' within Resolution note case 103, applicable to FedEx shipments of general commodity class to France. It introduces the subsection detailing clauses 1.1.1 through 1.1.3, which describe the scope and content of a customer email sent after a weather-related shipment cancellation.",
+      "writer": "claude"
+    },
+    "820dcf8f8b64daca": {
+      "note": "This chunk is clause 1.1.1 under the Weather email section of Resolution note case 103, for FedEx, France, general commodity class. It defines the scope of applicability, stating the clause applies only to general shipments to France carried by FedEx, setting the boundary condition for the subsequent clause describing the actual customer email content and tone.",
+      "writer": "claude"
+    },
+    "3e96382edf7d8529": {
+      "note": "This chunk is clause 1.1.2 under the Weather email section of Resolution note case 103, for FedEx, France, general commodity class. Following the scope clause (1.1.1), it describes the substance of the customer communication after a weather cancellation: the email named the next departure but did not offer a refund, preceding the note on the email's factual tone in clause 1.1.3.",
+      "writer": "claude"
+    },
+    "756970ae464f211b": {
+      "note": "This note situates clause 1.1.3 from Resolution note case 103, covering FedEx shipments to France in the general commodity class. It falls under section 1.1 'Weather email,' which applies only to general FedEx shipments to France (1.1.1). Following 1.1.2, which describes the customer email naming the next departure after a weather cancellation without offering a refund, this clause simply characterizes the communication's tone as short and factual, without adding any additional commitments or promises beyond what is stated.",
+      "writer": "claude"
+    }
+  },
+  "case_104_closed.md": {
+    "dfd87b9c8e0ebd33": {
+      "note": "This is the header of Resolution note case 104, establishing that the document concerns UPS as the carrier, the Netherlands as the destination country, and general commodity shipments. It sets the metadata context for the sections that follow, including the 'Closed receiver' clause describing delivery reattempt timing.",
+      "writer": "claude"
+    },
+    "a5947f0d5d439666": {
+      "note": "This is the section heading '1.2 Closed receiver' within Resolution note case 104, a UPS Netherlands general-commodity document. It introduces the subsequent numbered clauses (1.2.1\u20131.2.3) that define the scope of the closed-receiver scenario and clarify the tone and limits of the resolution update described.",
+      "writer": "claude"
+    },
+    "a2851ed90b46eb30": {
+      "note": "This is clause 1.2.1 under '1.2 Closed receiver' in Resolution note case 104. It narrows the applicability of the closed-receiver guidance, stating it applies only to general-class shipments to the Netherlands carried by UPS, setting boundaries before the delivery-timing detail given in clause 1.2.2.",
+      "writer": "claude"
+    },
+    "ad55b6f28bbae9ef": {
+      "note": "This is clause 1.2.2 under '1.2 Closed receiver' in Resolution note case 104, applicable to UPS general shipments to the Netherlands. It states that when a receiver was closed, the update indicated delivery would be reattempted the next business day, explicitly not promising a same-day second attempt, consistent with the scope set in 1.2.1 and the tone disclaimer in 1.2.3.",
+      "writer": "claude"
+    },
+    "aba39ef2f222e862": {
+      "note": "This chunk is clause 1.2.3 from Resolution note case 104, covering UPS general shipments to the Netherlands under the 'Closed receiver' section. It follows 1.2.2, which describes an update stating delivery would be reattempted the next business day without promising a same-day second attempt. This clause clarifies that the case serves only as a tone example and explicitly does not establish any new contractual term, reinforcing that the preceding description is illustrative rather than binding.",
+      "writer": "claude"
+    }
+  },
+  "case_107_address.md": {
+    "644de35927250855": {
+      "note": "This is the header of Resolution note case 107, identifying the document's scope: carrier UPS, country Belgium, commodity class general. It precedes section 1.4 'Apartment number,' which details the specific scenario of an incomplete address held for correction and the clarification that no delivery time was given, establishing the context for all subsequent clauses in this case.",
+      "writer": "claude"
+    },
+    "b6966fed72a4645a": {
+      "note": "This heading, 'Apartment number,' introduces section 1.4 of Resolution note case 107 (UPS, Belgium, general commodity), following the document header. It sets up the topic for clauses 1.4.1 through 1.4.3, which describe the applicability, the specific incomplete-address incident, and the restriction against authorizing a delivery clock.",
+      "writer": "claude"
+    },
+    "6a7f478230df6d94": {
+      "note": "This clause, 1.4.1, is part of section 1.4 'Apartment number' in Resolution note case 107, specifying that the rule applies only to general shipments to Belgium carried by UPS. It follows the section heading and precedes 1.4.2, which describes the actual incomplete-address incident, and 1.4.3, which clarifies no delivery clock is authorized.",
+      "writer": "claude"
+    },
+    "bdccc4473affe6e6": {
+      "note": "This clause, 1.4.2, within section 1.4 'Apartment number' of Resolution note case 107 (UPS, Belgium, general commodity), describes the incident where an incomplete address was held for correction, the email requested the missing apartment number, and no delivery time was provided. It follows 1.4.1's scope statement and precedes 1.4.3, which states the case does not authorize a delivery clock.",
+      "writer": "claude"
+    },
+    "cb71c506e468a16b": {
+      "note": "This chunk is clause 1.4.3 from Resolution note case 107, section 1.4 'Apartment number', covering UPS general shipments to Belgium. It follows 1.4.2, which describes an incomplete address held for correction where the email requested the missing apartment number but gave no delivery time; 1.4.3 clarifies that this case does not authorize establishing a delivery clock.",
+      "writer": "claude"
+    }
+  },
+  "case_109_breakdown.md": {
+    "b0de0d3baea82e33": {
+      "note": "This chunk is the header block of Resolution note case 109, specifying the metadata for the entire document: Carrier DHL, Country Spain, Commodity class general. It establishes the scope that all subsequent clauses, including the breakdown refund section (1.3), apply specifically to DHL shipments of general commodities to Spain, framing the context for the refund dispute discussed later in the note.",
+      "writer": "claude"
+    },
+    "7fd9b686e5bf6ff5": {
+      "note": "This chunk is the section heading '1.3 Breakdown refund' within Resolution note case 109 (DHL, Spain, general commodity). It introduces the subsection that follows, which details the applicability scope (1.3.1), the customer refund request after a truck breakdown (1.3.2), and a note about an omitted weather clause for another carrier (1.3.3).",
+      "writer": "claude"
+    },
+    "98bb8bdd65fd0109": {
+      "note": "This chunk is clause 1.3.1 under section 1.3 Breakdown refund in Resolution note case 109, concerning DHL shipments of general commodities to Spain. It defines the scope restriction, stating the breakdown refund clause applies only to general shipments to Spain carried by DHL, setting boundaries before the subsequent clauses describe the specific refund incident and an unrelated carrier's omitted weather clause.",
+      "writer": "claude"
+    },
+    "b805585189370c80": {
+      "note": "This chunk is clause 1.3.2 under section 1.3 Breakdown refund in Resolution note case 109, for DHL general shipments to Spain. It describes the core incident: a customer requested a refund following a truck breakdown, but the analyst failed to send a refund date. This follows the scope clause (1.3.1) and precedes a note (1.3.3) about a weather clause omission for a different carrier.",
+      "writer": "claude"
+    },
+    "99785b155bc73827": {
+      "note": "This note belongs to Resolution note case 109, covering DHL shipments of general commodity to Spain. Clause 1.3.3 falls under section 1.3 (Breakdown refund), which addresses a customer's refund request following a truck breakdown where the analyst omitted a refund date (1.3.2). This clause adds that a weather clause pertaining to a different, unspecified carrier was not included in the email response sent to the customer, distinguishing it as an omission unrelated to the DHL breakdown refund case itself.",
+      "writer": "claude"
+    }
+  },
+  "distractor_label_reprint_09.md": {
+    "b9731732b10dc2f7": {
+      "note": "This chunk is the header block of UPS Spain archive note 9, identifying the carrier as UPS, the country as Spain, and the commodity class as pharma. It establishes the scope for the archive scan section that follows, specifically clause 30.9, which contains the applicability statement, the reprint/reference detail, and the disclaimer about what the note does not promise. No delivery, refund, or customs commitments are stated here.",
+      "writer": "claude"
+    },
+    "5d7b5455fb57e57d": {
+      "note": "This chunk is the section heading '30.9 Archive scan' within UPS Spain archive note 9, covering pharma shipments to Spain via UPS. It introduces the three sub-clauses that follow: the applicability statement (30.9.1), the label reprint/reference detail (30.9.2), and the disclaimer of promises (30.9.3). It contains no substantive content itself beyond framing the archive scan topic.",
+      "writer": "claude"
+    },
+    "ea21c433b1de4fd9": {
+      "note": "This chunk is clause 30.9.1 of UPS Spain archive note 9, specifying that the archive scan section applies only to pharma shipments destined for Spain and carried by UPS. It sets the scope boundary for the adjacent clauses 30.9.2, which describes a reprinted smudged label referenced in the archive photo, and 30.9.3, which disclaims any delivery date, refund, or customs release promise.",
+      "writer": "claude"
+    },
+    "4ce628ecbbbdc126": {
+      "note": "This chunk is clause 30.9.2 of UPS Spain archive note 9, under the pharma commodity class for UPS shipments to Spain. It notes that a smudged label was reprinted before the archive photo was taken and that Reference 9 names UPS as the carrier. It follows the applicability statement in 30.9.1 and precedes the disclaimer in 30.9.3, which clarifies that no delivery date, refund, or customs release is promised by this note.",
+      "writer": "claude"
+    },
+    "87ae5a6bd4c93860": {
+      "note": "This is clause 30.9.3 from UPS Spain archive note 9, which governs pharma shipments to Spain carried by UPS. It follows 30.9.1, which scopes the note to UPS pharma shipments bound for Spain, and 30.9.2, which describes a smudged label being reprinted before the archive photo and notes that reference 9 names UPS. This clause explicitly disclaims that the archive note makes no promise of a delivery date, refund, or customs release, clarifying the limited evidentiary purpose of the archived photo.",
+      "writer": "claude"
+    }
+  },
+  "distractor_label_reprint_19.md": {
+    "50d8a199b6b93d33": {
+      "note": "This is the header of DHL Germany archive note 19, identifying the record as pertaining to pharma shipments, with carrier DHL and country Germany. It establishes the scope for the archive scan section and clauses that follow (30.19.1\u201330.19.3), none of which guarantee delivery dates, refunds, or customs release.",
+      "writer": "claude"
+    },
+    "6e63c4897b43695f": {
+      "note": "This is the section heading '30.19 Archive scan' within the DHL Germany archive note 19 document, covering pharma shipments to Germany via DHL. It introduces the scope-defining clause 30.19.1 and the descriptive clause 30.19.2 that follow, as well as the disclaimer in 30.19.3.",
+      "writer": "claude"
+    },
+    "bc92b5193276d21c": {
+      "note": "This is clause 30.19.1 from DHL Germany archive note 19, under the 'Archive scan' section, for pharma commodities shipped to Germany via DHL carrier. It defines the applicability scope of this archive note, limiting it strictly to this carrier-country-commodity combination, preceding the descriptive clause 30.19.2 and the disclaimer clause 30.19.3.",
+      "writer": "claude"
+    },
+    "1322d58063fd9aa4": {
+      "note": "This is clause 30.19.2 from DHL Germany archive note 19, under 'Archive scan', applicable to pharma shipments to Germany via DHL. It describes a label reprint event prior to the archive photo and confirms reference 19 names DHL as carrier, following the scope clause 30.19.1 and preceding the disclaimer in 30.19.3 that limits what this note promises.",
+      "writer": "claude"
+    },
+    "b8d67bd72b4f1506": {
+      "note": "This chunk is clause 30.19.3 from DHL Germany archive note 19, covering pharma shipments to Germany carried by DHL. It follows 30.19.1 (scope limitation to pharma/Germany/DHL) and 30.19.2 (note on a smudged label reprinted before the archive photo, referencing DHL). This clause explicitly disclaims that the archive note offers no delivery date, refund, or customs release, clarifying the limited evidentiary purpose of the archived scan rather than any service guarantee.",
+      "writer": "claude"
+    }
+  },
+  "distractor_label_reprint_29.md": {
+    "659c6c4d49c6e4e3": {
+      "note": "This is the header of FedEx Netherlands archive note 29, identifying the carrier as FedEx, the country as Netherlands, and the commodity class as pharma. It establishes the scope for the archive scan section and clauses that follow, including the applicability statement and the note about the smudged label.",
+      "writer": "claude"
+    },
+    "91ee5e1c71abe255": {
+      "note": "This is the section heading '30.29 Archive scan' within FedEx Netherlands archive note 29, covering pharma shipments to the Netherlands carried by FedEx. It introduces the clauses 30.29.1 and 30.29.2 that detail the scope and the reprinted label detail of this archive scan.",
+      "writer": "claude"
+    },
+    "5d50fd333ec087ee": {
+      "note": "This is clause 30.29.1 of FedEx Netherlands archive note 29, for pharma shipments. It states that the clause applies only to pharma shipments to the Netherlands carried by FedEx, setting the scope for the surrounding archive scan section and the label detail noted in clause 30.29.2.",
+      "writer": "claude"
+    },
+    "249e4b4e7a25a1f6": {
+      "note": "This is clause 30.29.2 of FedEx Netherlands archive note 29, under the Archive scan section, for pharma shipments to the Netherlands carried by FedEx. It notes that a smudged label was reprinted before the archive photo was taken, and that reference 29 names FedEx, following the scope statement in clause 30.29.1.",
+      "writer": "claude"
+    },
+    "d51571e49d5247bc": {
+      "note": "This is clause 30.29.3 from FedEx Netherlands archive note 29, concerning pharma commodity shipments. It follows clause 30.29.1, which scopes the note to pharma shipments to the Netherlands carried by FedEx, and clause 30.29.2, which describes a smudged label reprinted before the archive photo referencing FedEx. This final clause clarifies the limited scope of the archive note, explicitly stating it does not promise a delivery date, a refund, or a customs release.",
+      "writer": "claude"
+    }
+  },
+  "distractor_scan_retake_08.md": {
+    "e04d8b89c71e3054": {
+      "note": "This is the header of FedEx France archive note 8, identifying the carrier as FedEx, the country as France, and the commodity class as cold_chain. It introduces the archive scan section (30.8) that follows, setting the scope for the clauses detailing a discarded dock photo and the note's limited, non-promissory nature.",
+      "writer": "claude"
+    },
+    "5abb3eeb25e22779": {
+      "note": "This is the section heading '30.8 Archive scan' within FedEx France archive note 8, for cold_chain shipments to France carried by FedEx. It introduces the subsequent clauses 30.8.1 through 30.8.3, which define the scope of applicability, describe a discarded dock photo incident, and clarify that no delivery, refund, or customs promises are made.",
+      "writer": "claude"
+    },
+    "6102b8138a1e035f": {
+      "note": "This is clause 30.8.1 from FedEx France archive note 8, under the 'Archive scan' section, covering cold_chain commodities shipped to France via FedEx. It defines the scope of the archive scan clauses, specifying applicability before the following clauses describe a discarded dock photo (30.8.2) and disclaim promises regarding delivery, refund, or customs release (30.8.3).",
+      "writer": "claude"
+    },
+    "63d08f53802b781e": {
+      "note": "This is clause 30.8.2 from FedEx France archive note 8, within the 'Archive scan' section for cold_chain shipments to France via FedEx. It follows the scope-defining clause 30.8.1 and describes an incident where a blurry dock photo was retaken and the original discarded, with archive Reference 8 naming FedEx. The next clause (30.8.3) clarifies this note makes no delivery, refund, or customs promises.",
+      "writer": "claude"
+    },
+    "05dd288ffdb019af": {
+      "note": "This is clause 30.8.3 from FedEx France archive note 8, covering cold_chain shipments carried by FedEx to France. It follows 30.8.1 (scope limitation to cold_chain/France/FedEx) and 30.8.2 (note about a blurry dock photo being retaken and the original discarded, with Reference 8 naming FedEx). This clause clarifies that the archive note itself makes no commitments regarding delivery timing, refunds, or customs clearance, serving as a disclaimer for the preceding photo documentation note.",
+      "writer": "claude"
+    }
+  },
+  "distractor_scan_retake_18.md": {
+    "3d7451c1921a8cc9": {
+      "note": "This is the header block of UPS Brazil archive note 18, identifying the carrier as UPS, the country as Brazil, and the commodity class as cold_chain. It sets the context for the scope clause and archive details that follow in section 30.18, establishing that all subsequent content pertains specifically to this carrier-country-commodity combination.",
+      "writer": "claude"
+    },
+    "60b9dfa5e7b92735": {
+      "note": "This is the section heading '30.18 Archive scan' within UPS Brazil archive note 18, covering cold_chain shipments. It introduces the subclauses 30.18.1 through 30.18.3 that define the scope, describe an archived photo incident, and clarify what the note does not promise, all specific to UPS carrier shipments to Brazil.",
+      "writer": "claude"
+    },
+    "6d56336bcbb0769c": {
+      "note": "This is clause 30.18.1 of UPS Brazil archive note 18, specifying that the archive scan section applies only to cold_chain shipments to Brazil carried by UPS. It scopes the subsequent clause (30.18.2) describing the dock photo incident, limiting applicability strictly to this carrier, country, and commodity combination.",
+      "writer": "claude"
+    },
+    "10c0862c117cb5a0": {
+      "note": "This is clause 30.18.2 of UPS Brazil archive note 18, under the cold_chain commodity class for UPS shipments to Brazil. It describes that a blurry dock photo was retaken and the original discarded, with Reference 18 naming UPS. This follows the scope statement in 30.18.1 and precedes the disclaimer in 30.18.3 about what the note does not promise.",
+      "writer": "claude"
+    },
+    "8779b517e9c77818": {
+      "note": "This chunk is clause 30.18.3 from the UPS Brazil archive note (archive scan 18), which applies specifically to cold_chain shipments carried by UPS to Brazil, as scoped by clause 30.18.1. It follows clause 30.18.2, which describes a retaken dock photo and the discarded original, with Reference 18 naming UPS. This concluding clause clarifies that the archive note itself carries no guarantee of a delivery date, a refund, or a customs release, limiting the scope of what the preceding record-keeping entry establishes.",
+      "writer": "claude"
+    }
+  },
+  "distractor_scan_retake_28.md": {
+    "ac77e8a7329be37b": {
+      "note": "This header chunk identifies the document as DHL Belgium archive note 28, establishing the carrier (DHL), country (Belgium), and commodity class (cold_chain) that govern all subsequent clauses in this archive note, including the scope and scan details that follow.",
+      "writer": "claude"
+    },
+    "2d1c147f6ae869ce": {
+      "note": "This heading introduces section 30.28, titled 'Archive scan', within the DHL Belgium archive note 28 for cold_chain shipments, serving as the section marker that precedes the scope clause (30.28.1) and the archival detail clause (30.28.2) in this document.",
+      "writer": "claude"
+    },
+    "89a9d2a16c039644": {
+      "note": "This clause, 30.28.1, from DHL Belgium archive note 28 (cold_chain commodity class), defines the scope of the archive scan section, limiting its applicability strictly to cold_chain shipments to Belgium carried by DHL, setting context for the archival detail described in the following clause 30.28.2.",
+      "writer": "claude"
+    },
+    "92a17c47c2ae2870": {
+      "note": "This clause, 30.28.2, from DHL Belgium archive note 28 (cold_chain, Belgium), describes an archival event\u2014a blurry dock photo was retaken and the original discarded\u2014and notes that reference 28 names DHL, following the scope defined in 30.28.1 and preceding the disclaimer in 30.28.3 about what this note does not promise.",
+      "writer": "claude"
+    },
+    "367ffcaffe37f9d0": {
+      "note": "This is clause 30.28.3 from DHL Belgium archive note 28, under the 'Archive scan' section for cold_chain shipments to Belgium carried by DHL. It follows 30.28.1, which scopes the note to cold_chain shipments to Belgium via DHL, and 30.28.2, which describes a retaken dock photo referencing DHL. This clause explicitly disclaims that the archive note offers no delivery date, refund, or customs release, clarifying the limited, non-committal nature of the archival record.",
+      "writer": "claude"
+    }
+  },
+  "rh_014_germany_cold_chain.md": {
+    "b12e917ac5fccfa3": {
+      "note": "This is the header of Resolution note RH-014 for DHL shipments in Germany, commodity class cold_chain, documenting an exception coded HE. It identifies the carrier, country, and commodity context for the outcome and review sections that follow, establishing the case to which the 48-hour status-update rule and human review requirement apply.",
+      "writer": "claude"
+    },
+    "b540e9e79e1d9934": {
+      "note": "This is the Outcome section of Resolution note RH-014 (DHL, Germany, cold_chain, exception code HE). It explains that a customer requested same-day customs release after a 10-hour HE hold, but the agent declined to promise release since the Germany cold-chain agreement section 4.2 only mandates a status update past 48 hours, and clarifies that existing temperature monitoring was not used as a release commitment.",
+      "writer": "claude"
+    },
+    "7b11f7b8e71353d9": {
+      "note": "This is the Review section of Resolution note RH-014 (DHL, Germany, cold_chain, exception code HE). It follows the Outcome section and states that human review was triggered because the customer requested a commitment\u2014same-day release\u2014that the underlying contract terms described in section 4.2 do not permit.",
+      "writer": "claude"
+    }
+  }
+}

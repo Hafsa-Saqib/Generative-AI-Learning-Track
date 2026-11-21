@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "sla_dhl_he_cold_de",
+    "carrier": "DHL",
+    "text": "DHL master service agreement, section 4.2. This clause applies only to cold-chain shipments to Germany. If an HE customs hold exceeds 48 hours after the carrier notifies the customer, DHL will send a status update and the next action within 48 hours of that notification. This clause does not promise customs release, a delivery date, or a refund. It does not apply to other countries or to commodities that are not cold-chain."
+  },
+  {
+    "source_id": "policy_de_cold_chain",
+    "carrier": "DHL",
+    "text": "Germany cold-chain handling policy. While a cold-chain shipment is held, the carrier must keep temperature monitoring in place and report the latest reading to the customer. This policy does not state a customs-release time."
+  },
+  {
+    "source_id": "sla_fedex_xl_weather",
+    "carrier": "FedEx",
+    "text": "FedEx weather-delay clause. If a departure is cancelled because of weather, FedEx will move the shipment on the next available departure and tell the customer the revised departure. A weather delay does not create a refund. This clause does not cover a mechanical breakdown."
+  },
+  {
+    "source_id": "sla_ups_reattempt",
+    "carrier": "UPS",
+    "text": "UPS delivery clause. If the receiver is closed, UPS will reattempt delivery on the next business day. This clause does not promise same-day redelivery."
+  },
+  {
+    "source_id": "sla_dhl_damage",
+    "carrier": "DHL",
+    "text": "DHL damage clause. If a cold-chain carton is refused because it is leaking or the temperature alarm sounded, DHL will open a damage review within 2 business days. The customer message must not promise a replacement or a refund before that review is finished."
+  },
+  {
+    "source_id": "sla_fedex_pickup",
+    "carrier": "FedEx",
+    "text": "FedEx pickup clause. If a pickup is missed because the shipper dock was closed, FedEx will schedule the next pickup on the following business day."
+  },
+  {
+    "source_id": "sla_ups_address",
+    "carrier": "UPS",
+    "text": "UPS address clause. If the delivery address is incomplete, UPS will hold the shipment and ask for the missing detail. Delivery is not attempted again until the address is corrected. No delivery time is promised."
+  },
+  {
+    "source_id": "sla_ups_he_nl_pharma",
+    "carrier": "UPS",
+    "text": "UPS Netherlands pharma clause. If customs requests a health certificate and the HE hold has exceeded 48 hours, UPS will notify the shipper within 1 business day and name the missing document. This clause does not promise customs clearance."
+  },
+  {
+    "source_id": "policy_nl_pharma",
+    "carrier": "UPS",
+    "text": "Netherlands pharma handling policy. If the seal is broken, the shipment must not be redelivered until quality review is complete. The customer message may say redelivery is paused. It may not give a release date."
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "test_examples": 50,
+  "baseline": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "accuracy": {
+      "exception_subtype": 0.0,
+      "blocking_reason": 0.0,
+      "estimated_resolution_date": 0.0,
+      "requires_cold_chain_monitoring": 0.18,
+      "overall": 0.045
+    },
+    "latency_ms": {
+      "p50": 18645.38880001055,
+      "p95": 20108.17349998979
+    },
+    "usd_per_1000_events": 0.0
+  },
+  "finetuned": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct+lora",
+    "accuracy": {
+      "exception_subtype": 0.0,
+      "blocking_reason": 0.0,
+      "estimated_resolution_date": 0.0,
+      "requires_cold_chain_monitoring": 0.22,
+      "overall": 0.055
+    },
+    "latency_ms": {
+      "p50": 9351.9792999723,
+      "p95": 23397.984999988694
+    },
+    "usd_per_1000_events": 0.0
+  },
+  "decision": "On the held-out notes the adapter scores 5.5% and the untuned model scores 4.5%. Neither reply is a complete rubric JSON, so a person still reads the note. Contract facts stay in the library."
+}

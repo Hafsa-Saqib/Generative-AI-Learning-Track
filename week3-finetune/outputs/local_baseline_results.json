@@ -1,0 +1,1017 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "rows": [
+    {
+      "id": "n289",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL dispatcher note: broken seal. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "seal_issue",
+        "blocking_reason": "seal_broken",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"exception_description\": \"Temp reading nominal.\",\n  \"exception_reason\": \"Temp reading nominal.\",\n  \"exception_subtype\": \"Exception\",\n  \"expected_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"required_subtype\": \"Exception\",\n  \"required_reason\": \"Temp reading nominal.\",\n  \"required_subtype_id\": \"1\",\n  \"required_reason_id\": \"1\",\n  \"required_subtype_id_id\": \"1\",\n  \"required_reason_id_id\": \"1",
+      "latency_ms": 22739.364099979866
+    },
+    {
+      "id": "n217",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL dispatcher note: crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that represents the note:\n\n```json\n{\n  \"id\": \"1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "latency_ms": 20108.17349998979
+    },
+    {
+      "id": "n256",
+      "carrier": "FedEx",
+      "commodity": "pharma",
+      "note": "FedEx dispatcher note: truck breakdown. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "breakdown",
+        "blocking_reason": "mechanical_breakdown",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the information:\n\n```json\n{\n  \"id\": \"1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "latency_ms": 19127.303700021002
+    },
+    {
+      "id": "n195",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held \u2014 leaking carton. Damage review in 2 business days. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: held \u2014 leaking carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.\n\nDHL: damaged carton. Damage review in 2 business days. Lane Hamburg.",
+      "latency_ms": 19056.05989997275
+    },
+    {
+      "id": "n081",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx: held \u2014 storm. Next departure Friday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the information about the storm:\n\n```json\n{\n  \"type\": \"storm\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"location\": \"Hamburg, Germany\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\": \"A severe storm has been reported in the area.\",\n  \"description\":",
+      "latency_ms": 19239.25489996327
+    },
+    {
+      "id": "n095",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: storm, under time pressure. Next departure Friday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and requires cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"blocking_reason\": \"Notify\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nNote that the `estimated_resolution_date` is a string that represents the estimated resolution date, and the `requires_cold_chain_monitoring` is a boolean value that indicates whether the cold chain monitoring should be enabled.",
+      "latency_ms": 16387.754999974277
+    },
+    {
+      "id": "n187",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS dispatcher note: missing street number. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states that the dispatcher did not receive a street number from the UPS dispatcher.",
+      "latency_ms": 3164.066199969966
+    },
+    {
+      "id": "n091",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS dispatcher note: storm. Next departure Friday. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "weather_delay",
+        "blocking_reason": "weather",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that represents the note:\n\n```json\n{\n  \"description\": \"UPS dispatcher note\",\n  \"type\": \"note\",\n  \"type_of_note\": \"note\",\n  \"type_of_note_type\": \"storm\",\n  \"description\": \"UPS dispatcher note\",\n  \"type_of_note_reason\": \"blocked_reason\",\n  \"type_of_note_reason_type\": \"estimated_resolution_date\",\n  \"type_of_note_reason_reason\": \"requires_cold_chain_monitoring\",\n  \"type_of_note_reason_reason_type\": \"cold_chain_monitoring\",\n  \"description\": \"UPS dispatcher note\",\n  \"",
+      "latency_ms": 19365.87249999866
+    },
+    {
+      "id": "n164",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"unexpected\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis JSON object includes the following fields:\n\n- `exception_subtype`: \"exception\"\n- `blocking_reason`: \"unexpected\"\n- `estimated_resolution_date`: \"2022-01-01\"\n- `requires_cold_chain_monitoring`: \"true\"\n\nYou can use this JSON object to log",
+      "latency_ms": 19037.5355000142
+    },
+    {
+      "id": "n153",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required to be cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"exception_subtype\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"next pickup Wednesday\",\n  \"required_to_be_cold_chain_monitoring\": \"next pickup Wednesday\"\n}\n```\n\nYou can use the JSON object as a template to create a custom exception type or to use it as a template for a custom exception.",
+      "latency_ms": 14624.340299982578
+    },
+    {
+      "id": "n234",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: held \u2014 crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"3 business days\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis JSON object is a valid JSON string that can be used to extract the exception, blocking reason, and estimated resolution date from the carrier note.",
+      "latency_ms": 12594.582799996715
+    },
+    {
+      "id": "n129",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx: held \u2014 receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "delivery_exception",
+        "blocking_reason": "receiver_closed",
+        "estimated_resolution_date": "2026-11-03",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required to be cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"exception_subtype\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"next attempt Tuesday\",\n  \"required_to_be_cold_chain_monitoring\": \"next attempt Tuesday\",\n  \"temporary_location\": \"next attempt Tuesday\",\n  \"temporary_vehicle\": \"next attempt Tuesday\",\n  \"temporary_vehicle_id\": \"next attempt Tuesday\",\n  \"temporary_vehicle_type\": \"next attempt Tuesday\",\n  \"temporary_vehicle_id_type\": \"next attempt Tuesday\",\n  \"temporary_",
+      "latency_ms": 19373.323899984825
+    },
+    {
+      "id": "n428",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states that the arrival of the weekend desk is not supported by the carrier. It does not specify the weekend desk start time.",
+      "latency_ms": 3833.360699994955
+    },
+    {
+      "id": "n276",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx: held \u2014 lithium battery check. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "FedEx: held \u2014 lithium battery check. Lane Sao Paulo.\n\nThe note states that the battery check was held by FedEx.",
+      "latency_ms": 4145.414800033905
+    },
+    {
+      "id": "n032",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object:\n\n```json\n{\n  \"complaint\": \"DHL\",\n  \"complaint_type\": \"complaint\",\n  \"complaint_date\": \"2022-01-01\",\n  \"complaint_reason\": \"Missing health certificate\",\n  \"complaint_subtype\": \"complaint\",\n  \"complaint_id\": \"1234567890\",\n  \"complaint_timestamp\": \"2022-01-01 00:00:00\",\n  \"complaint_id_type\": \"complaint\",\n  \"complaint_id_id\": \"1234567890\",\n  \"complaint",
+      "latency_ms": 19238.21170005249
+    },
+    {
+      "id": "n012",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": "2026-11-05",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "FedEx: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo.",
+      "latency_ms": 3242.237100028433
+    },
+    {
+      "id": "n251",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx driver: truck breakdown, under time pressure. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "breakdown",
+        "blocking_reason": "mechanical_breakdown",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "FedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n\nFedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n\nFedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n\nFedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n\nFedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n\nFedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n\nFedEx driver: \"FedEx driver: truck breakdown, under time pressure. Lane Hamburg.\n",
+      "latency_ms": 19345.303599955514
+    },
+    {
+      "id": "n317",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: broker says released, but the invoice is still missing. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: broker says released, but the invoice is still missing. Lane Hamburg.",
+      "latency_ms": 2811.293700011447
+    },
+    {
+      "id": "n270",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: held \u2014 lithium battery check. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: held \u2014 lithium battery check. Lane Sao Paulo.\n\nThe note states that the battery check was completed on the 15th of August 2023.",
+      "latency_ms": 5530.316999997012
+    },
+    {
+      "id": "n181",
+      "carrier": "FedEx",
+      "commodity": "dry_goods",
+      "note": "FedEx dispatcher note: missing street number. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states that the carrier dispatcher note does not support the street number \"Hamburg\" in the given note.",
+      "latency_ms": 3693.6679999926127
+    },
+    {
+      "id": "n239",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"3 business days\",\n  \"requires_cold_chain_monitoring\": \"under time pressure\"\n}\n```\n\nYou can use the following code to extract the exception, blocking, and estimated resolution date from the note:\n\n```python\nimport json\n\ndef extract_exception_subtype(note):\n    try:\n        return note[\"exception_subtype\"]\n    except KeyError:\n        return None\n\ndef extract_blocking_reason(note):\n    try:\n        return note[\"blocking_reason\"]",
+      "latency_ms": 19228.9032000117
+    },
+    {
+      "id": "n171",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held \u2014 missing street number. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states that the carrier has \"held\" the street number \"Hamburg\" and \"lane\" \"Ghirardelli\" (which is not specified).",
+      "latency_ms": 4880.083199997898
+    },
+    {
+      "id": "n031",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required health certificate:\n\n```json\n{\n  \"exception_type\": \"exception_subtype\",\n  \"blocking_reason\": \"blocked_reason\",\n  \"estimated_resolution_date\": \"estimated_resolution_date\",\n  \"required_health_certificate\": \"required_health_certificate\",\n  \"temp_reading_nominal\": \"temp_reading_nominal\",\n}\n```\n\nYou can use the following code to extract the exception type, blocking reason, estimated resolution date, and required health certificate:\n\n```python\nimport json\n\ndef extract_exception_type(note):\n    try:\n        return json.loads",
+      "latency_ms": 19808.171599986963
+    },
+    {
+      "id": "n402",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: held. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and requires cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"blocking_reason\": \"Not supported\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nYou can use the following code to check if the note supports the exception type:\n\n```python\nimport json\n\ndef check_exception_type(note):\n    try:\n        return note.get(\"exception_type\")\n    except Exception as e:\n        return None\n\ndef check_exception_type_and_blocking_reason(",
+      "latency_ms": 18840.802800026722
+    },
+    {
+      "id": "n295",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL dispatcher note: broken seal. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "seal_issue",
+        "blocking_reason": "seal_broken",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"exception_description\": \"Temp reading nominal.\",\n  \"exception_reason\": \"Temp reading nominal.\",\n  \"exception_subtype\": \"Exception\",\n  \"expected_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"required_subtype\": \"Exception\",\n  \"required_reason\": \"Temp reading nominal.\",\n  \"required_subtype_id\": \"1\",\n  \"required_reason_id\": \"1\",\n  \"required_subtype_id_id\": \"1\",\n  \"required_reason_id_id\": \"1",
+      "latency_ms": 18978.109600022435
+    },
+    {
+      "id": "n330",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution dates:\n\n```json\n{\n  \"exception_subtype\": \"Exception\",\n  \"blocking_reason\": \"Not available\",\n  \"estimated_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis JSON object is used to provide a list of the exception, blocking, and estimated resolution dates for the given note.",
+      "latency_ms": 13965.662699949462
+    },
+    {
+      "id": "n162",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2023-01-01T00:00:00Z\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nI hope this helps! Let me know if you have any further questions.",
+      "latency_ms": 11656.519799958915
+    },
+    {
+      "id": "n327",
+      "carrier": "FedEx",
+      "commodity": "pharma",
+      "note": "FedEx: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis JSON object includes the following fields:\n\n- `exception_subtype`: \"exception\"\n- `blocking_reason`: \"blocked\"\n- `estimated_resolution_date`: \"2022-01-01T00:00:00Z\"\n- `requires",
+      "latency_ms": 19378.75149998581
+    },
+    {
+      "id": "n006",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_documentation",
+        "estimated_resolution_date": "2026-11-05",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo.",
+      "latency_ms": 3125.392199959606
+    },
+    {
+      "id": "n360",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS: held \u2014 temp high. Temp reading high, product warm. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"temp high\",\n  \"estimated_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis JSON object includes the following fields:\n\n- `exception_subtype`: \"exception\"\n- `blocking_reason`: \"temp high\"\n- `estimated_resolution_date`: \"2022-01-01T00:00:00Z\"\n- `requires",
+      "latency_ms": 19038.394800038077
+    },
+    {
+      "id": "n156",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required to be in the cold chain:\n\n```json\n{\n  \"exception_type\": \"exception_subtype\",\n  \"blocking_reason\": \"blocked\",\n  \"estimated_resolution_date\": \"next pickup Wednesday\",\n  \"required_to_be_in_cold_chain\": \"next pickup Wednesday\"\n}\n```\n\nYou can use the JSON object as a template to create a custom exception class that can be used to handle the exception. For example:\n\n```python\nclass Exception(Exception):\n    pass\n\nclass FedsExporter(Exception):\n    pass\n\nclass FedsExporter_Exception(Exception):\n    pass\n",
+      "latency_ms": 18773.38959998451
+    },
+    {
+      "id": "n349",
+      "carrier": "FedEx",
+      "commodity": "dry_goods",
+      "note": "FedEx dispatcher note: temp high. Temp reading high. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"temp high\",\n  \"estimated_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis note indicates that the driver was experiencing a high temperature reading, which is a symptom of a potential issue with the vehicle's cooling system. The driver is required to report the temperature reading to the driver's management service, and the driver is also required to report the temperature reading to the driver's management service.",
+      "latency_ms": 18521.93809999153
+    },
+    {
+      "id": "n383",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS note: all clear at the dock. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"Exception\",\n  \"blocking_reason\": \"No blocking\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": \"2022-01-01\",\n  \"carrier_note\": {\n    \"note\": {\n      \"id\": \"1234567890\",\n      \"note_id\": \"1234567890\",\n      \"note_type\": \"Exception\",\n      \"description\": \"No blocking\",\n      \"priority\": \"No blocking\",\n      \"reason\": \"No blocking\",\n      \"timestamp\": \"2022-01-01T",
+      "latency_ms": 19192.202000005636
+    },
+    {
+      "id": "n371",
+      "carrier": "FedEx",
+      "commodity": "electronics",
+      "note": "FedEx note: all clear at the dock. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "{\n  \"exception_subtype\": \"FedEx\",\n  \"blocking_reason\": \"FedEx\",\n  \"estimated_resolution_date\": \"2022-01-01\",\n  \"requires_cold_chain_monitoring\": \"2022-01-01\",\n  \"carrier_note\": {\n    \"note_id\": \"1234567890\",\n    \"note_type\": \"FedEx\",\n    \"note_content\": \"All clear at the dock.\",\n    \"description\": \"All clear at the dock.\",\n    \"timestamp\": \"2022-01-01 00:00:00\",\n    \"timestamp_format\": \"",
+      "latency_ms": 18783.028200035915
+    },
+    {
+      "id": "n388",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: held. Lane Sao Paulo.\n\nThe note provided does not support a value for the exception_subtype, blocking_reason, and estimated_resolution_date.",
+      "latency_ms": 5061.706499953289
+    },
+    {
+      "id": "n432",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states that the arrival of the weekend desk is not supported by the carrier. It does not specify the weekend desk start time.",
+      "latency_ms": 4024.4262000196613
+    },
+    {
+      "id": "n221",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the information:\n\n```json\n{\n  \"id\": \"1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "latency_ms": 18959.02029995341
+    },
+    {
+      "id": "n139",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS dispatcher note: receiver closed. Next attempt Tuesday. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "delivery_exception",
+        "blocking_reason": "receiver_closed",
+        "estimated_resolution_date": "2026-11-03",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that represents the note:\n\n```json\n{\n  \"description\": \"UPS dispatcher note\",\n  \"type\": \"UPS dispatcher note\",\n  \"date\": \"2022-01-01\",\n  \"carrier\": \"UPS\",\n  \"carrier_id\": \"UPS_Dispatch_1234567890\",\n  \"carrier_name\": \"UPS\",\n  \"carrier_type\": \"UPS\",\n  \"carrier_id\": \"UPS_Dispatch_1234567890\",\n  \"carrier_id\": \"UPS_Dispatch_12345678",
+      "latency_ms": 19256.62729999749
+    },
+    {
+      "id": "n367",
+      "carrier": "DHL",
+      "commodity": "pharma",
+      "note": "DHL dispatch \u2014 freight moved, nothing to report. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL dispatch \u2014 freight moved, nothing to report. Lane Hamburg.",
+      "latency_ms": 2510.7783999992535
+    },
+    {
+      "id": "n053",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL driver: customs exam, under time pressure. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_inspection",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the information:\n\n```json\n{\n  \"id\": 1,\n  \"name\": \"DHL Driver\",\n  \"description\": \"DHL Driver\",\n  \"carrier_note\": \"DHL Driver\",\n  \"time_pressure\": \"2022-01-01\",\n  \"booking_date\": \"2022-01-01\",\n  \"booking_time\": \"2022-01-01\",\n  \"booking_reason\": \"DHL Driver\",\n  \"booking_status\": \"Booking\",\n  \"booking_date_in_time\": \"2022-01-01\",\n  \"booking_",
+      "latency_ms": 13366.634299978614
+    },
+    {
+      "id": "n287",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: lithium battery check, under time pressure. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception\",\n  \"blocking_reason\": \"under time pressure\",\n  \"estimated_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"requires_cold_chain_monitoring\": \"true\"\n}\n```\n\nThis JSON object includes the following fields:\n\n- `exception_subtype`: \"exception\"\n- `blocking_reason`: \"under time pressure\"\n- `estimated_resolution_date`: \"2022-01-01T00:00:00Z\"\n-",
+      "latency_ms": 20984.23649999313
+    },
+    {
+      "id": "n386",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL: held. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: held. Lane Sao Paulo.\n\nThe note provided does not support a value for the exception_subtype, blocking_reason, and estimated_resolution_date.",
+      "latency_ms": 5695.120099990163
+    },
+    {
+      "id": "n267",
+      "carrier": "DHL",
+      "commodity": "electronics",
+      "note": "DHL: held \u2014 lithium battery check. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "dangerous_goods_check",
+        "blocking_reason": "dangerous_goods",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "DHL: held \u2014 lithium battery check. Lane Hamburg.\n\nThe note states that the battery check was completed by DHL.",
+      "latency_ms": 11853.342799993698
+    },
+    {
+      "id": "n236",
+      "carrier": "UPS",
+      "commodity": "electronics",
+      "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-06",
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": true
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and requires cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"blocked_reason\": \"Under time pressure\",\n  \"estimated_resolution_date\": \"3 business days\",\n  \"requires_cold_chain_monitoring\": true\n}\n```\n\nYou can use the JSON object as a template to create a custom exception class that can be used to handle the specific exception. For example:\n\n```python\nclass Exception(Exception):\n    pass\n\nclass CarrierNotification(Exception):\n    pass\n\nclass CarrierNotification(Exception):\n    pass\n\nclass CarrierNotification(Exception):\n    pass\n\n",
+      "latency_ms": 8598.621500015724
+    },
+    {
+      "id": "n193",
+      "carrier": "DHL",
+      "commodity": "cold_chain",
+      "note": "DHL dispatcher note: leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "damage",
+        "blocking_reason": "damage",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"blocking_reason\": \"Leaking carton\",\n  \"estimated_resolution_date\": \"2 business days\",\n  \"required_cold_chain_monitoring\": \"1 business day\"\n}\n```\n\nYou can use the JSON object as a template to create a custom exception class that inherits from the `Exception` class and overrides the `get_message` method to provide a custom message. Here is an example:\n\n```python\nclass CartonLeaking(Exception):\n    pass\n\nclass Carrier(Exception):\n    pass\n\nclass",
+      "latency_ms": 13808.933799969964
+    },
+    {
+      "id": "n370",
+      "carrier": "FedEx",
+      "commodity": "cold_chain",
+      "note": "FedEx dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "unknown",
+        "blocking_reason": null,
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "FedEx dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo.",
+      "latency_ms": 3407.0947999716736
+    },
+    {
+      "id": "n071",
+      "carrier": "UPS",
+      "commodity": "pharma",
+      "note": "UPS driver: customs exam, under time pressure. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "customs_hold",
+        "blocking_reason": "customs_inspection",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception, blocking, and estimated resolution date:\n\n```json\n{\n  \"exception_subtype\": \"exception_subtype\",\n  \"blocking_reason\": \"blocking_reason\",\n  \"estimated_resolution_date\": \"estimated_resolution_date\",\n  \"requires_cold_chain_monitoring\": \"requires_cold_chain_monitoring\"\n}\n```\n\nYou can use the following code to extract the exception, blocking, and estimated resolution date:\n\n```python\nimport json\n\ndef extract_exception_subtype(note):\n    try:\n        return note[\"exception_subtype\"]\n    except KeyError:\n        return None\n\ndef extract_blocking_reason(note):\n    try:\n       ",
+      "latency_ms": 20024.310800014064
+    },
+    {
+      "id": "n185",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS driver: missing street number, under time pressure. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"blocking_reason\": \"Under time pressure\",\n  \"estimated_resolution_date\": \"Temp reading nominal\",\n  \"required_cold_chain_monitoring\": \"Under time pressure\"\n}\n```\n\nYou can use the following code to extract the exception type, blocking reason, estimated resolution date, and required cold chain monitoring:\n\n```python\nimport json\n\ndef extract_exception_type(note):\n    try:\n        return note[\"exception_type\"]\n    except KeyError:\n        return None\n\ndef extract_blocking_reason(note):\n    try",
+      "latency_ms": 19895.943599985912
+    },
+    {
+      "id": "n161",
+      "carrier": "UPS",
+      "commodity": "cold_chain",
+      "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Temp reading nominal. Lane Hamburg.",
+      "label": {
+        "exception_subtype": "pickup_missed",
+        "blocking_reason": "shipper_dock_closed",
+        "estimated_resolution_date": "2026-11-04",
+        "requires_cold_chain_monitoring": true
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "Here is the JSON object that contains the exception type, blocking reason, estimated resolution date, and required cold chain monitoring:\n\n```json\n{\n  \"exception_type\": \"Exception\",\n  \"blocking_reason\": \"Notification\",\n  \"estimated_resolution_date\": \"2022-01-01T00:00:00Z\",\n  \"required_cold_chain_monitoring\": \"2022-01-01T00:00:00Z\"\n}\n```\n\nYou can use the JSON object as a template to create a custom exception class that can be used to handle the exception. Here is an example:\n\n```python\nclass Exception(Exception):\n    pass\n",
+      "latency_ms": 19800.385499955155
+    },
+    {
+      "id": "n174",
+      "carrier": "DHL",
+      "commodity": "dry_goods",
+      "note": "DHL: held \u2014 missing street number. Lane Sao Paulo.",
+      "label": {
+        "exception_subtype": "address_exception",
+        "blocking_reason": "address_incomplete",
+        "estimated_resolution_date": null,
+        "requires_cold_chain_monitoring": false
+      },
+      "prediction": {
+        "exception_subtype": "unparsed",
+        "blocking_reason": "unparsed",
+        "estimated_resolution_date": "unparsed",
+        "requires_cold_chain_monitoring": "unparsed"
+      },
+      "raw_reply": "The note states that the street number is missing, but it does not specify the exact street number. To find the street number, you can use the following steps:\n\n1. Open the Carrier Note: This is a text file that contains the carrier note.\n2. Open the Carrier Note in Notepad: This will open the note in Notepad.\n3. Look for the street number: The note does not specify the exact street number.\n4. Search for the street number: Use the search function in Notepad to find the street number.\n5. Check the street number: If the street number is not found, you can check the street number in the carrier note.\n\nHere's an example of how you can search for the street number:\n",
+      "latency_ms": 18645.38880001055
+    }
+  ],
+  "parsed": 0,
+  "accuracy": {
+    "exception_subtype": 0.0,
+    "blocking_reason": 0.0,
+    "estimated_resolution_date": 0.0,
+    "requires_cold_chain_monitoring": 0.18,
+    "overall": 0.045
+  },
+  "latency_ms": {
+    "p50": 18645.38880001055,
+    "p95": 20108.17349998979
+  }
+}

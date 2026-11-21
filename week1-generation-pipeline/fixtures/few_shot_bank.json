@@ -1,0 +1,611 @@
+[
+  {
+    "example_id": "ex_01",
+    "input": "HE | DHL | Germany | cold_chain | 52 hours | held, missing commercial invoice, temperature nominal",
+    "output": {
+      "exception_id": "ex_01",
+      "customer_facing_draft": "Your cold-chain shipment to Germany is still held at customs. Temperature monitoring is active. Because the hold has passed 48 hours, DHL will send a status update and the next action. We cannot yet give a release date.",
+      "internal_summary": "Germany cold-chain HE over 48 hours. Commit only to a status update and temperature reporting.",
+      "grounded_commitments": [ "DHL will send a status update and the next action.", "Temperature monitoring stays active." ],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2"
+        },
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.86,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_02",
+    "input": "HE | DHL | Germany | cold_chain | 70 hours | customs exam, chilled product, no release time given",
+    "output": {
+      "exception_id": "ex_02",
+      "customer_facing_draft": "The chilled shipment remains in customs exam. We will keep temperature monitoring on and report the latest reading. DHL owes a status update and the next action because the hold is past 48 hours. No release time is available.",
+      "internal_summary": "Past-threshold Germany cold-chain hold. Do not invent an exam end time.",
+      "grounded_commitments": [ "Status update and next action are owed.", "Latest temperature reading will be reported." ],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2"
+        },
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.84,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_03",
+    "input": "HE | DHL | Brazil | electronics | 60 hours | customs hold, broker has not called",
+    "output": {
+      "exception_id": "ex_03",
+      "customer_facing_draft": "Your electronics shipment to Brazil is held at customs. The contract excerpt on file applies only to cold-chain shipments to Germany, so we cannot state a response time or a release date. The timeline is under review.",
+      "internal_summary": "No applicable clause for Brazil electronics. Send to a human.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2, not applicable"
+        }
+      ],
+      "confidence": 0.34,
+      "requires_human_review": true,
+      "review_reason": "The only clause on file does not cover Brazil or electronics."
+    }
+  },
+  {
+    "example_id": "ex_04",
+    "input": "HE | DHL | Germany | cold_chain | 10 hours | customer wants a guaranteed same-day customs release",
+    "output": {
+      "exception_id": "ex_04",
+      "customer_facing_draft": "The shipment is held at customs. We cannot guarantee a same-day release. The timeline is under review.",
+      "internal_summary": "Customer asked for same-day release. Clause forbids a release promise, and the 48-hour response rule has not started.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2"
+        }
+      ],
+      "confidence": 0.4,
+      "requires_human_review": true,
+      "review_reason": "No snippet supports a same-day customs release."
+    }
+  },
+  {
+    "example_id": "ex_05",
+    "input": "XL | FedEx | France | general | 18 hours | weather delay, flight cancelled, next departure tomorrow",
+    "output": {
+      "exception_id": "ex_05",
+      "customer_facing_draft": "Your shipment is delayed because the flight was cancelled for weather. FedEx will move it on the next available departure and send the revised departure. This delay does not include a refund.",
+      "internal_summary": "Weather clause applies. Commit to next departure and a revised-departure notice only.",
+      "grounded_commitments": [ "FedEx will move the shipment on the next available departure.", "The customer will be told the revised departure." ],
+      "citations": [
+        {
+          "source_id": "sla_fedex_xl_weather",
+          "clause_or_case": "weather-delay clause"
+        }
+      ],
+      "confidence": 0.9,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_06",
+    "input": "XL | DHL | Spain | general | 12 hours | truck breakdown, customer wants a refund timeline today",
+    "output": {
+      "exception_id": "ex_06",
+      "customer_facing_draft": "The shipment is delayed after a truck breakdown. We cannot give a refund timeline. The clause on file covers weather delays for a different carrier, not a mechanical failure. The timeline is under review.",
+      "internal_summary": "Refund request is unsupported. Weather clause does not apply.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_fedex_xl_weather",
+          "clause_or_case": "weather-delay clause, not applicable"
+        }
+      ],
+      "confidence": 0.28,
+      "requires_human_review": true,
+      "review_reason": "No snippet supports a refund or a breakdown remedy."
+    }
+  },
+  {
+    "example_id": "ex_07",
+    "input": "AD | UPS | Netherlands | cold_chain | 6 hours | receiver closed, will reattempt next business day",
+    "output": {
+      "exception_id": "ex_07",
+      "customer_facing_draft": "The receiver was closed, so delivery did not happen. UPS will reattempt on the next business day. We cannot promise a same-day second attempt.",
+      "internal_summary": "Closed-receiver clause supports next-business-day reattempt only.",
+      "grounded_commitments": [ "UPS will reattempt delivery on the next business day." ],
+      "citations": [
+        {
+          "source_id": "sla_ups_reattempt",
+          "clause_or_case": "delivery clause"
+        }
+      ],
+      "confidence": 0.88,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_08",
+    "input": "RT | DHL | Germany | cold_chain | 4 hours | refused, carton leaking, temperature alarm",
+    "output": {
+      "exception_id": "ex_08",
+      "customer_facing_draft": "The receiver refused the carton because it was leaking and the temperature alarm had sounded. DHL will open a damage review within 2 business days. We are not promising a replacement or a refund in this update.",
+      "internal_summary": "Damage clause allows a 2-business-day review and nothing more.",
+      "grounded_commitments": [ "DHL will open a damage review within 2 business days." ],
+      "citations": [
+        {
+          "source_id": "sla_dhl_damage",
+          "clause_or_case": "damage clause"
+        }
+      ],
+      "confidence": 0.87,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_09",
+    "input": "PU | FedEx | Germany | general | 3 hours | pickup missed because the dock closed at 16:00",
+    "output": {
+      "exception_id": "ex_09",
+      "customer_facing_draft": "The pickup was missed because the dock was closed. FedEx will schedule the next pickup on the following business day.",
+      "internal_summary": "Missed-pickup clause supports the next business-day window.",
+      "grounded_commitments": [ "FedEx will schedule the next pickup on the following business day." ],
+      "citations": [
+        {
+          "source_id": "sla_fedex_pickup",
+          "clause_or_case": "pickup clause"
+        }
+      ],
+      "confidence": 0.91,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_10",
+    "input": "DE | UPS | Belgium | general | 9 hours | address incomplete, apartment number missing",
+    "output": {
+      "exception_id": "ex_10",
+      "customer_facing_draft": "Delivery is paused because the address is missing an apartment number. UPS will hold the shipment until that detail is corrected. No delivery time is available.",
+      "internal_summary": "Incomplete-address clause. Ask for the apartment number and do not give a delivery time.",
+      "grounded_commitments": [ "UPS will hold the shipment until the address is corrected." ],
+      "citations": [
+        {
+          "source_id": "sla_ups_address",
+          "clause_or_case": "address clause"
+        }
+      ],
+      "confidence": 0.9,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_11",
+    "input": "HE | UPS | Netherlands | pharma | 50 hours | customs requested a health certificate",
+    "output": {
+      "exception_id": "ex_11",
+      "customer_facing_draft": "Customs is holding the pharma shipment and has requested a health certificate. Because the hold is past 48 hours, UPS will notify the shipper within 1 business day and name the missing document. We cannot promise clearance.",
+      "internal_summary": "Netherlands pharma HE over 48 hours. Commit to notice and the document name only.",
+      "grounded_commitments": [ "UPS will notify the shipper within 1 business day and name the missing document." ],
+      "citations": [
+        {
+          "source_id": "sla_ups_he_nl_pharma",
+          "clause_or_case": "pharma clause"
+        }
+      ],
+      "confidence": 0.85,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_12",
+    "input": "RT | UPS | Netherlands | pharma | 8 hours | seal broken, do not redeliver until quality reviews",
+    "output": {
+      "exception_id": "ex_12",
+      "customer_facing_draft": "The shipment was returned because the seal is broken. Redelivery is paused until quality review is complete. We cannot give a release date.",
+      "internal_summary": "Broken-seal policy allows a pause statement and forbids a release date.",
+      "grounded_commitments": [ "Redelivery stays paused until quality review is complete." ],
+      "citations": [
+        {
+          "source_id": "policy_nl_pharma",
+          "clause_or_case": "broken seal"
+        }
+      ],
+      "confidence": 0.89,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_13",
+    "input": "AR | DHL | Germany | cold_chain | 2 hours | arrived at gateway, awaiting customs scan",
+    "output": {
+      "exception_id": "ex_13",
+      "customer_facing_draft": "The cold-chain shipment has arrived at the gateway and is waiting for a customs scan. The 48-hour response rule has not started, so we are not promising an update window yet. Temperature monitoring remains active.",
+      "internal_summary": "Arrival only. Temperature policy applies. The 48-hour response duty does not.",
+      "grounded_commitments": [ "Temperature monitoring remains active." ],
+      "citations": [
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.8,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_14",
+    "input": "DL | FedEx | France | general | 30 hours | delivered one day late after a weather hold",
+    "output": {
+      "exception_id": "ex_14",
+      "customer_facing_draft": "The shipment was delivered after a weather hold. The weather clause required movement on the next available departure. It does not provide a refund for the late day.",
+      "internal_summary": "Already delivered. Explain the weather clause and do not add a refund.",
+      "grounded_commitments": [ "No refund is owed for the weather delay." ],
+      "citations": [
+        {
+          "source_id": "sla_fedex_xl_weather",
+          "clause_or_case": "weather-delay clause"
+        }
+      ],
+      "confidence": 0.83,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_15",
+    "input": "HE | DHL | Germany | food | 49 hours | customs exam, chilled not frozen",
+    "output": {
+      "exception_id": "ex_15",
+      "customer_facing_draft": "Your chilled food shipment is in a customs exam and the hold is past 48 hours. DHL will send a status update and the next action. Temperature monitoring continues. We do not have an exam end time.",
+      "internal_summary": "Food shipment still falls under the Germany cold-chain clauses. No exam deadline exists.",
+      "grounded_commitments": [ "DHL will send a status update and the next action.", "Temperature monitoring continues." ],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2"
+        },
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.82,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_16",
+    "input": "HE | DHL | Mexico | cold_chain | 55 hours | customs hold, customer wants a 24-hour release guarantee",
+    "output": {
+      "exception_id": "ex_16",
+      "customer_facing_draft": "The shipment is held at customs. We cannot guarantee release within 24 hours. The timeline is under review.",
+      "internal_summary": "Mexico is outside the Germany-only clause. Human review.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2, not applicable"
+        }
+      ],
+      "confidence": 0.3,
+      "requires_human_review": true,
+      "review_reason": "The clause applies only to Germany."
+    }
+  },
+  {
+    "example_id": "ex_17",
+    "input": "XL | FedEx | Italy | general | 20 hours | storm cancelled the flight, customer asks when it moves",
+    "output": {
+      "exception_id": "ex_17",
+      "customer_facing_draft": "A storm cancelled the flight. FedEx will move the shipment on the next available departure and tell you that revised departure. No refund applies to this weather delay.",
+      "internal_summary": "Standard weather clause. Next departure plus notice.",
+      "grounded_commitments": [ "FedEx will move the shipment on the next available departure and report it." ],
+      "citations": [
+        {
+          "source_id": "sla_fedex_xl_weather",
+          "clause_or_case": "weather-delay clause"
+        }
+      ],
+      "confidence": 0.9,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_18",
+    "input": "XL | UPS | Poland | general | 15 hours | engine failure, customer demands tomorrow delivery",
+    "output": {
+      "exception_id": "ex_18",
+      "customer_facing_draft": "The shipment is delayed by an engine failure. We cannot promise delivery tomorrow. The timeline is under review.",
+      "internal_summary": "Mechanical failure with a delivery demand and no matching clause.",
+      "grounded_commitments": [],
+      "citations": [],
+      "confidence": 0.22,
+      "requires_human_review": true,
+      "review_reason": "No snippet supports a tomorrow-delivery promise after an engine failure."
+    }
+  },
+  {
+    "example_id": "ex_19",
+    "input": "AD | UPS | Belgium | general | 5 hours | business closed for a local holiday",
+    "output": {
+      "exception_id": "ex_19",
+      "customer_facing_draft": "Delivery did not happen because the business was closed. UPS will reattempt on the next business day.",
+      "internal_summary": "Closed receiver. Next business day only.",
+      "grounded_commitments": [ "UPS will reattempt delivery on the next business day." ],
+      "citations": [
+        {
+          "source_id": "sla_ups_reattempt",
+          "clause_or_case": "delivery clause"
+        }
+      ],
+      "confidence": 0.86,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_20",
+    "input": "AD | UPS | Spain | general | 7 hours | customer insists on a same-evening redelivery",
+    "output": {
+      "exception_id": "ex_20",
+      "customer_facing_draft": "We cannot promise a same-evening redelivery. The timeline is under review.",
+      "internal_summary": "Same-evening demand conflicts with the next-business-day clause.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_ups_reattempt",
+          "clause_or_case": "delivery clause"
+        }
+      ],
+      "confidence": 0.45,
+      "requires_human_review": true,
+      "review_reason": "The clause does not support same-evening redelivery."
+    }
+  },
+  {
+    "example_id": "ex_21",
+    "input": "RT | DHL | Germany | cold_chain | 6 hours | temperature logger alarm, carton intact",
+    "output": {
+      "exception_id": "ex_21",
+      "customer_facing_draft": "The shipment was refused after a temperature alarm. DHL will open a damage review within 2 business days. This update does not include a replacement or a refund.",
+      "internal_summary": "Alarm is enough to start the damage review. Do not offer compensation yet.",
+      "grounded_commitments": [ "DHL will open a damage review within 2 business days." ],
+      "citations": [
+        {
+          "source_id": "sla_dhl_damage",
+          "clause_or_case": "damage clause"
+        }
+      ],
+      "confidence": 0.84,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_22",
+    "input": "PU | FedEx | France | general | 4 hours | no one available at the dock during the pickup window",
+    "output": {
+      "exception_id": "ex_22",
+      "customer_facing_draft": "The pickup window was missed because the dock was unattended. FedEx will schedule the next pickup on the following business day.",
+      "internal_summary": "Closed-dock pickup. Next business day.",
+      "grounded_commitments": [ "FedEx will schedule the next pickup on the following business day." ],
+      "citations": [
+        {
+          "source_id": "sla_fedex_pickup",
+          "clause_or_case": "pickup clause"
+        }
+      ],
+      "confidence": 0.88,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_23",
+    "input": "DE | UPS | Netherlands | general | 11 hours | street number is missing from the label",
+    "output": {
+      "exception_id": "ex_23",
+      "customer_facing_draft": "Delivery is on hold because the street number is missing. UPS will keep the shipment until the address is corrected. No delivery time can be given.",
+      "internal_summary": "Missing street number is an incomplete address.",
+      "grounded_commitments": [ "UPS will hold the shipment until the address is corrected." ],
+      "citations": [
+        {
+          "source_id": "sla_ups_address",
+          "clause_or_case": "address clause"
+        }
+      ],
+      "confidence": 0.9,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_24",
+    "input": "HE | UPS | Netherlands | pharma | 36 hours | health certificate requested, hold is not yet 48 hours",
+    "output": {
+      "exception_id": "ex_24",
+      "customer_facing_draft": "Customs has asked for a health certificate. The one-business-day notice duty starts only after 48 hours, and this hold is at 36 hours, so we cannot state that duty yet. The timeline is under review.",
+      "internal_summary": "Clause threshold has not been reached. Do not promise the one-day notice.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_ups_he_nl_pharma",
+          "clause_or_case": "pharma clause"
+        }
+      ],
+      "confidence": 0.42,
+      "requires_human_review": true,
+      "review_reason": "The notice commitment starts only after 48 hours."
+    }
+  },
+  {
+    "example_id": "ex_25",
+    "input": "HE | DHL | Germany | cold_chain | 20 hours | missing invoice, customer wants the 48-hour response promise now",
+    "output": {
+      "exception_id": "ex_25",
+      "customer_facing_draft": "The shipment is held for a missing invoice. The status-update duty applies only after the hold passes 48 hours, so we cannot make that commitment yet. Temperature monitoring is active. Any release time is under review.",
+      "internal_summary": "Temperature promise is supported. The 48-hour response promise is not yet owed.",
+      "grounded_commitments": [ "Temperature monitoring is active." ],
+      "citations": [
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.7,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_26",
+    "input": "AD | DHL | Germany | cold_chain | 20 hours | missing invoice, broker says Thursday",
+    "output": {
+      "exception_id": "ex_26",
+      "customer_facing_draft": "The cold-chain shipment is held for a missing commercial invoice. Temperature monitoring continues. A broker comment about Thursday is not a release commitment. The release timeline is under review.",
+      "internal_summary": "Do not repeat the broker's Thursday guess. Temperature policy is the only commitment at 20 hours.",
+      "grounded_commitments": [ "Temperature monitoring continues." ],
+      "citations": [
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.74,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_27",
+    "input": "HE | DHL | India | apparel | 80 hours | customs hold, please promise delivery Friday",
+    "output": {
+      "exception_id": "ex_27",
+      "customer_facing_draft": "The apparel shipment to India is held at customs. We cannot promise delivery on Friday. The timeline is under review.",
+      "internal_summary": "No India apparel clause. Human review.",
+      "grounded_commitments": [],
+      "citations": [],
+      "confidence": 0.2,
+      "requires_human_review": true,
+      "review_reason": "No snippet covers this country, commodity, or a Friday delivery."
+    }
+  },
+  {
+    "example_id": "ex_28",
+    "input": "XL | FedEx | Germany | general | 22 hours | snow closed the hub, next flight is the following morning",
+    "output": {
+      "exception_id": "ex_28",
+      "customer_facing_draft": "Snow closed the hub. FedEx will move the shipment on the next available departure and notify you of that departure. The weather clause does not include a refund.",
+      "internal_summary": "Weather clause again. Keep the refund exclusion.",
+      "grounded_commitments": [ "FedEx will move the shipment on the next available departure and notify the customer." ],
+      "citations": [
+        {
+          "source_id": "sla_fedex_xl_weather",
+          "clause_or_case": "weather-delay clause"
+        }
+      ],
+      "confidence": 0.89,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_29",
+    "input": "RT | UPS | Netherlands | pharma | 3 hours | outer seal cut during scan",
+    "output": {
+      "exception_id": "ex_29",
+      "customer_facing_draft": "The outer seal was cut during scanning, so redelivery is paused until quality review finishes. No release date is available.",
+      "internal_summary": "Broken-seal policy. Pause redelivery.",
+      "grounded_commitments": [ "Redelivery is paused until quality review is complete." ],
+      "citations": [
+        {
+          "source_id": "policy_nl_pharma",
+          "clause_or_case": "broken seal"
+        }
+      ],
+      "confidence": 0.9,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_30",
+    "input": "DE | UPS | France | general | 14 hours | customer gave a new apartment number and wants delivery in two hours",
+    "output": {
+      "exception_id": "ex_30",
+      "customer_facing_draft": "Thank you for the apartment number. We still cannot promise delivery within two hours. The timeline is under review.",
+      "internal_summary": "Address can be corrected, but a two-hour delivery promise is not in the clause.",
+      "grounded_commitments": [],
+      "citations": [
+        {
+          "source_id": "sla_ups_address",
+          "clause_or_case": "address clause"
+        }
+      ],
+      "confidence": 0.38,
+      "requires_human_review": true,
+      "review_reason": "No snippet supports a two-hour delivery promise."
+    }
+  },
+  {
+    "example_id": "ex_31",
+    "input": "HE | DHL | Germany | cold_chain | 96 hours | still missing the commercial invoice",
+    "output": {
+      "exception_id": "ex_31",
+      "customer_facing_draft": "The Germany cold-chain shipment is still held for a missing commercial invoice, and the hold is well past 48 hours. DHL will send a status update and the next action. Temperature monitoring continues. We cannot give a release date.",
+      "internal_summary": "Long hold. Both Germany clauses apply. Still no release promise.",
+      "grounded_commitments": [ "DHL will send a status update and the next action.", "Temperature monitoring continues." ],
+      "citations": [
+        {
+          "source_id": "sla_dhl_he_cold_de",
+          "clause_or_case": "section 4.2"
+        },
+        {
+          "source_id": "policy_de_cold_chain",
+          "clause_or_case": "temperature monitoring"
+        }
+      ],
+      "confidence": 0.87,
+      "requires_human_review": false,
+      "review_reason": null
+    }
+  },
+  {
+    "example_id": "ex_32",
+    "input": "PU | DHL | Spain | general | 2 hours | customer wants the missed pickup redone tonight",
+    "output": {
+      "exception_id": "ex_32",
+      "customer_facing_draft": "We cannot promise that the missed pickup will be redone tonight. The timeline is under review.",
+      "internal_summary": "Tonight pickup is unsupported. The FedEx next-day clause is a different carrier.",
+      "grounded_commitments": [],
+      "citations": [],
+      "confidence": 0.25,
+      "requires_human_review": true,
+      "review_reason": "No DHL snippet supports a same-night pickup."
+    }
+  }
+]

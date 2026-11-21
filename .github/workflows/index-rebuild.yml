@@ -1,0 +1,24 @@
+name: index-rebuild
+on:
+  workflow_dispatch:
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest pydantic tiktoken jinja2
+      - run: pytest -q
+        working-directory: week1-generation-pipeline
+      - run: pytest -q
+        working-directory: week2-rag-pipeline
+      - run: pytest -q
+        working-directory: week3-finetune
+      - run: python eval/run_evals.py
+        working-directory: week3-finetune
+      - run: pytest -q
+        working-directory: week4-safety
+      - run: pytest -q
+        working-directory: week4-deploy

@@ -1,0 +1,30 @@
+name: genai-pipeline-ci
+on: [pull_request]
+jobs:
+  retrieval-and-extraction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pydantic pytest tiktoken
+      - run: pytest -q
+        working-directory: week2-rag-pipeline
+      - run: pytest -q
+        working-directory: week3-finetune
+      - run: python eval/run_evals.py
+        working-directory: week3-finetune
+
+  week4-safety-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pydantic pytest
+      - run: pytest -q
+        working-directory: week4-safety
+      - run: pytest -q
+        working-directory: week4-deploy

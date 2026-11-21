@@ -1,0 +1,432 @@
+{"id": "n001", "carrier": "DHL", "note": "DHL dispatcher note: commercial invoice. Broker says thurs. Temp reading nominal. Lane Hamburg."}
+{"id": "n002", "carrier": "DHL", "note": "DHL driver: commercial invoice, under time pressure. Broker says thurs. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n003", "carrier": "DHL", "note": "DHL: held \u2014 commercial invoice. Broker says thurs. Lane Hamburg."}
+{"id": "n004", "carrier": "DHL", "note": "DHL dispatcher note: commercial invoice. Broker says thurs. Lane Sao Paulo."}
+{"id": "n005", "carrier": "DHL", "note": "DHL driver: commercial invoice, under time pressure. Broker says thurs. Lane Hamburg."}
+{"id": "n006", "carrier": "DHL", "note": "DHL: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo."}
+{"id": "n007", "carrier": "DHL", "note": "DHL dispatcher note: commercial invoice. Broker says thurs. Temp reading nominal. Lane Hamburg."}
+{"id": "n008", "carrier": "DHL", "note": "DHL driver: commercial invoice, under time pressure. Broker says thurs. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n009", "carrier": "FedEx", "note": "FedEx: held \u2014 commercial invoice. Broker says thurs. Temp reading nominal. Lane Hamburg."}
+{"id": "n010", "carrier": "FedEx", "note": "FedEx dispatcher note: commercial invoice. Broker says thurs. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n011", "carrier": "FedEx", "note": "FedEx driver: commercial invoice, under time pressure. Broker says thurs. Lane Hamburg."}
+{"id": "n012", "carrier": "FedEx", "note": "FedEx: held \u2014 commercial invoice. Broker says thurs. Lane Sao Paulo."}
+{"id": "n013", "carrier": "FedEx", "note": "FedEx dispatcher note: commercial invoice. Broker says thurs. Lane Hamburg."}
+{"id": "n014", "carrier": "FedEx", "note": "FedEx driver: commercial invoice, under time pressure. Broker says thurs. Lane Sao Paulo."}
+{"id": "n015", "carrier": "FedEx", "note": "FedEx: held \u2014 commercial invoice. Broker says thurs. Temp reading nominal. Lane Hamburg."}
+{"id": "n016", "carrier": "FedEx", "note": "FedEx dispatcher note: commercial invoice. Broker says thurs. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n017", "carrier": "UPS", "note": "UPS driver: commercial invoice, under time pressure. Broker says thurs. Temp reading nominal. Lane Hamburg."}
+{"id": "n018", "carrier": "UPS", "note": "UPS: held \u2014 commercial invoice. Broker says thurs. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n019", "carrier": "UPS", "note": "UPS dispatcher note: commercial invoice. Broker says thurs. Lane Hamburg."}
+{"id": "n020", "carrier": "UPS", "note": "UPS driver: commercial invoice, under time pressure. Broker says thurs. Lane Sao Paulo."}
+{"id": "n021", "carrier": "UPS", "note": "UPS: held \u2014 commercial invoice. Broker says thurs. Lane Hamburg."}
+{"id": "n022", "carrier": "UPS", "note": "UPS dispatcher note: commercial invoice. Broker says thurs. Lane Sao Paulo."}
+{"id": "n023", "carrier": "UPS", "note": "UPS driver: commercial invoice, under time pressure. Broker says thurs. Temp reading nominal. Lane Hamburg."}
+{"id": "n024", "carrier": "UPS", "note": "UPS: held \u2014 commercial invoice. Broker says thurs. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n025", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n026", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n027", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Lane Hamburg."}
+{"id": "n028", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Lane Sao Paulo."}
+{"id": "n029", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Lane Hamburg."}
+{"id": "n030", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Lane Sao Paulo."}
+{"id": "n031", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n032", "carrier": "DHL", "note": "DHL: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n033", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n034", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n035", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Lane Hamburg."}
+{"id": "n036", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Lane Sao Paulo."}
+{"id": "n037", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Lane Hamburg."}
+{"id": "n038", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Lane Sao Paulo."}
+{"id": "n039", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n040", "carrier": "FedEx", "note": "FedEx: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n041", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n042", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n043", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Lane Hamburg."}
+{"id": "n044", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Lane Sao Paulo."}
+{"id": "n045", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Lane Hamburg."}
+{"id": "n046", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Lane Sao Paulo."}
+{"id": "n047", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n048", "carrier": "UPS", "note": "UPS: held, missing health certificate. Broker says Thursday or Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n049", "carrier": "DHL", "note": "DHL dispatcher note: customs exam. Temp reading nominal. Lane Hamburg."}
+{"id": "n050", "carrier": "DHL", "note": "DHL driver: customs exam, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n051", "carrier": "DHL", "note": "DHL: held \u2014 customs exam. Lane Hamburg."}
+{"id": "n052", "carrier": "DHL", "note": "DHL dispatcher note: customs exam. Lane Sao Paulo."}
+{"id": "n053", "carrier": "DHL", "note": "DHL driver: customs exam, under time pressure. Lane Hamburg."}
+{"id": "n054", "carrier": "DHL", "note": "DHL: held \u2014 customs exam. Lane Sao Paulo."}
+{"id": "n055", "carrier": "DHL", "note": "DHL dispatcher note: customs exam. Temp reading nominal. Lane Hamburg."}
+{"id": "n056", "carrier": "DHL", "note": "DHL driver: customs exam, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n057", "carrier": "FedEx", "note": "FedEx: held \u2014 customs exam. Temp reading nominal. Lane Hamburg."}
+{"id": "n058", "carrier": "FedEx", "note": "FedEx dispatcher note: customs exam. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n059", "carrier": "FedEx", "note": "FedEx driver: customs exam, under time pressure. Lane Hamburg."}
+{"id": "n060", "carrier": "FedEx", "note": "FedEx: held \u2014 customs exam. Lane Sao Paulo."}
+{"id": "n061", "carrier": "FedEx", "note": "FedEx dispatcher note: customs exam. Lane Hamburg."}
+{"id": "n062", "carrier": "FedEx", "note": "FedEx driver: customs exam, under time pressure. Lane Sao Paulo."}
+{"id": "n063", "carrier": "FedEx", "note": "FedEx: held \u2014 customs exam. Temp reading nominal. Lane Hamburg."}
+{"id": "n064", "carrier": "FedEx", "note": "FedEx dispatcher note: customs exam. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n065", "carrier": "UPS", "note": "UPS driver: customs exam, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n066", "carrier": "UPS", "note": "UPS: held \u2014 customs exam. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n067", "carrier": "UPS", "note": "UPS dispatcher note: customs exam. Lane Hamburg."}
+{"id": "n068", "carrier": "UPS", "note": "UPS driver: customs exam, under time pressure. Lane Sao Paulo."}
+{"id": "n069", "carrier": "UPS", "note": "UPS: held \u2014 customs exam. Lane Hamburg."}
+{"id": "n070", "carrier": "UPS", "note": "UPS dispatcher note: customs exam. Lane Sao Paulo."}
+{"id": "n071", "carrier": "UPS", "note": "UPS driver: customs exam, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n072", "carrier": "UPS", "note": "UPS: held \u2014 customs exam. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n073", "carrier": "DHL", "note": "DHL dispatcher note: storm. Next departure Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n074", "carrier": "DHL", "note": "DHL driver: storm, under time pressure. Next departure Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n075", "carrier": "DHL", "note": "DHL: held \u2014 storm. Next departure Friday. Lane Hamburg."}
+{"id": "n076", "carrier": "DHL", "note": "DHL dispatcher note: storm. Next departure Friday. Lane Sao Paulo."}
+{"id": "n077", "carrier": "DHL", "note": "DHL driver: storm, under time pressure. Next departure Friday. Lane Hamburg."}
+{"id": "n078", "carrier": "DHL", "note": "DHL: held \u2014 storm. Next departure Friday. Lane Sao Paulo."}
+{"id": "n079", "carrier": "DHL", "note": "DHL dispatcher note: storm. Next departure Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n080", "carrier": "DHL", "note": "DHL driver: storm, under time pressure. Next departure Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n081", "carrier": "FedEx", "note": "FedEx: held \u2014 storm. Next departure Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n082", "carrier": "FedEx", "note": "FedEx dispatcher note: storm. Next departure Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n083", "carrier": "FedEx", "note": "FedEx driver: storm, under time pressure. Next departure Friday. Lane Hamburg."}
+{"id": "n084", "carrier": "FedEx", "note": "FedEx: held \u2014 storm. Next departure Friday. Lane Sao Paulo."}
+{"id": "n085", "carrier": "FedEx", "note": "FedEx dispatcher note: storm. Next departure Friday. Lane Hamburg."}
+{"id": "n086", "carrier": "FedEx", "note": "FedEx driver: storm, under time pressure. Next departure Friday. Lane Sao Paulo."}
+{"id": "n087", "carrier": "FedEx", "note": "FedEx: held \u2014 storm. Next departure Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n088", "carrier": "FedEx", "note": "FedEx dispatcher note: storm. Next departure Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n089", "carrier": "UPS", "note": "UPS driver: storm, under time pressure. Next departure Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n090", "carrier": "UPS", "note": "UPS: held \u2014 storm. Next departure Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n091", "carrier": "UPS", "note": "UPS dispatcher note: storm. Next departure Friday. Lane Hamburg."}
+{"id": "n092", "carrier": "UPS", "note": "UPS driver: storm, under time pressure. Next departure Friday. Lane Sao Paulo."}
+{"id": "n093", "carrier": "UPS", "note": "UPS: held \u2014 storm. Next departure Friday. Lane Hamburg."}
+{"id": "n094", "carrier": "UPS", "note": "UPS dispatcher note: storm. Next departure Friday. Lane Sao Paulo."}
+{"id": "n095", "carrier": "UPS", "note": "UPS driver: storm, under time pressure. Next departure Friday. Temp reading nominal. Lane Hamburg."}
+{"id": "n096", "carrier": "UPS", "note": "UPS: held \u2014 storm. Next departure Friday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n097", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Hamburg."}
+{"id": "n098", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n099", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Lane Hamburg."}
+{"id": "n100", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo."}
+{"id": "n101", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Lane Hamburg."}
+{"id": "n102", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo."}
+{"id": "n103", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Hamburg."}
+{"id": "n104", "carrier": "DHL", "note": "DHL: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n105", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Hamburg."}
+{"id": "n106", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n107", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Lane Hamburg."}
+{"id": "n108", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo."}
+{"id": "n109", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Lane Hamburg."}
+{"id": "n110", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo."}
+{"id": "n111", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Hamburg."}
+{"id": "n112", "carrier": "FedEx", "note": "FedEx: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n113", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Hamburg."}
+{"id": "n114", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n115", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Lane Hamburg."}
+{"id": "n116", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo."}
+{"id": "n117", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Lane Hamburg."}
+{"id": "n118", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Lane Sao Paulo."}
+{"id": "n119", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Hamburg."}
+{"id": "n120", "carrier": "UPS", "note": "UPS: wind hold. Maybe Friday, dispatcher is not sure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n121", "carrier": "DHL", "note": "DHL dispatcher note: receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n122", "carrier": "DHL", "note": "DHL driver: receiver closed, under time pressure. Next attempt Tuesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n123", "carrier": "DHL", "note": "DHL: held \u2014 receiver closed. Next attempt Tuesday. Lane Hamburg."}
+{"id": "n124", "carrier": "DHL", "note": "DHL dispatcher note: receiver closed. Next attempt Tuesday. Lane Sao Paulo."}
+{"id": "n125", "carrier": "DHL", "note": "DHL driver: receiver closed, under time pressure. Next attempt Tuesday. Lane Hamburg."}
+{"id": "n126", "carrier": "DHL", "note": "DHL: held \u2014 receiver closed. Next attempt Tuesday. Lane Sao Paulo."}
+{"id": "n127", "carrier": "DHL", "note": "DHL dispatcher note: receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n128", "carrier": "DHL", "note": "DHL driver: receiver closed, under time pressure. Next attempt Tuesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n129", "carrier": "FedEx", "note": "FedEx: held \u2014 receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n130", "carrier": "FedEx", "note": "FedEx dispatcher note: receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n131", "carrier": "FedEx", "note": "FedEx driver: receiver closed, under time pressure. Next attempt Tuesday. Lane Hamburg."}
+{"id": "n132", "carrier": "FedEx", "note": "FedEx: held \u2014 receiver closed. Next attempt Tuesday. Lane Sao Paulo."}
+{"id": "n133", "carrier": "FedEx", "note": "FedEx dispatcher note: receiver closed. Next attempt Tuesday. Lane Hamburg."}
+{"id": "n134", "carrier": "FedEx", "note": "FedEx driver: receiver closed, under time pressure. Next attempt Tuesday. Lane Sao Paulo."}
+{"id": "n135", "carrier": "FedEx", "note": "FedEx: held \u2014 receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n136", "carrier": "FedEx", "note": "FedEx dispatcher note: receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n137", "carrier": "UPS", "note": "UPS driver: receiver closed, under time pressure. Next attempt Tuesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n138", "carrier": "UPS", "note": "UPS: held \u2014 receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n139", "carrier": "UPS", "note": "UPS dispatcher note: receiver closed. Next attempt Tuesday. Lane Hamburg."}
+{"id": "n140", "carrier": "UPS", "note": "UPS driver: receiver closed, under time pressure. Next attempt Tuesday. Lane Sao Paulo."}
+{"id": "n141", "carrier": "UPS", "note": "UPS: held \u2014 receiver closed. Next attempt Tuesday. Lane Hamburg."}
+{"id": "n142", "carrier": "UPS", "note": "UPS dispatcher note: receiver closed. Next attempt Tuesday. Lane Sao Paulo."}
+{"id": "n143", "carrier": "UPS", "note": "UPS driver: receiver closed, under time pressure. Next attempt Tuesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n144", "carrier": "UPS", "note": "UPS: held \u2014 receiver closed. Next attempt Tuesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n145", "carrier": "DHL", "note": "DHL dispatcher note: dock closed. Next pickup Wednesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n146", "carrier": "DHL", "note": "DHL driver: dock closed, under time pressure. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n147", "carrier": "DHL", "note": "DHL: held \u2014 dock closed. Next pickup Wednesday. Lane Hamburg."}
+{"id": "n148", "carrier": "DHL", "note": "DHL dispatcher note: dock closed. Next pickup Wednesday. Lane Sao Paulo."}
+{"id": "n149", "carrier": "DHL", "note": "DHL driver: dock closed, under time pressure. Next pickup Wednesday. Lane Hamburg."}
+{"id": "n150", "carrier": "DHL", "note": "DHL: held \u2014 dock closed. Next pickup Wednesday. Lane Sao Paulo."}
+{"id": "n151", "carrier": "DHL", "note": "DHL dispatcher note: dock closed. Next pickup Wednesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n152", "carrier": "DHL", "note": "DHL driver: dock closed, under time pressure. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n153", "carrier": "FedEx", "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n154", "carrier": "FedEx", "note": "FedEx dispatcher note: dock closed. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n155", "carrier": "FedEx", "note": "FedEx driver: dock closed, under time pressure. Next pickup Wednesday. Lane Hamburg."}
+{"id": "n156", "carrier": "FedEx", "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Lane Sao Paulo."}
+{"id": "n157", "carrier": "FedEx", "note": "FedEx dispatcher note: dock closed. Next pickup Wednesday. Lane Hamburg."}
+{"id": "n158", "carrier": "FedEx", "note": "FedEx driver: dock closed, under time pressure. Next pickup Wednesday. Lane Sao Paulo."}
+{"id": "n159", "carrier": "FedEx", "note": "FedEx: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n160", "carrier": "FedEx", "note": "FedEx dispatcher note: dock closed. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n161", "carrier": "UPS", "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n162", "carrier": "UPS", "note": "UPS: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n163", "carrier": "UPS", "note": "UPS dispatcher note: dock closed. Next pickup Wednesday. Lane Hamburg."}
+{"id": "n164", "carrier": "UPS", "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Lane Sao Paulo."}
+{"id": "n165", "carrier": "UPS", "note": "UPS: held \u2014 dock closed. Next pickup Wednesday. Lane Hamburg."}
+{"id": "n166", "carrier": "UPS", "note": "UPS dispatcher note: dock closed. Next pickup Wednesday. Lane Sao Paulo."}
+{"id": "n167", "carrier": "UPS", "note": "UPS driver: dock closed, under time pressure. Next pickup Wednesday. Temp reading nominal. Lane Hamburg."}
+{"id": "n168", "carrier": "UPS", "note": "UPS: held \u2014 dock closed. Next pickup Wednesday. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n169", "carrier": "DHL", "note": "DHL dispatcher note: missing street number. Temp reading nominal. Lane Hamburg."}
+{"id": "n170", "carrier": "DHL", "note": "DHL driver: missing street number, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n171", "carrier": "DHL", "note": "DHL: held \u2014 missing street number. Lane Hamburg."}
+{"id": "n172", "carrier": "DHL", "note": "DHL dispatcher note: missing street number. Lane Sao Paulo."}
+{"id": "n173", "carrier": "DHL", "note": "DHL driver: missing street number, under time pressure. Lane Hamburg."}
+{"id": "n174", "carrier": "DHL", "note": "DHL: held \u2014 missing street number. Lane Sao Paulo."}
+{"id": "n175", "carrier": "DHL", "note": "DHL dispatcher note: missing street number. Temp reading nominal. Lane Hamburg."}
+{"id": "n176", "carrier": "DHL", "note": "DHL driver: missing street number, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n177", "carrier": "FedEx", "note": "FedEx: held \u2014 missing street number. Temp reading nominal. Lane Hamburg."}
+{"id": "n178", "carrier": "FedEx", "note": "FedEx dispatcher note: missing street number. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n179", "carrier": "FedEx", "note": "FedEx driver: missing street number, under time pressure. Lane Hamburg."}
+{"id": "n180", "carrier": "FedEx", "note": "FedEx: held \u2014 missing street number. Lane Sao Paulo."}
+{"id": "n181", "carrier": "FedEx", "note": "FedEx dispatcher note: missing street number. Lane Hamburg."}
+{"id": "n182", "carrier": "FedEx", "note": "FedEx driver: missing street number, under time pressure. Lane Sao Paulo."}
+{"id": "n183", "carrier": "FedEx", "note": "FedEx: held \u2014 missing street number. Temp reading nominal. Lane Hamburg."}
+{"id": "n184", "carrier": "FedEx", "note": "FedEx dispatcher note: missing street number. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n185", "carrier": "UPS", "note": "UPS driver: missing street number, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n186", "carrier": "UPS", "note": "UPS: held \u2014 missing street number. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n187", "carrier": "UPS", "note": "UPS dispatcher note: missing street number. Lane Hamburg."}
+{"id": "n188", "carrier": "UPS", "note": "UPS driver: missing street number, under time pressure. Lane Sao Paulo."}
+{"id": "n189", "carrier": "UPS", "note": "UPS: held \u2014 missing street number. Lane Hamburg."}
+{"id": "n190", "carrier": "UPS", "note": "UPS dispatcher note: missing street number. Lane Sao Paulo."}
+{"id": "n191", "carrier": "UPS", "note": "UPS driver: missing street number, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n192", "carrier": "UPS", "note": "UPS: held \u2014 missing street number. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n193", "carrier": "DHL", "note": "DHL dispatcher note: leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n194", "carrier": "DHL", "note": "DHL driver: leaking carton, under time pressure. Damage review in 2 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n195", "carrier": "DHL", "note": "DHL: held \u2014 leaking carton. Damage review in 2 business days. Lane Hamburg."}
+{"id": "n196", "carrier": "DHL", "note": "DHL dispatcher note: leaking carton. Damage review in 2 business days. Lane Sao Paulo."}
+{"id": "n197", "carrier": "DHL", "note": "DHL driver: leaking carton, under time pressure. Damage review in 2 business days. Lane Hamburg."}
+{"id": "n198", "carrier": "DHL", "note": "DHL: held \u2014 leaking carton. Damage review in 2 business days. Lane Sao Paulo."}
+{"id": "n199", "carrier": "DHL", "note": "DHL dispatcher note: leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n200", "carrier": "DHL", "note": "DHL driver: leaking carton, under time pressure. Damage review in 2 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n201", "carrier": "FedEx", "note": "FedEx: held \u2014 leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n202", "carrier": "FedEx", "note": "FedEx dispatcher note: leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n203", "carrier": "FedEx", "note": "FedEx driver: leaking carton, under time pressure. Damage review in 2 business days. Lane Hamburg."}
+{"id": "n204", "carrier": "FedEx", "note": "FedEx: held \u2014 leaking carton. Damage review in 2 business days. Lane Sao Paulo."}
+{"id": "n205", "carrier": "FedEx", "note": "FedEx dispatcher note: leaking carton. Damage review in 2 business days. Lane Hamburg."}
+{"id": "n206", "carrier": "FedEx", "note": "FedEx driver: leaking carton, under time pressure. Damage review in 2 business days. Lane Sao Paulo."}
+{"id": "n207", "carrier": "FedEx", "note": "FedEx: held \u2014 leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n208", "carrier": "FedEx", "note": "FedEx dispatcher note: leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n209", "carrier": "UPS", "note": "UPS driver: leaking carton, under time pressure. Damage review in 2 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n210", "carrier": "UPS", "note": "UPS: held \u2014 leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n211", "carrier": "UPS", "note": "UPS dispatcher note: leaking carton. Damage review in 2 business days. Lane Hamburg."}
+{"id": "n212", "carrier": "UPS", "note": "UPS driver: leaking carton, under time pressure. Damage review in 2 business days. Lane Sao Paulo."}
+{"id": "n213", "carrier": "UPS", "note": "UPS: held \u2014 leaking carton. Damage review in 2 business days. Lane Hamburg."}
+{"id": "n214", "carrier": "UPS", "note": "UPS dispatcher note: leaking carton. Damage review in 2 business days. Lane Sao Paulo."}
+{"id": "n215", "carrier": "UPS", "note": "UPS driver: leaking carton, under time pressure. Damage review in 2 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n216", "carrier": "UPS", "note": "UPS: held \u2014 leaking carton. Damage review in 2 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n217", "carrier": "DHL", "note": "DHL dispatcher note: crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n218", "carrier": "DHL", "note": "DHL driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n219", "carrier": "DHL", "note": "DHL: held \u2014 crushed carton. Inspection in 3 business days. Lane Hamburg."}
+{"id": "n220", "carrier": "DHL", "note": "DHL dispatcher note: crushed carton. Inspection in 3 business days. Lane Sao Paulo."}
+{"id": "n221", "carrier": "DHL", "note": "DHL driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Hamburg."}
+{"id": "n222", "carrier": "DHL", "note": "DHL: held \u2014 crushed carton. Inspection in 3 business days. Lane Sao Paulo."}
+{"id": "n223", "carrier": "DHL", "note": "DHL dispatcher note: crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n224", "carrier": "DHL", "note": "DHL driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n225", "carrier": "FedEx", "note": "FedEx: held \u2014 crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n226", "carrier": "FedEx", "note": "FedEx dispatcher note: crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n227", "carrier": "FedEx", "note": "FedEx driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Hamburg."}
+{"id": "n228", "carrier": "FedEx", "note": "FedEx: held \u2014 crushed carton. Inspection in 3 business days. Lane Sao Paulo."}
+{"id": "n229", "carrier": "FedEx", "note": "FedEx dispatcher note: crushed carton. Inspection in 3 business days. Lane Hamburg."}
+{"id": "n230", "carrier": "FedEx", "note": "FedEx driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Sao Paulo."}
+{"id": "n231", "carrier": "FedEx", "note": "FedEx: held \u2014 crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n232", "carrier": "FedEx", "note": "FedEx dispatcher note: crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n233", "carrier": "UPS", "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n234", "carrier": "UPS", "note": "UPS: held \u2014 crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n235", "carrier": "UPS", "note": "UPS dispatcher note: crushed carton. Inspection in 3 business days. Lane Hamburg."}
+{"id": "n236", "carrier": "UPS", "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Lane Sao Paulo."}
+{"id": "n237", "carrier": "UPS", "note": "UPS: held \u2014 crushed carton. Inspection in 3 business days. Lane Hamburg."}
+{"id": "n238", "carrier": "UPS", "note": "UPS dispatcher note: crushed carton. Inspection in 3 business days. Lane Sao Paulo."}
+{"id": "n239", "carrier": "UPS", "note": "UPS driver: crushed carton, under time pressure. Inspection in 3 business days. Temp reading nominal. Lane Hamburg."}
+{"id": "n240", "carrier": "UPS", "note": "UPS: held \u2014 crushed carton. Inspection in 3 business days. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n241", "carrier": "DHL", "note": "DHL dispatcher note: truck breakdown. Temp reading nominal. Lane Hamburg."}
+{"id": "n242", "carrier": "DHL", "note": "DHL driver: truck breakdown, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n243", "carrier": "DHL", "note": "DHL: held \u2014 truck breakdown. Lane Hamburg."}
+{"id": "n244", "carrier": "DHL", "note": "DHL dispatcher note: truck breakdown. Lane Sao Paulo."}
+{"id": "n245", "carrier": "DHL", "note": "DHL driver: truck breakdown, under time pressure. Lane Hamburg."}
+{"id": "n246", "carrier": "DHL", "note": "DHL: held \u2014 truck breakdown. Lane Sao Paulo."}
+{"id": "n247", "carrier": "DHL", "note": "DHL dispatcher note: truck breakdown. Temp reading nominal. Lane Hamburg."}
+{"id": "n248", "carrier": "DHL", "note": "DHL driver: truck breakdown, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n249", "carrier": "FedEx", "note": "FedEx: held \u2014 truck breakdown. Temp reading nominal. Lane Hamburg."}
+{"id": "n250", "carrier": "FedEx", "note": "FedEx dispatcher note: truck breakdown. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n251", "carrier": "FedEx", "note": "FedEx driver: truck breakdown, under time pressure. Lane Hamburg."}
+{"id": "n252", "carrier": "FedEx", "note": "FedEx: held \u2014 truck breakdown. Lane Sao Paulo."}
+{"id": "n253", "carrier": "FedEx", "note": "FedEx dispatcher note: truck breakdown. Lane Hamburg."}
+{"id": "n254", "carrier": "FedEx", "note": "FedEx driver: truck breakdown, under time pressure. Lane Sao Paulo."}
+{"id": "n255", "carrier": "FedEx", "note": "FedEx: held \u2014 truck breakdown. Temp reading nominal. Lane Hamburg."}
+{"id": "n256", "carrier": "FedEx", "note": "FedEx dispatcher note: truck breakdown. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n257", "carrier": "UPS", "note": "UPS driver: truck breakdown, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n258", "carrier": "UPS", "note": "UPS: held \u2014 truck breakdown. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n259", "carrier": "UPS", "note": "UPS dispatcher note: truck breakdown. Lane Hamburg."}
+{"id": "n260", "carrier": "UPS", "note": "UPS driver: truck breakdown, under time pressure. Lane Sao Paulo."}
+{"id": "n261", "carrier": "UPS", "note": "UPS: held \u2014 truck breakdown. Lane Hamburg."}
+{"id": "n262", "carrier": "UPS", "note": "UPS dispatcher note: truck breakdown. Lane Sao Paulo."}
+{"id": "n263", "carrier": "UPS", "note": "UPS driver: truck breakdown, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n264", "carrier": "UPS", "note": "UPS: held \u2014 truck breakdown. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n265", "carrier": "DHL", "note": "DHL dispatcher note: lithium battery check. Temp reading nominal. Lane Hamburg."}
+{"id": "n266", "carrier": "DHL", "note": "DHL driver: lithium battery check, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n267", "carrier": "DHL", "note": "DHL: held \u2014 lithium battery check. Lane Hamburg."}
+{"id": "n268", "carrier": "DHL", "note": "DHL dispatcher note: lithium battery check. Lane Sao Paulo."}
+{"id": "n269", "carrier": "DHL", "note": "DHL driver: lithium battery check, under time pressure. Lane Hamburg."}
+{"id": "n270", "carrier": "DHL", "note": "DHL: held \u2014 lithium battery check. Lane Sao Paulo."}
+{"id": "n271", "carrier": "DHL", "note": "DHL dispatcher note: lithium battery check. Temp reading nominal. Lane Hamburg."}
+{"id": "n272", "carrier": "DHL", "note": "DHL driver: lithium battery check, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n273", "carrier": "FedEx", "note": "FedEx: held \u2014 lithium battery check. Temp reading nominal. Lane Hamburg."}
+{"id": "n274", "carrier": "FedEx", "note": "FedEx dispatcher note: lithium battery check. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n275", "carrier": "FedEx", "note": "FedEx driver: lithium battery check, under time pressure. Lane Hamburg."}
+{"id": "n276", "carrier": "FedEx", "note": "FedEx: held \u2014 lithium battery check. Lane Sao Paulo."}
+{"id": "n277", "carrier": "FedEx", "note": "FedEx dispatcher note: lithium battery check. Lane Hamburg."}
+{"id": "n278", "carrier": "FedEx", "note": "FedEx driver: lithium battery check, under time pressure. Lane Sao Paulo."}
+{"id": "n279", "carrier": "FedEx", "note": "FedEx: held \u2014 lithium battery check. Temp reading nominal. Lane Hamburg."}
+{"id": "n280", "carrier": "FedEx", "note": "FedEx dispatcher note: lithium battery check. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n281", "carrier": "UPS", "note": "UPS driver: lithium battery check, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n282", "carrier": "UPS", "note": "UPS: held \u2014 lithium battery check. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n283", "carrier": "UPS", "note": "UPS dispatcher note: lithium battery check. Lane Hamburg."}
+{"id": "n284", "carrier": "UPS", "note": "UPS driver: lithium battery check, under time pressure. Lane Sao Paulo."}
+{"id": "n285", "carrier": "UPS", "note": "UPS: held \u2014 lithium battery check. Lane Hamburg."}
+{"id": "n286", "carrier": "UPS", "note": "UPS dispatcher note: lithium battery check. Lane Sao Paulo."}
+{"id": "n287", "carrier": "UPS", "note": "UPS driver: lithium battery check, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n288", "carrier": "UPS", "note": "UPS: held \u2014 lithium battery check. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n289", "carrier": "DHL", "note": "DHL dispatcher note: broken seal. Temp reading nominal. Lane Hamburg."}
+{"id": "n290", "carrier": "DHL", "note": "DHL driver: broken seal, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n291", "carrier": "DHL", "note": "DHL: held \u2014 broken seal. Lane Hamburg."}
+{"id": "n292", "carrier": "DHL", "note": "DHL dispatcher note: broken seal. Lane Sao Paulo."}
+{"id": "n293", "carrier": "DHL", "note": "DHL driver: broken seal, under time pressure. Lane Hamburg."}
+{"id": "n294", "carrier": "DHL", "note": "DHL: held \u2014 broken seal. Lane Sao Paulo."}
+{"id": "n295", "carrier": "DHL", "note": "DHL dispatcher note: broken seal. Temp reading nominal. Lane Hamburg."}
+{"id": "n296", "carrier": "DHL", "note": "DHL driver: broken seal, under time pressure. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n297", "carrier": "FedEx", "note": "FedEx: held \u2014 broken seal. Temp reading nominal. Lane Hamburg."}
+{"id": "n298", "carrier": "FedEx", "note": "FedEx dispatcher note: broken seal. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n299", "carrier": "FedEx", "note": "FedEx driver: broken seal, under time pressure. Lane Hamburg."}
+{"id": "n300", "carrier": "FedEx", "note": "FedEx: held \u2014 broken seal. Lane Sao Paulo."}
+{"id": "n301", "carrier": "FedEx", "note": "FedEx dispatcher note: broken seal. Lane Hamburg."}
+{"id": "n302", "carrier": "FedEx", "note": "FedEx driver: broken seal, under time pressure. Lane Sao Paulo."}
+{"id": "n303", "carrier": "FedEx", "note": "FedEx: held \u2014 broken seal. Temp reading nominal. Lane Hamburg."}
+{"id": "n304", "carrier": "FedEx", "note": "FedEx dispatcher note: broken seal. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n305", "carrier": "UPS", "note": "UPS driver: broken seal, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n306", "carrier": "UPS", "note": "UPS: held \u2014 broken seal. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n307", "carrier": "UPS", "note": "UPS dispatcher note: broken seal. Lane Hamburg."}
+{"id": "n308", "carrier": "UPS", "note": "UPS driver: broken seal, under time pressure. Lane Sao Paulo."}
+{"id": "n309", "carrier": "UPS", "note": "UPS: held \u2014 broken seal. Lane Hamburg."}
+{"id": "n310", "carrier": "UPS", "note": "UPS dispatcher note: broken seal. Lane Sao Paulo."}
+{"id": "n311", "carrier": "UPS", "note": "UPS driver: broken seal, under time pressure. Temp reading nominal. Lane Hamburg."}
+{"id": "n312", "carrier": "UPS", "note": "UPS: held \u2014 broken seal. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n313", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg."}
+{"id": "n314", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n315", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Lane Hamburg."}
+{"id": "n316", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Lane Sao Paulo."}
+{"id": "n317", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Lane Hamburg."}
+{"id": "n318", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Lane Sao Paulo."}
+{"id": "n319", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg."}
+{"id": "n320", "carrier": "DHL", "note": "DHL: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n321", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg."}
+{"id": "n322", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n323", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Lane Hamburg."}
+{"id": "n324", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Lane Sao Paulo."}
+{"id": "n325", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Lane Hamburg."}
+{"id": "n326", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Lane Sao Paulo."}
+{"id": "n327", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg."}
+{"id": "n328", "carrier": "FedEx", "note": "FedEx: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n329", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg."}
+{"id": "n330", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n331", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Lane Hamburg."}
+{"id": "n332", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Lane Sao Paulo."}
+{"id": "n333", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Lane Hamburg."}
+{"id": "n334", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Lane Sao Paulo."}
+{"id": "n335", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Temp reading nominal. Lane Hamburg."}
+{"id": "n336", "carrier": "UPS", "note": "UPS: broker says released, but the invoice is still missing. Temp reading nominal. Lane Sao Paulo."}
+{"id": "n337", "carrier": "DHL", "note": "DHL dispatcher note: temp high. Temp reading high, product warm. Lane Hamburg."}
+{"id": "n338", "carrier": "DHL", "note": "DHL driver: temp high, under time pressure. Temp reading high, product warm. Lane Sao Paulo."}
+{"id": "n339", "carrier": "DHL", "note": "DHL: held \u2014 temp high. Temp reading high. Lane Hamburg."}
+{"id": "n340", "carrier": "DHL", "note": "DHL dispatcher note: temp high. Temp reading high. Lane Sao Paulo."}
+{"id": "n341", "carrier": "DHL", "note": "DHL driver: temp high, under time pressure. Temp reading high. Lane Hamburg."}
+{"id": "n342", "carrier": "DHL", "note": "DHL: held \u2014 temp high. Temp reading high. Lane Sao Paulo."}
+{"id": "n343", "carrier": "DHL", "note": "DHL dispatcher note: temp high. Temp reading high, product warm. Lane Hamburg."}
+{"id": "n344", "carrier": "DHL", "note": "DHL driver: temp high, under time pressure. Temp reading high, product warm. Lane Sao Paulo."}
+{"id": "n345", "carrier": "FedEx", "note": "FedEx: held \u2014 temp high. Temp reading high, product warm. Lane Hamburg."}
+{"id": "n346", "carrier": "FedEx", "note": "FedEx dispatcher note: temp high. Temp reading high, product warm. Lane Sao Paulo."}
+{"id": "n347", "carrier": "FedEx", "note": "FedEx driver: temp high, under time pressure. Temp reading high. Lane Hamburg."}
+{"id": "n348", "carrier": "FedEx", "note": "FedEx: held \u2014 temp high. Temp reading high. Lane Sao Paulo."}
+{"id": "n349", "carrier": "FedEx", "note": "FedEx dispatcher note: temp high. Temp reading high. Lane Hamburg."}
+{"id": "n350", "carrier": "FedEx", "note": "FedEx driver: temp high, under time pressure. Temp reading high. Lane Sao Paulo."}
+{"id": "n351", "carrier": "FedEx", "note": "FedEx: held \u2014 temp high. Temp reading high, product warm. Lane Hamburg."}
+{"id": "n352", "carrier": "FedEx", "note": "FedEx dispatcher note: temp high. Temp reading high, product warm. Lane Sao Paulo."}
+{"id": "n353", "carrier": "UPS", "note": "UPS driver: temp high, under time pressure. Temp reading high, product warm. Lane Hamburg."}
+{"id": "n354", "carrier": "UPS", "note": "UPS: held \u2014 temp high. Temp reading high, product warm. Lane Sao Paulo."}
+{"id": "n355", "carrier": "UPS", "note": "UPS dispatcher note: temp high. Temp reading high. Lane Hamburg."}
+{"id": "n356", "carrier": "UPS", "note": "UPS driver: temp high, under time pressure. Temp reading high. Lane Sao Paulo."}
+{"id": "n357", "carrier": "UPS", "note": "UPS: held \u2014 temp high. Temp reading high. Lane Hamburg."}
+{"id": "n358", "carrier": "UPS", "note": "UPS dispatcher note: temp high. Temp reading high. Lane Sao Paulo."}
+{"id": "n359", "carrier": "UPS", "note": "UPS driver: temp high, under time pressure. Temp reading high, product warm. Lane Hamburg."}
+{"id": "n360", "carrier": "UPS", "note": "UPS: held \u2014 temp high. Temp reading high, product warm. Lane Sao Paulo."}
+{"id": "n361", "carrier": "DHL", "note": "DHL dispatch \u2014 freight moved, nothing to report. Lane Hamburg."}
+{"id": "n362", "carrier": "DHL", "note": "DHL note: all clear at the dock. Lane Sao Paulo."}
+{"id": "n363", "carrier": "DHL", "note": "DHL: departed on schedule, no exception. Lane Hamburg."}
+{"id": "n364", "carrier": "DHL", "note": "DHL dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo."}
+{"id": "n365", "carrier": "DHL", "note": "DHL note: all clear at the dock. Lane Hamburg."}
+{"id": "n366", "carrier": "DHL", "note": "DHL: departed on schedule, no exception. Lane Sao Paulo."}
+{"id": "n367", "carrier": "DHL", "note": "DHL dispatch \u2014 freight moved, nothing to report. Lane Hamburg."}
+{"id": "n368", "carrier": "DHL", "note": "DHL note: all clear at the dock. Lane Sao Paulo."}
+{"id": "n369", "carrier": "FedEx", "note": "FedEx: departed on schedule, no exception. Lane Hamburg."}
+{"id": "n370", "carrier": "FedEx", "note": "FedEx dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo."}
+{"id": "n371", "carrier": "FedEx", "note": "FedEx note: all clear at the dock. Lane Hamburg."}
+{"id": "n372", "carrier": "FedEx", "note": "FedEx: departed on schedule, no exception. Lane Sao Paulo."}
+{"id": "n373", "carrier": "FedEx", "note": "FedEx dispatch \u2014 freight moved, nothing to report. Lane Hamburg."}
+{"id": "n374", "carrier": "FedEx", "note": "FedEx note: all clear at the dock. Lane Sao Paulo."}
+{"id": "n375", "carrier": "FedEx", "note": "FedEx: departed on schedule, no exception. Lane Hamburg."}
+{"id": "n376", "carrier": "FedEx", "note": "FedEx dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo."}
+{"id": "n377", "carrier": "UPS", "note": "UPS note: all clear at the dock. Lane Hamburg."}
+{"id": "n378", "carrier": "UPS", "note": "UPS: departed on schedule, no exception. Lane Sao Paulo."}
+{"id": "n379", "carrier": "UPS", "note": "UPS dispatch \u2014 freight moved, nothing to report. Lane Hamburg."}
+{"id": "n380", "carrier": "UPS", "note": "UPS note: all clear at the dock. Lane Sao Paulo."}
+{"id": "n381", "carrier": "UPS", "note": "UPS: departed on schedule, no exception. Lane Hamburg."}
+{"id": "n382", "carrier": "UPS", "note": "UPS dispatch \u2014 freight moved, nothing to report. Lane Sao Paulo."}
+{"id": "n383", "carrier": "UPS", "note": "UPS note: all clear at the dock. Lane Hamburg."}
+{"id": "n384", "carrier": "UPS", "note": "UPS: departed on schedule, no exception. Lane Sao Paulo."}
+{"id": "n385", "carrier": "DHL", "note": "DHL: held. Lane Hamburg."}
+{"id": "n386", "carrier": "DHL", "note": "DHL: held. Lane Sao Paulo."}
+{"id": "n387", "carrier": "DHL", "note": "DHL: held. Lane Hamburg."}
+{"id": "n388", "carrier": "DHL", "note": "DHL: held. Lane Sao Paulo."}
+{"id": "n389", "carrier": "DHL", "note": "DHL: held. Lane Hamburg."}
+{"id": "n390", "carrier": "DHL", "note": "DHL: held. Lane Sao Paulo."}
+{"id": "n391", "carrier": "DHL", "note": "DHL: held. Lane Hamburg."}
+{"id": "n392", "carrier": "DHL", "note": "DHL: held. Lane Sao Paulo."}
+{"id": "n393", "carrier": "FedEx", "note": "FedEx: held. Lane Hamburg."}
+{"id": "n394", "carrier": "FedEx", "note": "FedEx: held. Lane Sao Paulo."}
+{"id": "n395", "carrier": "FedEx", "note": "FedEx: held. Lane Hamburg."}
+{"id": "n396", "carrier": "FedEx", "note": "FedEx: held. Lane Sao Paulo."}
+{"id": "n397", "carrier": "FedEx", "note": "FedEx: held. Lane Hamburg."}
+{"id": "n398", "carrier": "FedEx", "note": "FedEx: held. Lane Sao Paulo."}
+{"id": "n399", "carrier": "FedEx", "note": "FedEx: held. Lane Hamburg."}
+{"id": "n400", "carrier": "FedEx", "note": "FedEx: held. Lane Sao Paulo."}
+{"id": "n401", "carrier": "UPS", "note": "UPS: held. Lane Hamburg."}
+{"id": "n402", "carrier": "UPS", "note": "UPS: held. Lane Sao Paulo."}
+{"id": "n403", "carrier": "UPS", "note": "UPS: held. Lane Hamburg."}
+{"id": "n404", "carrier": "UPS", "note": "UPS: held. Lane Sao Paulo."}
+{"id": "n405", "carrier": "UPS", "note": "UPS: held. Lane Hamburg."}
+{"id": "n406", "carrier": "UPS", "note": "UPS: held. Lane Sao Paulo."}
+{"id": "n407", "carrier": "UPS", "note": "UPS: held. Lane Hamburg."}
+{"id": "n408", "carrier": "UPS", "note": "UPS: held. Lane Sao Paulo."}
+{"id": "n409", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n410", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n411", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n412", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n413", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n414", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n415", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n416", "carrier": "DHL", "note": "DHL: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n417", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n418", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n419", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n420", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n421", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n422", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n423", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n424", "carrier": "FedEx", "note": "FedEx: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n425", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n426", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n427", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n428", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n429", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n430", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}
+{"id": "n431", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Hamburg."}
+{"id": "n432", "carrier": "UPS", "note": "UPS: arrived Saturday. Does the weekend desk start the clock? Lane Sao Paulo."}

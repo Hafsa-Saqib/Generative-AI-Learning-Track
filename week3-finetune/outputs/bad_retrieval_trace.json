@@ -1,0 +1,120 @@
+{
+  "trace": [
+    {
+      "trace_id": "e8a24143402843f4863ff6039aa92522",
+      "name": "embed.query",
+      "attributes": {
+        "gen_ai.operation.name": "embeddings",
+        "retrieval.query": "What can we promise after a 52 hour customs hold?"
+      }
+    },
+    {
+      "trace_id": "e8a24143402843f4863ff6039aa92522",
+      "name": "retrieval.dense",
+      "attributes": {
+        "gen_ai.operation.name": "retrieval",
+        "retrieval.query": "What can we promise after a 52 hour customs hold?",
+        "retrieval.result_count": 3,
+        "retrieval.result_ids": [
+          "germany-4.2.2",
+          "germany-4.2.3",
+          "brazil-5.2.2"
+        ],
+        "retrieval.scores": [
+          0,
+          0,
+          0
+        ],
+        "retrieval.texts": [
+          "4.2.2 DHL will send a status update and the next action within 4 hours of that notification.",
+          "4.2.3 This clause does not promise customs release, a delivery date, or a refund.",
+          "This agreement does not promise customs release, a delivery date, or a refund."
+        ]
+      }
+    },
+    {
+      "trace_id": "e8a24143402843f4863ff6039aa92522",
+      "name": "retrieval.sparse",
+      "attributes": {
+        "gen_ai.operation.name": "retrieval",
+        "retrieval.query": "What can we promise after a 52 hour customs hold?",
+        "retrieval.result_count": 3,
+        "retrieval.result_ids": [
+          "brazil-5.2.2",
+          "germany-4.2.2",
+          "germany-4.2.3"
+        ],
+        "retrieval.scores": [
+          0,
+          0,
+          0
+        ],
+        "retrieval.texts": [
+          "This agreement does not promise customs release, a delivery date, or a refund.",
+          "4.2.2 DHL will send a status update and the next action within 4 hours of that notification.",
+          "4.2.3 This clause does not promise customs release, a delivery date, or a refund."
+        ]
+      }
+    },
+    {
+      "trace_id": "e8a24143402843f4863ff6039aa92522",
+      "name": "retrieval.fusion",
+      "attributes": {
+        "gen_ai.operation.name": "retrieval",
+        "retrieval.query": "What can we promise after a 52 hour customs hold?",
+        "retrieval.result_count": 3,
+        "retrieval.result_ids": [
+          "germany-4.2.2",
+          "brazil-5.2.2",
+          "germany-4.2.3"
+        ],
+        "retrieval.scores": [
+          0,
+          0,
+          0
+        ],
+        "retrieval.texts": [
+          "4.2.2 DHL will send a status update and the next action within 4 hours of that notification.",
+          "This agreement does not promise customs release, a delivery date, or a refund.",
+          "4.2.3 This clause does not promise customs release, a delivery date, or a refund."
+        ]
+      }
+    },
+    {
+      "trace_id": "e8a24143402843f4863ff6039aa92522",
+      "name": "retrieval.rerank",
+      "attributes": {
+        "gen_ai.operation.name": "retrieval",
+        "retrieval.query": "What can we promise after a 52 hour customs hold?",
+        "retrieval.result_count": 3,
+        "retrieval.result_ids": [
+          "germany-4.2.2",
+          "germany-4.2.3",
+          "brazil-5.2.2"
+        ],
+        "retrieval.scores": [
+          0,
+          0,
+          0
+        ],
+        "retrieval.texts": [
+          "4.2.2 DHL will send a status update and the next action within 4 hours of that notification.",
+          "4.2.3 This clause does not promise customs release, a delivery date, or a refund.",
+          "This agreement does not promise customs release, a delivery date, or a refund."
+        ]
+      }
+    },
+    {
+      "trace_id": "e8a24143402843f4863ff6039aa92522",
+      "name": "generation",
+      "attributes": {
+        "gen_ai.operation.name": "chat",
+        "retrieval.query": "What can we promise after a 52 hour customs hold?"
+      }
+    }
+  ],
+  "found_from_trace": {
+    "stage": "retrieval.dense",
+    "trace_id": "e8a24143402843f4863ff6039aa92522"
+  }
+}
